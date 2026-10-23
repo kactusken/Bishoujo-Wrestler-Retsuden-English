@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Champion Road Field Guide</title>
+<meta name="description" content="How Champion Road works in Bishoujo Wrestler Retsuden: Blizzard Yuki Rannyuu!! (SNES): rating gates, training, matches, every route and all nine endings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Libre+Franklin:wght@400;600;700&display=swap">
+<style>
+/* Layout: a single reading column (~70ch) with one wide breakout, the route map, laid out as
+   vertical promotion lanes with story progress running downward. */
+:root {
+  --paper: #f4f1f6;   /* lilac paper */
+  --sheet: #ffffff;
+  --ink: #241b2e;
+  --muted: #615670;
+  --rule: #d8d0e0;
+  --ring: #a8174b;    /* the Training screen's maroon-magenta */
+  --gold: #85650c;    /* championship belt */
+  --shinjo: #c23358;
+  --wj: #2c69b0;
+  --iwwf: #3d4396;
+  --uswa: #17806b;
+  --aac: #c2611a;
+  --chaos: #5b5866;
+  --swa: #7a4ea6;
+  --final: #85650c;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --body: "Libre Franklin", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #17131c; --sheet: #211b28; --ink: #ece6f3; --muted: #aa9fb8; --rule: #3a3245;
+    --ring: #ff5d8d; --gold: #e2c066;
+    --shinjo: #ff6f8f; --wj: #6aa6ef; --iwwf: #9aa0ff; --uswa: #4fd0b2; --aac: #ff9d55;
+    --chaos: #b2afbd; --swa: #c39bf0; --final: #e2c066;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: var(--ring); }
+a:focus-visible, button:focus-visible, select:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+.col { max-width: 72ch; margin: 0 auto; }
+.wide { max-width: 1340px; margin: 0 auto; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.02; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(56px, 11vw, 132px); font-weight: 800; letter-spacing: -0.01em; }
+h2 { font-size: clamp(34px, 5vw, 52px); font-weight: 800; }
+h3 { font-size: 26px; font-weight: 700; }
+p { margin: 0; }
+section { display: grid; gap: 18px; padding-block: 56px 8px; }
+.stack { display: grid; gap: 14px; }
+.lede { font-size: 20px; color: var(--muted); max-width: 60ch; }
+.small { font-size: 15px; color: var(--muted); }
+
+/* masthead: the game's own title-card stripe */
+.mast { padding-block: 40px 28px; display: grid; gap: 14px; }
+.mast .game { font-weight: 600; color: var(--muted); }
+.stripe { height: 10px; background: linear-gradient(90deg, var(--ring), var(--gold)); border-radius: 2px; max-width: 280px; }
+
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper);
+  border-bottom: 1px solid var(--rule); margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding-inline: max(16px, env(safe-area-inset-left, 0px)); }
+nav ul { list-style: none; margin: 0 auto; padding: 10px 0; max-width: 1240px; display: flex; gap: 20px; overflow-x: auto; white-space: nowrap; font-weight: 600; font-size: 15px; }
+nav a { color: var(--ink); text-decoration: none; }
+nav a:hover { color: var(--ring); }
+
+table { border-collapse: collapse; width: 100%; font-size: 15.5px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 700; color: var(--muted); font-size: 14px; }
+td.n { text-align: right; }
+.scroll { overflow-x: auto; }
+
+/* ending finder */
+.finder td:first-child { font-family: var(--display); font-size: 30px; font-weight: 800; color: var(--gold); width: 2.2em; }
+.finder .name { font-weight: 700; }
+.steps { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 4px; }
+.steps span { border: 1px solid var(--rule); border-radius: 3px; padding: 0 6px; font-size: 14px; background: var(--sheet); }
+.finder button { font: 600 14px var(--body); color: var(--ring); background: none; border: 1px solid var(--ring); border-radius: 3px; padding: 4px 10px; cursor: pointer; white-space: nowrap; }
+.finder button:hover { background: var(--ring); color: var(--paper); }
+
+/* route map */
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; }
+.controls label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; color: var(--muted); }
+.controls select { font: 16px var(--body); padding: 6px 8px; border: 1px solid var(--rule); border-radius: 4px; background: var(--sheet); color: var(--ink); }
+.controls button { font: 600 15px var(--body); padding: 7px 12px; border-radius: 4px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); cursor: pointer; }
+.mapbox { overflow: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); max-height: 82vh; }
+#map { display: block; }
+#map .lane rect { opacity: .07; }
+#map .lane text { font: 800 20px var(--display); letter-spacing: .02em; }
+#map .node { cursor: pointer; }
+#map .node rect { stroke-width: 1.5; }
+#map .node text { font: 600 12.5px var(--body); fill: var(--ink); pointer-events: none; }
+#map .node.choice rect { fill: var(--sheet); stroke-dasharray: 5 3; }
+#map .node.choice text.k { font-weight: 700; }
+#map .node.menu text.q { font-weight: 700; }
+#map .node.menu text.o { font-size: 11.5px; font-weight: 500; }
+#map rect.rv { fill: var(--gold); }
+#map text.rv { font: 700 11px var(--body); fill: var(--paper); }
+#map .node.menu text.pick { fill: var(--ring); font-weight: 700; }
+#map .node.menu text.cond { font-style: italic; fill: var(--muted); }
+#map .node.ending rect { fill: var(--gold); stroke: var(--gold); }
+#map .node.ending text { fill: var(--paper); font: 800 16px var(--display); }
+#map .node.ending text + text { font: 600 11.5px var(--body); }
+#map .edge path { fill: none; stroke: var(--muted); stroke-width: 1.4; opacity: .7; }
+#map .edge text { font: 600 11px var(--body); fill: var(--ink); paint-order: stroke; stroke: var(--sheet); stroke-width: 4px; stroke-linejoin: round; pointer-events: none; }
+#map .off { opacity: .12; }
+#map .edge.on path { stroke: var(--ring); stroke-width: 2.6; opacity: 1; }
+#map .node.on rect { stroke-width: 3; }
+#map .node.sel rect { stroke: var(--ring) !important; stroke-width: 4; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 14px; color: var(--muted); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.detail { border-left: 4px solid var(--ring); background: var(--sheet); padding: 14px 18px; border-radius: 0 6px 6px 0; display: grid; gap: 8px; min-height: 5em; }
+.detail h3 { font-size: 24px; }
+.detail ul { margin: 0; padding-left: 20px; }
+
+.call { border-left: 4px solid var(--gold); padding: 6px 0 6px 16px; font-size: 18px; }
+.codes code { font: 600 15px var(--body); background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; padding: 1px 6px; white-space: nowrap; }
+footer { padding-block: 56px 48px; color: var(--muted); font-size: 14.5px; display: grid; gap: 8px; }
+@media (max-width: 640px) {
+  .finder thead { display: none; }
+  .finder tr { display: grid; grid-template-columns: 1.6em 1fr; gap: 6px 12px; padding: 14px 0; border-bottom: 1px solid var(--rule); }
+  .finder td { border: 0; padding: 0; width: auto; }
+  .finder td:first-child { grid-row: span 4; width: auto; }
+  .finder td.start::before { content: "Start: "; color: var(--muted); }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<header class="mast col">
+  <div class="stripe" aria-hidden="true"></div>
+  <h1>Champion Road</h1>
+  <p class="game">Bishoujo Wrestler Retsuden: Blizzard Yuki Rannyuu!! (Super Famicom, 1996)</p>
+  <p class="lede">A field guide to the career mode for players of the English fan translation: how the story moves forward, how to make your wrestler stronger, how matches are won and, in a spoiler section at the end, the way to each of the nine endings.</p>
+</header>
+
+<nav aria-label="Sections"><ul>
+  <li><a href="#how">How it works</a></li>
+  <li><a href="#training">Training</a></li>
+  <li><a href="#matches">Matches</a></li>
+  <li><a href="#secrets">Secrets</a></li>
+  <li><a href="#spoilers">Routes and endings (spoilers)</a></li>
+</ul></nav>
+
+<main>
+<section id="how" class="col">
+  <h2>How it works</h2>
+  <p class="call">The story moves forward on your heroine's rating, not on time.</p>
+  <p>Each chapter repeats a <em>series</em> (training weeks on the schedule screen, then a card of matches) until your rating reaches a target. The first target is 440; the last ones reach 850 on some routes. Title and special matches are different: the chapter repeats until you win them. Losing anything else only costs time, and there is no game over.</p>
+  <p>Between series, story scenes offer choices that move the heroine between promotions. Most routes finish with the Athena Climax league and then a title match for the IWWF Heavyweight belt; winning it plays the ending your route has earned.</p>
+  <p>When a card is announced, the coach's comment tells you the win odds: "a wrestler on a different level" means under 3 stars, "seize the flow" 3 to 5, "give it your all" 6 or more.</p>
+  <h3>Heroines and factions</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Heroine</th><th class="n">Start rating</th><th>Factions</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Yukiko Shinzaki</td><td class="n">440</td><td>Regulars, Rebels</td><td>Many choices are made for her, so she has fewer routes.</td></tr>
+      <tr><td>Haruka Yamada</td><td class="n">440</td><td>all four</td><td></td></tr>
+      <tr><td>Kazuko Hada</td><td class="n">440</td><td>all four</td><td>A few partners differ.</td></tr>
+      <tr><td>Kayo Ozawa</td><td class="n">440</td><td>all four</td><td></td></tr>
+      <tr><td>Yuki Katsuragi</td><td class="n">436</td><td>all four</td><td>Fixed ring name and her own opening; one ending only she can reach, and one she can't.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="training" class="col">
+  <h2>Getting stronger</h2>
+  <p>Every session on the schedule adds experience to one value; 256 experience is one point. Base stats stop at 16. Each type's attack and defence stop at 31, and together at 32: past that, raising one lowers the other.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Activity</th><th>Trains</th><th class="n">Fatigue</th></tr></thead>
+    <tbody>
+      <tr><td>Weight Training, Sparring, Running, Breakfalls, Dash Drills</td><td>Str, Dex, Sta, Rec, Spd</td><td class="n">+8</td></tr>
+      <tr><td>Practice Match</td><td>Guts</td><td class="n">+8</td></tr>
+      <tr><td>Offense / Defense Drills</td><td>attack or defence of the types you pick</td><td class="n">+6</td></tr>
+      <tr><td>Learn Moves · Move Difficulty · Finisher</td><td>moves</td><td class="n">+8 · +3 · +5</td></tr>
+      <tr><td>Sleep</td><td>HP: 3/16 to 5/16 of max</td><td class="n">−5</td></tr>
+      <tr><td>Play</td><td>HP: 1.5/16 of max</td><td class="n">−30 to −70</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Experience per session</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Rating</th><th class="n">Good day</th><th class="n">Average</th><th class="n">Bad day</th></tr></thead>
+    <tbody>
+      <tr><td>under 550</td><td class="n">145</td><td class="n">95</td><td class="n">45</td></tr>
+      <tr><td>550 to 699</td><td class="n">135</td><td class="n">85</td><td class="n">40</td></tr>
+      <tr><td>700 to 899</td><td class="n">125</td><td class="n">75</td><td class="n">35</td></tr>
+      <tr><td>900 to 1099</td><td class="n">115</td><td class="n">65</td><td class="n">30</td></tr>
+      <tr><td>1100 and up</td><td class="n">100</td><td class="n">52</td><td class="n">25</td></tr>
+    </tbody>
+  </table></div>
+  <p>Fatigue decides which kind of day you get: at fatigue 3 or less every session is a good day; at 30 the average is 124 (lowest tier), at 50 it is 97, at 99 only 46. A drill also turns into a bad day when that type's attack + defence is already twice its base stat (Throw uses Str, Holds Dex, Power Sta, Hits Rec, Air Spd).</p>
+  <p>Practice Match Guts: beating someone rated 100 or more above you gives a full point (255); losing to someone 300 above still gives 128.</p>
+  <h3>Rating</h3>
+  <p>Rating = 4 × (every attack and defence value + the six base stats + a move bonus + the finisher's level). The move bonus counts moves per category: 1 move is worth 5, then 10, 14, 17, 19, 21. The first move in each category is worth +20 rating, as much as four stat points.</p>
+  <h3>The fastest way up</h3>
+  <ol>
+    <li>Train hard early: gains drop at 550, 700, 900 and 1100 rating.</li>
+    <li>Keep fatigue under about 40 with one Play a week.</li>
+    <li>Raise base stats before drills; a base stat of 16 lets its type reach the 32 cap.</li>
+    <li>Fill each type's attack + defence to 32: that pool is worth up to 640 rating.</li>
+    <li>Learn one move in every category early.</li>
+  </ol>
+</section>
+
+<section id="matches" class="col">
+  <h2>Winning matches</h2>
+  <p class="call">Only HP ends a match: a 3-count or a submission. There is no count-out.</p>
+  <ul>
+    <li><strong>Pins</strong> stick only when the opponent is under 1/16 of her HP, and even at HP 4 or less she kicks out with a chance of Guts/128.</li>
+    <li><strong>Submissions</strong> need the targeted part (HP, arm or leg) below about 3/16; Dex helps escape.</li>
+    <li><strong>The Logic pattern is read bottom-up.</strong> The bottom row is used while the opponent is fresh, the top rows when she is nearly finished. That row's move type is picked about half the time.</li>
+    <li><strong>Which move</strong>: the strongest move of that type whose level is below 16 − the opponent's HP rank + a bonus from your attack minus her defence in that type. Higher move levels come out earlier.</li>
+    <li><strong>Damage</strong> = the move's damage at its level × (1 + spirit/128) + Str. Spirit fills when you are hit and drains when you hit, so a beaten-down wrestler strikes back up to twice as hard.</li>
+    <li><strong>Logic style</strong> (Safe, Even, Fight, Rush) does not change matches you watch; it only shifts the luck of matches that are resolved without being shown.</li>
+  </ul>
+  <h3>Strategies (A / X / Y / B)</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Strategy</th><th>Effect</th></tr></thead>
+    <tbody>
+      <tr><td>KO 一撃</td><td>+5 damage on every hit; +24/128 to counter when defending. The best all-round choice.</td></tr>
+      <tr><td>Big 大技</td><td>Bigger moves sooner. Best once the opponent is past half HP.</td></tr>
+      <tr><td>Finish 必殺</td><td>50% per exchange to use the finisher (+20 or +40 damage). Two at most, the second after about 3:20.</td></tr>
+      <tr><td>Endure 忍耐</td><td>Takes ¾ damage and builds more spirit, but loses initiative.</td></tr>
+      <tr><td>Range 間合</td><td>Never starts a lock-up; −4 damage; HP recovers a third faster. Only for resting.</td></tr>
+      <tr><td>Outside 場外</td><td>Stays outside two actions longer, with an edge there.</td></tr>
+      <tr><td>Pinfall フォール</td><td>When you are pinned, mash the button to kick out instead of an automatic roll.</td></tr>
+      <tr><td>Counter 返し</td><td>Avoid: as programmed it raises the <em>opponent's</em> chance to counter your attacks, and costs initiative.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Raise the attack of the types your pattern uses; put types with your strongest high-level moves in the top rows; never leave a type with no moves (it becomes a weak poke). In tag matches the Assist style breaks up pins fastest. Computer teams never use strategies.</p>
+</section>
+
+<section id="secrets" class="col codes">
+  <h2>Secrets</h2>
+  <p>Enter these on the main menu, one button at a time, finishing with L and R together.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Code</th><th>Effect</th></tr></thead>
+    <tbody>
+      <tr><td><code>↑ ↑ ↓ ↓ → ← → ← L+R</code></td><td>Every Champion Road rating gate opens, and four hidden wrestlers join the Exhibition roster: Megumi Muto, Chigusa Yuki, Reiko Kanamori, Narumi Otaka.</td></tr>
+      <tr><td><code>↑ ← ↓ → ↑ ← ↓ → L+R</code></td><td>As above, plus a chapter number in the corner (change it with ← →): Champion Road starts at that chapter with every stat at 16. Chapters 7 and 8 jump straight to an ending.</td></tr>
+      <tr><td><code>→ ← → ← A+B+X+Y</code></td><td>Erases the save data.</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>Match move test:</strong> hold L+R on controller 2 while the title screen comes up, then press A+B+X+Y together on controller 1. In matches a move number appears over the left name panel; the d-pad picks a move and holding R makes your wrestler use it.</p>
+  <p>The game also holds about 500 lines of story text that no event ever shows: scenes cut or rewired during development, among them a different arrival in Dallas and extra scenes for some routes. No code unlocks them. <a href="../cut-content/">Read every cut scene and line</a>.</p>
+</section>
+
+<section id="spoilers" class="col">
+  <h2>Routes and endings</h2>
+  <p class="call">Spoilers from here on: every route, choice and ending in the story.</p>
+  <p>Everything above is enough to play Champion Road. The rest of the guide is for when you want to find a particular ending or see where your choices led.</p>
+</section>
+
+<section id="finder" class="col">
+  <h2>Ending finder</h2>
+  <p>Each recipe below was played through to its ending in an emulator. Choices not listed can go either way. "Show route" lights the path up on the map.</p>
+  <div class="scroll"><table class="finder">
+    <thead><tr><th></th><th>Ending</th><th>Start</th><th>Choices on the way</th><th></th></tr></thead>
+    <tbody id="finder-rows"></tbody>
+  </table></div>
+</section>
+
+<section id="map-section" class="wide">
+  <div class="col stack" style="max-width:72ch;margin:0">
+    <h2>Route map</h2>
+    <p>Story progress runs downward. Each column is the promotion the heroine is fighting for at that point. Dashed boxes are choices; the arrows carry their options. </p>
+    <p><strong>How the ending is picked:</strong> almost every route ends the same way, with the Athena Climax and the IWWF Heavyweight title, so the ending can't be read from where the lines finish. Instead the game carries a <em>route number</em>. Your starting faction sets it, and a few events change it; those events have a gold "route" tag on the map. When you win the title, the game plays the ending for the number you're carrying. That is what the last box on the map shows.</p>
+    <p>Pick a heroine or a starting faction to see which paths are open to her, or an ending to light up a route that was played through to it. Click any box for details.</p>
+  </div>
+  <div class="controls">
+    <label for="f-heroine">Heroine
+      <select id="f-heroine">
+        <option value="">Any heroine</option>
+        <option value="yukiko">Yukiko Shinzaki</option>
+        <option value="haruka">Haruka Yamada</option>
+        <option value="kazuko">Kazuko Hada</option>
+        <option value="kayo">Kayo Ozawa</option>
+        <option value="yuki">Yuki Katsuragi</option>
+      </select></label>
+    <label for="f-start">Faction
+      <select id="f-start">
+        <option value="">Any faction</option>
+        <option value="st_reg">Shinjo Regulars</option>
+        <option value="st_reb">Shinjo Rebels</option>
+        <option value="st_wj">World Joshi</option>
+        <option value="st_fr">Freelance</option>
+      </select></label>
+    <label for="f-end">Ending
+      <select id="f-end"><option value="">Any ending</option></select></label>
+    <button type="button" id="f-reset">Clear</button>
+  </div>
+  <div class="legend" id="legend" aria-hidden="true"></div>
+  <div class="mapbox"><svg id="map" role="img" aria-label="Flowchart of Champion Road's routes and choices"></svg></div>
+  <div class="detail" id="detail" aria-live="polite"><p class="small">Click a box on the map to see what happens there.</p></div>
+</section>
+
+<section id="choices" class="col">
+  <h2>Choices that matter</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>When</th><th>Options</th><th>What follows</th></tr></thead>
+    <tbody>
+      <tr><td>After the Rookie of the Year tournament</td><td>I'll go! / ......</td><td>IWWF study abroad, or stay in Japan. Yukiko always goes to Mexico.</td></tr>
+      <tr><td>After the Dadarne match (only if lost)</td><td>I think I'll go back / Not yet...</td><td>Back to Shinjo, or stay in the IWWF.</td></tr>
+      <tr><td>Yoshimi's invitation</td><td>You're right. / For me....</td><td>Move to World Joshi, or stay at Shinjo.</td></tr>
+      <tr><td>World Joshi, after beating Kozuki</td><td>Mexico, huh... / Hmmm...</td><td>The AAC, or stay. Losing that match skips the offer.</td></tr>
+      <tr><td>Ryuko's tag offer, then the President's pairing</td><td>accept / refuse</td><td>Refusing both starts the Chaos route (ending 8).</td></tr>
+      <tr><td>Contract renewal</td><td>The promotion war, huh... / The promotion war...</td><td>Declining opens the three-way menu: IWWF, USWA or AAC.</td></tr>
+      <tr><td>Freelance in Mexico, Yukiko's offer</td><td>Shinjo, huh... / Help Yukiko? Well...</td><td>Join Shinjo (ending 2), or a second menu: World Joshi or stay with the AAC.</td></tr>
+      <tr><td>Freelance, the AAC juice test</td><td>Grrrgh.. / All right</td><td>Clean or heel AAC run; drinking skips Yukiko's tag offer.</td></tr>
+      <tr><td>Revolutionaries invitation</td><td>Sounds like fun / Sorry, but...</td><td>Join the challengers to Risako (needed for ending 9).</td></tr>
+      <tr><td>After beating Risako</td><td>Go to Mexico / Train harder in Japan</td><td>Mexico leads to M Sand.</td></tr>
+      <tr><td>If Yukiko beat Risako instead</td><td>I'll be Shinjo's ace / I want the world too</td><td>Stay, or the IWWF (6) or USWA (7) tag titles.</td></tr>
+      <tr><td>World Joshi folds</td><td>Go to Shinjo / Go to the USWA</td><td>Ending 3 or ending 5.</td></tr>
+      <tr><td>Tsurumi grudge match (a match)</td><td>win / lose</td><td>Losing leads to the SWA and ending 4.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+</main>
+
+<footer class="col">
+  <p>This guide is part of the English fan translation of Bishoujo Wrestler Retsuden: Blizzard Yuki Rannyuu!!. It is a non-commercial fan work, not affiliated with or endorsed by the game's developers or publishers; the game belongs to its respective owners.</p>
+  <p>The findings come from the game's own script and code and were checked in an emulator; the research was done with AI assistance (Claude).</p>
+</footer>
+
+<script>
+const LANES = [
+  { id: 'shinjo', name: 'Shinjo', x: 0, w: 2, color: 'var(--shinjo)' },
+  { id: 'wj', name: 'World Joshi', x: 2, w: 1, color: 'var(--wj)' },
+  { id: 'iwwf', name: 'IWWF (New York)', x: 3, w: 1, color: 'var(--iwwf)' },
+  { id: 'uswa', name: 'USWA (Dallas)', x: 4, w: 1, color: 'var(--uswa)' },
+  { id: 'aac', name: 'AAC (Mexico)', x: 5, w: 1, color: 'var(--aac)' },
+  { id: 'chaos', name: 'Chaos route', x: 6, w: 1, color: 'var(--chaos)' },
+  { id: 'swa', name: 'SWA', x: 7, w: 1, color: 'var(--swa)' },
+];
+// type: start | step | choice | final | ending.  x: column, y: row.
+const NODES = [
+  { id: 'st_reg', type: 'start', lane: 'shinjo', x: 0, y: 0, t: 'Start:\nShinjo Regulars', d: "Panther Risako's side of Shinjo. Route value 1. Any heroine." },
+  { id: 'st_reb', type: 'start', lane: 'shinjo', x: 1, y: 0, t: 'Start:\nShinjo Rebels', d: "Blade Uehara's side of Shinjo. Route value 2. Any heroine." },
+  { id: 'st_wj', type: 'start', lane: 'wj', x: 2, y: 0, t: 'Start:\nWorld Joshi', d: 'The rival promotion of Dread Miyagi, Ryuko and Tsurumi. Route value 21. Not Yukiko.' },
+  { id: 'st_fr', type: 'start', lane: 'iwwf', x: 3, y: 0, t: 'Start:\nFreelance', d: 'Fails a Japanese entrance test and starts in the IWWF in New York. Route value 30. Not Yukiko.' },
+  { id: 'sh_rookie', type: 'step', lane: 'shinjo', x: .5, y: 1, t: 'Shinjo rookie year', d: 'Series up to rating 540, the rivalry with Beauty Ichigaya, then the Rookie of the Year tournament. Losing the tournament only adds a must-win match. Yuki instead debuts in a mask and has to beat Hulk Hongo.' },
+  { id: 'wj_rookie', type: 'step', lane: 'wj', x: 2, y: 1, t: 'World Joshi\nrookie year', d: 'Series up to rating 480, a singles match with Ryuko, must-win matches, then a match against Falcon Kozuki.' },
+  { id: 'fr_ny', type: 'step', lane: 'iwwf', x: 3, y: 1, t: 'Freelancer in\nNew York', d: 'IWWF series up to rating 540; a Shinjo rookie arrives and they become friends.' },
+  { id: 'c_abroad', type: 'choice', lane: 'shinjo', x: .5, y: 2, t: 'Study abroad?', d: 'The Shinjo boss offers training abroad, whether or not she won the tournament. Yukiko is sent to Mexico without a choice.' },
+  { id: 'c_kozuki', type: 'choice', lane: 'wj', x: 2, y: 2, t: 'Go to Mexico?', d: 'After she beats Kozuki, the World Joshi President suggests Mexico. Losing that match skips the offer.' },
+  { id: 'c_slugs', type: 'choice', lane: 'iwwf', x: 3, y: 2, t: 'Sea Slugs\ntag team?', d: 'Her friend wants a tag team called the Sea Slugs. Either answer leads on; accepting adds a tag series.' },
+  { id: 'c_aacusa', type: 'choice', lane: 'iwwf', x: 3, y: 3, t: 'Friend recalled', d: "Shinjo calls her friend home, and the heroine has to pick her next promotion." },
+  { id: 'wj_league', type: 'step', lane: 'wj', x: 2, y: 3, t: 'World League', d: 'World Joshi series and the World League.' },
+  { id: 'c_juice', type: 'choice', lane: 'aac', x: 5, y: 3, t: 'Drink the juice?', d: 'AAC promoter Zail asks her to drink his "Scorpionade". Refusing makes her a clean wrestler; drinking makes her an AAC heel and skips Yukiko\'s tag offer.' },
+  { id: 'sh_stay', type: 'step', lane: 'shinjo', x: 1, y: 4, t: 'Stay in Japan', d: 'Must-win series; Yoko Hayashi quits; Blade Uehara challenges Risako.' },
+  { id: 'ny_study', type: 'step', lane: 'iwwf', x: 3, y: 4, t: 'New York:\nDadarne', d: 'IWWF series, a run-in with Dynamite Lin, then a special match with Remy Dadarne.' },
+  { id: 'us_fr', type: 'step', lane: 'uswa', x: 4, y: 4, t: 'Dallas series', d: 'USWA series up to rating 630.' },
+  { id: 'mx_yukiko', type: 'step', lane: 'aac', x: 5, y: 4, t: 'Yukiko in Mexico', d: 'Yukiko wins and defends a Mexican title, then the AAC promoter sends her home.' },
+  { id: 'c_dadarne', type: 'choice', lane: 'iwwf', x: 3, y: 5, t: 'Japan calls', d: 'Only after losing to Dadarne; a win keeps her in the IWWF automatically.' },
+  { id: 'c_ustag', type: 'choice', lane: 'uswa', x: 4, y: 5, t: 'USWA tag team?', d: 'A friend asks to be her tag partner. Either answer leads on.' },
+  { id: 'mx_wj', type: 'step', lane: 'aac', x: 5, y: 5, t: "AAC series,\nYukiko's tag offer", d: 'AAC series up to rating 620; Yukiko proposes a tag team (either answer leads on).' },
+  { id: 'sh_komatsu', type: 'step', lane: 'shinjo', x: .5, y: 6, t: 'Back at Shinjo', d: 'A match with Komatsu, two weeks in hospital, and news that Uehara has vanished.' },
+  { id: 'ny_tsurumi', type: 'step', lane: 'iwwf', x: 3, y: 6, t: 'Tag champion\nwith Tsurumi', d: 'US Tag titles with Sayaka Tsurumi, then a singles match against her; then she is recalled to Japan.' },
+  { id: 'c_friendhome', type: 'choice', lane: 'uswa', x: 4, y: 6, t: 'Friend goes home', d: 'Her friend goes back to Japan and asks her to come to World Joshi. The question is only asked if she holds a USWA title; otherwise she stays.' },
+  { id: 'c_recalled', type: 'choice', lane: 'aac', x: 5, y: 6, t: 'Called home', d: 'World Joshi wants her back, or Uehara has vanished and Yukiko asks for help at Shinjo. The options depend on where she came from: from World Joshi, "Maybe I\'ll go home..." or "Japan, huh..." then "Guess I\'ll join you" / "Thanks, but..."; otherwise "Shinjo, huh..." or "Help Yukiko? Well..." then "Go to World Joshi" / "Stay with AAC".' },
+  { id: 'c_yoshimi', type: 'choice', lane: 'shinjo', x: .5, y: 7, t: 'Join World Joshi?', d: 'Yoshimi Takagi invites her to World Joshi. Yukiko always stays.' },
+  { id: 'c_ryuko', type: 'choice', lane: 'wj', x: 2, y: 7, t: "Ryuko's tag offer", d: 'Thunder Ryuko asks her to team up for the World Tag League.' },
+  { id: 'mx_hospital', type: 'step', lane: 'aac', x: 5, y: 7, t: 'Collapse,\nhospital', d: 'She collapses and wakes in hospital; World Joshi then sends for her. Yuki follows her own World Joshi story (a feud with Tsurumi, then the World Tag League with her).' },
+  { id: 'sh_mid', type: 'step', lane: 'shinjo', x: .5, y: 8, t: 'Risako vs\nYoshihara', d: 'Karate fighter Izumi Yoshihara challenges Panther Risako; Shinjo series up to rating 670.' },
+  { id: 'c_pairing', type: 'choice', lane: 'wj', x: 2, y: 8, t: "President's pairing", d: 'The World Joshi President pairs her with Ryuko anyway. Refusing again ("Me... with her...") means looking for another partner, and nobody will team with her.' },
+  { id: 'c_shoji', type: 'choice', lane: 'shinjo', x: 0, y: 9, t: 'USWA with Shoji?', d: 'The Shinjo President offers a USWA trip with Shoji.' },
+  { id: 'c_frshinjo', type: 'choice', lane: 'shinjo', x: 1, y: 9, t: "Shinjo's offer", d: 'A freelancer who reached Shinjo through the USWA is offered a contract. Accepting keeps route value 30, which gives ending 1.' },
+  { id: 'wj_tagleague', type: 'step', lane: 'wj', x: 2, y: 9, t: 'World Tag League\nwith Ryuko', d: 'The World Tag League with Ryuko, then the war with Shinjo.' },
+  { id: 'chaos1', type: 'step', lane: 'chaos', x: 6, y: 9, t: 'Quits World Joshi', d: 'With no partner she quits, meets Maria Rodon, who was fired by the USWA, and they go to Mexico, where Maria wrestles masked as Dark Star Chaos.' },
+  { id: 'sh_war', type: 'step', lane: 'shinjo', x: .5, y: 10, t: 'Shinjo vs\nWorld Joshi', d: 'Shinjo meeting, series up to rating 700, must-win matches in the war with World Joshi.' },
+  { id: 'c_renewal', type: 'choice', lane: 'wj', x: 2, y: 10, t: 'Contract renewal', d: 'World Joshi asks her to re-sign for the promotion war.' },
+  { id: 'us_shoji', type: 'step', lane: 'uswa', x: 4, y: 10, t: 'USWA with Shoji', d: 'USWA series and a must-win match against Death Hunter.' },
+  { id: 'chaos2', type: 'step', lane: 'chaos', x: 6, y: 10, t: 'Becoming Chaos', d: 'AAC Tag champions with Chaos. Maria collapses and loses her sight for months, and the heroine takes the Chaos mask herself.' },
+  { id: 'c_revo', type: 'choice', lane: 'shinjo', x: .5, y: 11, t: 'Revolutionaries?', d: "Yukiko and friends form the Revolutionaries to take Risako's IWWF Asia Heavyweight title. Yukiko always joins. Joining (or starting as a Rebel) makes the heroine the challenger." },
+  { id: 'wj_war', type: 'step', lane: 'wj', x: 2, y: 11, t: 'War with Shinjo,\nTsurumi feud', d: 'The interpromotional war and tag titles, then a grudge match with Tsurumi: whoever loses resigns.' },
+  { id: 'c_3way', type: 'choice', lane: 'iwwf', x: 3, y: 11, t: 'Where to next?', d: 'Three-way menu after leaving World Joshi or turning down Shinjo: "Move to IWWF", "Move to USWA" or "Move to AAC".' },
+  { id: 'c_japancalls', type: 'choice', lane: 'uswa', x: 4, y: 11, t: 'Japan calls', d: 'After the Death Hunter match Japan asks for her. Yukiko always goes home.' },
+  { id: 'chaos3', type: 'step', lane: 'chaos', x: 6, y: 11, t: 'EX Tag with Dreck', d: 'As Chaos she enters the EX Tag with El Dreck and provokes Ichigaya into naming her challenger. Route value 150.' },
+  { id: 'sh_risako', type: 'step', lane: 'shinjo', x: 0, y: 12, t: 'Challenge Risako', d: "Must-win match for Risako's IWWF Asia Heavyweight title." },
+  { id: 'c_ace', type: 'choice', lane: 'shinjo', x: 1, y: 12, t: 'Next goal?', d: '"I\'ll be Shinjo\'s ace" stays; "I want the world too" asks "It\'s got to be the IWWF" or "Maybe the USWA".' },
+  { id: 'c_tsurumi', type: 'choice', lane: 'wj', x: 2, y: 12, t: 'Grudge match\nresult', d: 'Not a menu: the result of the match against Tsurumi.' },
+  { id: 'aac_tags', type: 'step', lane: 'aac', x: 5, y: 12, t: 'AAC tag titles', d: 'AAC tag titles; M Sand (Blade Uehara) gives up her belt and trains the heroine for two months. Route value 119.' },
+  { id: 'c_mexico', type: 'choice', lane: 'shinjo', x: 0, y: 13, t: 'Go to Mexico?', d: "Risako tells the new champion to prove herself against M Sand in Mexico. Yukiko always goes." },
+  { id: 'wj_miyagi', type: 'step', lane: 'wj', x: 2, y: 13, t: 'IWC title,\nWorld Joshi folds', d: 'She beats Dread Miyagi for the IWC title, the World Tag League follows, then World Joshi folds.' },
+  { id: 'ny_tags', type: 'step', lane: 'iwwf', x: 3, y: 13, t: 'IWWF tag titles', d: 'Tag titles in New York, then the US Heavyweight; Dark Star Chaos appears and invites her to the Athena. Route value 118.' },
+  { id: 'us_tags', type: 'step', lane: 'uswa', x: 4, y: 13, t: 'USWA tag titles', d: 'Tag titles in Dallas; Chaos calls USWA wrestling cheap, and a must-win series against her follows. Route value 122.' },
+  { id: 'swa', type: 'step', lane: 'swa', x: 7, y: 13, t: 'SWA', d: 'She resigns, is tricked into a contract with the small SWA, and wins the EX Tag with Hulk Hongo. Route value 101.' },
+  { id: 'sh_defend', type: 'step', lane: 'shinjo', x: 0, y: 14, t: 'Defend the\nAsia title', d: 'She stays to defend the title while her teammates go to Mexico.' },
+  { id: 'c_fold', type: 'choice', lane: 'wj', x: 2, y: 14, t: 'World Joshi folds', d: 'Ryuko and Yoshimi move to Shinjo.' },
+  { id: 'mx_msand', type: 'step', lane: 'aac', x: 5, y: 14, t: 'M Sand, Mexico', d: "Must-win title match against M Sand, who unmasks as Blade Uehara. Yuki hears about her mother here (route value 98). Yukiko then goes to New York for Dadarne's US Heavyweight title." },
+  { id: 'ex_tag', type: 'final', lane: 'shinjo', x: .5, y: 15, t: 'EX Tag', d: 'Chaos destroys Ichigaya and takes the IWWF Heavyweight belt; the Athena Climax is announced, with a shot at the title for the winner.' },
+  { id: 'us5', type: 'step', lane: 'uswa', x: 3.5, y: 15, t: 'USWA, then the\nAthena entry', d: 'USWA series; Chaos appears; Mimi Yoshihara\'s advice sends her to the Athena. Route value 113.' },
+  { id: 'us_ex', type: 'final', lane: 'uswa', x: 5, y: 15.6, t: 'EX Tag\nwith Chaos', d: 'She beats Chaos and teams with her in the EX Tag, then takes Ichigaya\'s belt. No Athena on this route.' },
+  { id: 'athena', type: 'final', lane: 'shinjo', x: 2.5, y: 16, t: 'Athena Climax', d: 'The IWWF league. Losing it only repeats it.' },
+  { id: 'title', type: 'final', lane: 'shinjo', x: 2.5, y: 17, t: 'Title won: which ending?', d: 'Must win. Against Chaos, or against Ichigaya on the SWA and Chaos routes. Winning it plays the ending for the route number she is carrying: the number set by her starting faction, or by the last gold-tagged event she passed. Where she is standing at the end does not matter.' },
+];
+const ENDINGS = [
+  { id: 'E1', n: 1, paths: ['st_reg sh_rookie c_abroad mx_yukiko c_yoshimi sh_mid c_shoji us_shoji c_japancalls c_revo sh_risako c_mexico mx_msand ex_tag athena title E1', 'st_wj wj_rookie c_kozuki wj_league c_ryuko c_pairing c_renewal c_3way aac_tags athena title E1'], route: '1, 119, other', name: 'The journey', d: 'Six days later she leaves her own victory party to find "Chris", a wrestler from a dream, in a small American gym.', start: 'Yukiko, Shinjo Regulars', steps: ['First option every time'], alt: 'Also: any World Joshi heroine via "Move to AAC".' },
+  { id: 'E2', n: 2, paths: ['st_reb sh_rookie c_abroad mx_yukiko c_yoshimi sh_mid c_shoji us_shoji c_japancalls c_revo sh_risako c_mexico mx_msand ex_tag athena title E2', 'st_fr fr_ny c_slugs c_aacusa c_juice mx_wj c_recalled sh_mid c_shoji us_shoji c_japancalls c_revo sh_risako c_mexico mx_msand ex_tag athena title E2'], route: '2', name: 'Hybrid Breakers', d: 'A year later she and Ichigaya, still bickering, are the strongest tag team, the Hybrid Breakers.', start: 'Yukiko, Shinjo Rebels', steps: ['First option every time'], alt: 'Also: Freelance, joining Shinjo through Yukiko in Mexico.' },
+  { id: 'E3', n: 3, paths: ['st_wj wj_rookie c_kozuki mx_wj c_recalled c_ryuko wj_tagleague wj_war c_tsurumi wj_miyagi c_fold ex_tag athena title E3'], route: '21', name: 'Rivals waiting', d: 'Tsurumi vows to challenge her; Ryuko wants to settle things at once.', start: 'Haruka, World Joshi', steps: ['First option every time'] },
+  { id: 'E4', n: 4, paths: ['st_wj wj_rookie c_kozuki mx_wj c_recalled c_ryuko wj_tagleague wj_war c_tsurumi swa athena title E4'], route: '101', name: 'Loyal to the SWA', d: 'She turns down a move to the IWWF: the small SWA is her promotion.', start: 'World Joshi', steps: ['Lose the grudge match with Tsurumi'] },
+  { id: 'E5', n: 5, paths: ['st_wj wj_rookie c_kozuki mx_wj c_recalled c_ryuko wj_tagleague wj_war c_tsurumi wj_miyagi c_fold us5 athena title E5'], route: '113', name: "I won't hide", d: 'She challenges anyone who thinks they are the strongest; Ryuko vows to come for her belt.', start: 'World Joshi', steps: ['Beat Tsurumi', 'Go to the USWA'] },
+  { id: 'E6', n: 6, paths: ['st_wj wj_rookie c_kozuki wj_league c_ryuko c_pairing c_renewal c_3way ny_tags athena title E6'], route: '118', name: 'Fight to the end', d: 'Chaos tries to retire after losing; she stops her.', start: 'World Joshi', steps: ['Hmmm...', 'Me, teaming with Ryuko...', 'All right', 'The promotion war...', 'Move to IWWF'] },
+  { id: 'E7', n: 7, paths: ['st_wj wj_rookie c_kozuki wj_league c_ryuko c_pairing c_renewal c_3way us_tags us_ex E7'], route: '122', name: 'Requiem of the Hybrid', d: 'She takes Ichigaya\'s belt, throws it away and forms a renegade army with Chaos.', start: 'World Joshi', steps: ['Hmmm...', 'Me, teaming with Ryuko...', 'All right', 'The promotion war...', 'Move to USWA'] },
+  { id: 'E8', n: 8, paths: ['st_wj wj_rookie c_kozuki wj_league c_ryuko c_pairing chaos1 chaos2 chaos3 athena title E8'], route: '150', name: 'Chaos', d: 'A year later she is Dark Star Chaos, and leaves to find a successor.', start: 'World Joshi (not Yuki)', steps: ['Hmmm...', 'Me, teaming with Ryuko...', 'Me... with her...'] },
+  { id: 'E9', n: 9, paths: ['st_reb sh_rookie c_abroad sh_stay sh_komatsu c_yoshimi sh_mid c_shoji sh_war c_revo sh_risako c_mexico mx_msand ex_tag athena title E9'], route: '98', name: "Yuri's daughter", d: 'Chaos retires after losing to Yuki, who learns her mother Yuri lost to her own daughter.', start: 'Yuki, Shinjo Rebels', steps: ['......', 'For me....', 'Overseas, huh...', 'Sounds like fun', 'Go to Mexico'] },
+];
+ENDINGS.forEach((e, i) => NODES.push({ id: e.id, type: 'ending', lane: 'end', x: i * 0.875, y: 19.3, t: 'Ending ' + e.n + '\nroute ' + e.route, d: e.name + '. ' + e.d }));
+
+// edges: [from, to, label, condition] - condition: {only:[heroines]} or {not:[heroines]}
+const NY = { not: ['yukiko'] }, YK = { only: ['yukiko'] }, YU = { only: ['yuki'] }, NYU = { not: ['yuki'] };
+const EDGES = [
+  ['st_reg', 'sh_rookie'], ['st_reb', 'sh_rookie'], ['st_wj', 'wj_rookie', '', NY], ['st_fr', 'fr_ny', '', NY],
+  ['sh_rookie', 'c_abroad'],
+  ['c_abroad', 'ny_study', "I'll go!", NY], ['c_abroad', 'sh_stay', '......', NY], ['c_abroad', 'mx_yukiko', '~Yukiko', YK],
+  ['wj_rookie', 'c_kozuki'],
+  ['c_kozuki', 'mx_wj', 'Mexico, huh...'], ['c_kozuki', 'wj_league', 'Hmmm...'], ['c_kozuki', 'wj_league', '~lost to Kozuki'],
+  ['fr_ny', 'c_slugs'], ['c_slugs', 'c_aacusa', '~either answer'],
+  ['c_aacusa', 'c_juice', "I think I'll go to AAC"], ['c_aacusa', 'us_fr', "I think I'll go to USWA"],
+  ['c_juice', 'mx_wj', 'Grrrgh..'], ['c_juice', 'mx_hospital', 'All right'],
+  ['ny_study', 'c_dadarne', '~lost'], ['ny_study', 'ny_tsurumi', '~won'],
+  ['c_dadarne', 'sh_komatsu', 'I think I\'ll go back'], ['c_dadarne', 'ny_tsurumi', 'Not yet...'],
+  ['ny_tsurumi', 'sh_komatsu'], ['sh_stay', 'sh_komatsu'], ['mx_yukiko', 'c_yoshimi'],
+  ['sh_komatsu', 'c_yoshimi'],
+  ['c_yoshimi', 'wj_tagleague', "You're right.", NY], ['c_yoshimi', 'sh_mid', 'For me....'],
+  ['us_fr', 'c_ustag'], ['c_ustag', 'c_friendhome', '~either answer'],
+  ['c_friendhome', 'c_ryuko', "Maybe I'll go back"], ['c_friendhome', 'sh_mid', 'Going home now would...'], ['c_friendhome', 'sh_mid', '~no belt: no question'],
+  ['mx_wj', 'c_recalled'],
+  ['c_recalled', 'c_ryuko', '~to World Joshi'], ['c_recalled', 'sh_mid', '~to Shinjo (route 2)'], ['c_recalled', 'mx_hospital', 'Stay with AAC'],
+  ['wj_league', 'c_ryuko'],
+  ['c_ryuko', 'wj_tagleague', 'A tag team with Ryuko...'], ['c_ryuko', 'c_pairing', 'Me, teaming with Ryuko...', NYU], ['c_ryuko', 'c_renewal', '~Yuki refuses', YU],
+  ['mx_hospital', 'c_pairing', '', NYU], ['mx_hospital', 'c_renewal', '', YU],
+  ['c_pairing', 'c_renewal', 'All right'], ['c_pairing', 'chaos1', 'Me... with her...'],
+  ['sh_mid', 'c_shoji', '~usually'], ['sh_mid', 'c_frshinjo', '~a freelancer from the USWA'],
+  ['c_shoji', 'us_shoji', 'The USWA...'], ['c_shoji', 'sh_war', 'Overseas, huh...'],
+  ['c_frshinjo', 'sh_war', 'I\'ll give it a try'], ['c_frshinjo', 'c_3way', 'I\'m sorry'],
+  ['wj_tagleague', 'wj_war'],
+  ['c_renewal', 'wj_war', 'The promotion war, huh...'], ['c_renewal', 'c_3way', 'The promotion war...'],
+  ['chaos1', 'chaos2'], ['chaos2', 'chaos3'], ['chaos3', 'athena'],
+  ['sh_war', 'c_revo'], ['us_shoji', 'c_japancalls'],
+  ['c_japancalls', 'c_revo', 'Go home'], ['c_japancalls', 'us_tags', 'Going home is...', NY],
+  ['c_revo', 'sh_risako', 'Sounds like fun'], ['c_revo', 'sh_risako', '~a Rebel: always'], ['c_revo', 'c_ace', 'Sorry, but...', NY],
+  ['sh_risako', 'c_mexico'],
+  ['c_mexico', 'mx_msand', 'Go to Mexico'], ['c_mexico', 'sh_defend', 'Train harder in Japan', NY],
+  ['c_ace', 'ex_tag', "I'll be Shinjo's ace"], ['c_ace', 'ny_tags', "It's got to be the IWWF"], ['c_ace', 'us_tags', 'Maybe the USWA'],
+  ['wj_war', 'c_tsurumi'],
+  ['c_tsurumi', 'wj_miyagi', '~won'], ['c_tsurumi', 'swa', '~lost'],
+  ['wj_miyagi', 'c_fold'],
+  ['c_fold', 'ex_tag', 'Go to Shinjo'], ['c_fold', 'us5', 'Go to the USWA'],
+  ['c_3way', 'ny_tags', 'Move to IWWF'], ['c_3way', 'us_tags', 'Move to USWA'], ['c_3way', 'aac_tags', 'Move to AAC'],
+  ['mx_msand', 'ex_tag'], ['sh_defend', 'ex_tag'],
+  ['ex_tag', 'athena'], ['ny_tags', 'athena'], ['us5', 'athena'], ['aac_tags', 'athena'], ['swa', 'athena'],
+  ['us_tags', 'us_ex'],
+  ['athena', 'title'],
+  ['title', 'E1', '~route 1, 119 or any other'], ['title', 'E2', '~route 2'], ['title', 'E3', '~route 21'], ['title', 'E4', '~route 101'],
+  ['title', 'E5', '~route 113'], ['title', 'E6', '~route 118'], ['us_ex', 'E7'], ['title', 'E8', '~route 150'], ['title', 'E9', '~route 98 (Yuki only)', YU],
+].map(([f, t, l, c]) => ({ f, t, l: l || '', c: c || null }));
+
+// Where the route number (the value the ending is picked by) is set.
+const ROUTE_SET = { st_reg: '1', st_reb: '2', st_wj: '21', st_fr: '30', aac_tags: '119', ny_tags: '118', us_tags: '122', us5: '113', swa: '101', chaos3: '150', mx_msand: '98 if Yuki' };
+const COLW = 162, ROWH = 92, PADX = 24, PADY = 64, NW = 146, NH = 48, OPT = 16;
+const byId = Object.fromEntries(NODES.map(n => [n.id, n]));
+// A node whose outgoing arrows carry labels is drawn like the game's choice window: the question,
+// then one row per option (or per outcome, in italics), each with its own arrow.
+for (const n of NODES) {
+  n.outs = EDGES.filter(e => e.f === n.id && e.l);
+  n.w = n.type === 'ending' ? 132 : NW;
+  n.h = n.outs.length ? 24 + OPT * n.outs.length + 4 : NH;
+}
+const nLeft = n => PADX + n.x * COLW + (COLW - 16 - n.w) / 2;
+const nTop = n => PADY + n.y * ROWH;
+const cx = n => nLeft(n) + n.w / 2;
+const SVGNS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs, parent) => { const e = document.createElementNS(SVGNS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const laneColor = id => (LANES.find(l => l.id === id) || {}).color || 'var(--final)';
+const plain = l => l.replace(/^~/, '');
+
+function edgePath(e) {
+  const a = byId[e.f], b = byId[e.t];
+  const x2 = cx(b), y2 = nTop(b);
+  const i = a.outs.indexOf(e);
+  if (i < 0) {                                   // plain arrow from the bottom edge
+    const x1 = cx(a), y1 = nTop(a) + a.h, m = Math.max(24, (y2 - y1) * 0.5);
+    return `M${x1},${y1} C${x1},${y1 + m} ${x2},${y2 - m} ${x2},${y2}`;
+  }
+  const y1 = nTop(a) + 24 + OPT * i + OPT / 2;    // from the option's row, on the side facing the target
+  const right = cx(b) >= cx(a) - 1;
+  const x1 = right ? nLeft(a) + a.w : nLeft(a), dx = right ? 1 : -1;
+  const out = x1 + dx * 18, m = Math.max(30, (y2 - y1) * 0.55);
+  return `M${x1},${y1} L${out},${y1} C${out + dx * 30},${y1} ${x2},${y2 - m} ${x2},${y2}`;
+}
+
+function draw() {
+  const svg = document.getElementById('map');
+  const W = PADX * 2 + 8 * COLW, H = PADY + 20.3 * ROWH + 20;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.setAttribute('width', W); svg.setAttribute('height', H);
+  const defs = el('defs', {}, svg);
+  const mk = el('marker', { id: 'arrow', viewBox: '0 0 10 10', refX: 9, refY: 5, markerWidth: 6, markerHeight: 6, orient: 'auto-start-reverse' }, defs);
+  el('path', { d: 'M0,0 L10,5 L0,10 z', fill: 'var(--muted)' }, mk);
+  for (const l of LANES) {
+    const g = el('g', { class: 'lane' }, svg);
+    el('rect', { x: PADX + l.x * COLW - 8, y: 8, width: l.w * COLW - 2, height: PADY + 18.9 * ROWH, fill: l.color, rx: 6 }, g);
+    const t = el('text', { x: PADX + l.x * COLW, y: 36, fill: l.color }, g); t.textContent = l.name;
+  }
+  const eg = el('g', {}, svg), ng = el('g', {}, svg);
+  for (const e of EDGES) {
+    e.g = el('g', { class: 'edge' }, eg);
+    el('path', { d: edgePath(e), 'marker-end': 'url(#arrow)' }, e.g);
+  }
+  for (const n of NODES) {
+    const g = el('g', { class: 'node ' + n.type + (n.outs.length ? ' menu' : ''), tabindex: 0, role: 'button', 'aria-label': n.t.replace('\n', ' ') }, ng);
+    const color = n.type === 'final' ? 'var(--final)' : laneColor(n.lane);
+    const tint = n.type === 'final' ? 'var(--gold)' : color;
+    const fill = n.type === 'ending' ? 'var(--gold)' : n.type === 'choice' ? 'var(--sheet)' : `color-mix(in srgb, ${tint} 18%, var(--sheet))`;
+    el('rect', { x: nLeft(n), y: nTop(n), width: n.w, height: n.h, rx: n.type === 'choice' ? 10 : 4, fill, stroke: color }, g);
+    if (n.outs.length) {
+      const t = el('text', { x: nLeft(n) + 8, y: nTop(n) + 16, class: 'q' }, g); t.textContent = n.t.replace('\n', ' ');
+      el('line', { x1: nLeft(n), x2: nLeft(n) + n.w, y1: nTop(n) + 23, y2: nTop(n) + 23, stroke: color, 'stroke-opacity': .4 }, g);
+      n.outs.forEach((e, i) => {
+        const o = el('text', { x: nLeft(n) + 8, y: nTop(n) + 24 + OPT * i + 12, class: e.l.startsWith('~') ? 'o cond' : 'o' }, g);
+        o.textContent = (e.l.startsWith('~') ? '' : '▸ ') + plain(e.l);
+        e.row = o;
+      });
+    } else {
+      const lines = n.t.split('\n');
+      lines.forEach((ln, i) => {
+        const t = el('text', { x: cx(n), y: nTop(n) + n.h / 2 + 4 + (i - (lines.length - 1) / 2) * 15, 'text-anchor': 'middle', class: n.type === 'choice' ? 'k' : '' }, g);
+        t.textContent = ln;
+      });
+    }
+    if (ROUTE_SET[n.id]) {
+      const label = 'route ' + ROUTE_SET[n.id], bw = 9 + label.length * 6.4;
+      el('rect', { x: nLeft(n) + n.w - bw + 6, y: nTop(n) - 9, width: bw, height: 17, rx: 8.5, class: 'rv' }, g);
+      const t = el('text', { x: nLeft(n) + n.w - bw / 2 + 6, y: nTop(n) + 3.5, 'text-anchor': 'middle', class: 'rv' }, g); t.textContent = label;
+    }
+    n.g = g;
+    g.addEventListener('click', () => select(n.id));
+    g.addEventListener('keydown', ev => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); select(n.id); } });
+  }
+  const lg = document.getElementById('legend');
+  lg.innerHTML = LANES.map(l => `<span><i style="background:${l.color}"></i>${l.name}</span>`).join('') +
+    '<span><i style="background:var(--sheet);border:1.5px dashed var(--muted)"></i>Choice: ▸ menu option, <em>italic</em> outcome</span><span><i style="background:var(--gold);border-radius:6px"></i>Sets the route number</span><span><i style="background:var(--gold)"></i>Ending</span>';
+}
+
+const HEROINE_STARTS = { yukiko: ['st_reg', 'st_reb'] };
+function allowed(e, h) {
+  if (!h || !e.c) return true;
+  if (e.c.only) return e.c.only.includes(h);
+  if (e.c.not) return !e.c.not.includes(h);
+  return true;
+}
+function update() {
+  const h = document.getElementById('f-heroine').value;
+  const st = document.getElementById('f-start').value;
+  const en = document.getElementById('f-end').value;
+  const edges = EDGES.filter(e => allowed(e, h));
+  let starts = NODES.filter(n => n.type === 'start').map(n => n.id);
+  if (HEROINE_STARTS[h]) starts = starts.filter(s => HEROINE_STARTS[h].includes(s));
+  if (st) starts = starts.filter(s => s === st);
+  const fwd = new Set(starts), q = [...starts];
+  while (q.length) { const x = q.shift(); for (const e of edges) if (e.f === x && !fwd.has(e.t)) { fwd.add(e.t); q.push(e.t); } }
+  let live = fwd, onEdges = null;
+  if (en) {                       // an ending: light up the recipes that were played through to it
+    const E = ENDINGS.find(x => x.id === en);
+    live = new Set(); onEdges = new Set();
+    for (const p of E.paths) {
+      const ids = p.split(' ');
+      ids.forEach((id, i) => { live.add(id); if (i) onEdges.add(ids[i - 1] + '>' + id); });
+    }
+  }
+  const filtering = h || st || en;
+  for (const n of NODES) { n.g.classList.toggle('off', !!filtering && !live.has(n.id)); n.g.classList.toggle('on', !!filtering && live.has(n.id)); }
+  for (const e of EDGES) {
+    const on = onEdges ? onEdges.has(e.f + '>' + e.t) : edges.includes(e) && live.has(e.f) && live.has(e.t);
+    e.g.classList.toggle('off', !!filtering && !on); e.g.classList.toggle('on', !!en && on);
+    if (e.row) e.row.classList.toggle('pick', !!en && on);
+  }
+}
+function select(id) {
+  NODES.forEach(n => n.g.classList.toggle('sel', n.id === id));
+  const n = byId[id];
+  const outs = EDGES.filter(e => e.f === id);
+  const fmt = c => !c ? '' : c.only ? ` (only ${c.only.map(cap).join(', ')})` : ` (not ${c.not.map(cap).join(', ')})`;
+  const det = document.getElementById('detail');
+  det.innerHTML = `<h3>${n.t.replace('\n', ' ')}</h3><p>${n.d}</p>` + (outs.length ? '<ul>' + outs.map(e => `<li>${!e.l ? '' : e.l.startsWith('~') ? '<em>' + esc(plain(e.l)) + '</em>: ' : '<strong>' + esc(e.l) + '</strong>: '}${esc(byId[e.t].t.replace('\n', ' '))}${fmt(e.c)}</li>`).join('') + '</ul>' : '');
+}
+const cap = s => ({ yukiko: 'Yukiko', yuki: 'Yuki' }[s] || s);
+const esc = s => s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+
+function finder() {
+  const tb = document.getElementById('finder-rows');
+  const sel = document.getElementById('f-end');
+  for (const e of ENDINGS) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${e.n}</td><td><span class="name">${esc(e.name)}</span><br><span class="small">${esc(e.d)}</span></td><td class="start">${esc(e.start)}</td>` +
+      `<td><div class="steps">${e.steps.map(s => `<span>${esc(s)}</span>`).join('')}</div>${e.alt ? `<p class="small">${esc(e.alt)}</p>` : ''}</td>` +
+      `<td><button type="button" data-e="${e.id}">Show route</button></td>`;
+    tb.appendChild(tr);
+    const o = document.createElement('option'); o.value = e.id; o.textContent = `${e.n}: ${e.name}`; sel.appendChild(o);
+  }
+  tb.addEventListener('click', ev => {
+    const b = ev.target.closest('button'); if (!b) return;
+    document.getElementById('f-end').value = b.dataset.e;
+    document.getElementById('f-heroine').value = '';
+    document.getElementById('f-start').value = '';
+    update(); select(b.dataset.e);
+    document.getElementById('map-section').scrollIntoView();
+  });
+}
+finder();
+draw();
+for (const id of ['f-heroine', 'f-start']) document.getElementById(id).addEventListener('change', () => { document.getElementById('f-end').value = ''; update(); });
+document.getElementById('f-end').addEventListener('change', () => { document.getElementById('f-heroine').value = ''; document.getElementById('f-start').value = ''; update(); });
+document.getElementById('f-reset').addEventListener('click', () => {
+  for (const id of ['f-heroine', 'f-start', 'f-end']) document.getElementById(id).value = '';
+  update(); document.getElementById('detail').innerHTML = '<p class="small">Click a box on the map to see what happens there.</p>';
+  NODES.forEach(n => n.g.classList.remove('sel'));
+});
+update();
+</script>
+</body>
+</html>

@@ -1,0 +1,424 @@
+# Winner's quotes (tools/ticker.py): one EN line per line on screen, at most 22 letters a line,
+# at most 4 lines. "idx" = table * 16 + wrestler type.
+
+@ 89C7C0 idx=0,12,13,14,15
+JP ヘヘーン、やったね!!
+JP 次もこの調子で
+JP 頑張るぞぉー!!
+EN Hee hee, I did it!!
+EN Next time I'll keep
+EN this pace going!!
+
+@ 89C7DD idx=16,28,29,30,31
+JP 今の試合に勝てたのも
+JP トレーニングと
+JP 私の努力の結果よね。
+EN I won that match
+EN thanks to training
+EN and my own hard work.
+
+@ 89C7FB idx=32,44,45,46,47
+JP 私って、技の威力が
+JP いまいちなのよね。
+JP もっと、練習しなくちゃ。
+EN My moves just don't
+EN hit hard enough.
+EN I need more practice.
+
+@ 89C81C idx=48,60,61,62,63
+JP これぐらいの事で
+JP くじけてなんか
+JP いられないよね。
+EN I can't let something
+EN like this get me
+EN down, right?
+
+@ 89C836 idx=64,76,77,78,79
+JP 私のせいで・・
+JP 負けたんですよね。
+EN Because of me...
+EN we lost, didn't we?
+
+@ 89C848 idx=1
+JP ま、私が相手じゃねぇ。
+EN Well, you were up
+EN against me, so...
+
+@ 89C854 idx=17
+JP ちょっとでも勝てると
+JP 思ってるなんて
+JP カワイイじゃない。
+EN Thinking you had
+EN even a tiny chance?
+EN How cute.
+
+@ 89C871 idx=33
+JP 本気で闘うつもりじゃ
+JP なかったんだけどね。
+EN I wasn't even trying
+EN to fight seriously.
+
+@ 89C887 idx=49
+JP み、見てなさい!
+JP 次が本当の勝負よ!!
+EN J-just you watch!
+EN Next time is the
+EN real fight!!
+
+@ 89C89B idx=65
+JP 私が悪いんじゃないわ!!
+EN It's not my fault!!
+
+@ 89C8A8 idx=2
+JP 今日あなたが負けたのは
+JP あなたが弱かったワケ
+JP じゃないわ。
+JP 私が強かったからよ!!
+EN You didn't lose today
+EN because you were weak.
+EN You lost because
+EN I was strong!!
+
+@ 89C8D2 idx=18
+JP 勝負は実力の世界
+JP 強いものだけが
+JP 勝ち残るの。
+EN It's a world of skill.
+EN Only the strong
+EN survive.
+
+@ 89C8EA idx=34
+JP どんなに苦しい試合でも
+JP 勝ってこそプロ。
+JP 勝てない試合に
+JP 意味なんてないわよ。
+EN No matter how tough
+EN the match, a pro wins.
+EN A match you can't win
+EN means nothing.
+
+@ 89C912 idx=50
+JP ・・負けたわ。
+JP どうやら、あなたの実力
+JP 本物みたいね。 
+EN ...I lost.
+EN Looks like your skill
+EN is the real deal.
+
+@ 89C92F idx=66
+JP グヌヌッ・・
+EN Grrrr...
+
+@ 89C936 idx=3
+JP 本気で闘うほどでも
+JP なかったわね。
+EN Not even worth
+EN fighting seriously.
+
+@ 89C948 idx=19
+JP 勝負にならないわね。
+EN That wasn't even
+EN a contest.
+
+@ 89C953 idx=35
+JP 負ける気はしなかったけど
+JP ハハッ・・私がここまで
+JP 追い込まれるなんてね。
+EN I never felt I'd lose,
+EN but ha ha... to think
+EN I got pushed this far.
+
+@ 89C978 idx=51
+JP こんな試合、負けた
+JP うちには入らないさ。
+EN A match like this
+EN doesn't count as
+EN a loss.
+
+@ 89C98D idx=67
+JP ちっくしょう!!
+EN Dammit!!
+
+@ 89C996 idx=4
+JP あなたみたいな
+JP 相手ばかりなら
+JP 世界一の座になるのも
+JP 楽なのにね。
+EN If every opponent
+EN were like you, being
+EN the world's best
+EN would be easy.
+
+@ 89C9B8 idx=20
+JP 相手にならないね!
+JP 出直して来な!!
+EN You're no match!
+EN Come back when
+EN you're ready!!
+
+@ 89C9CB idx=36
+JP 悪いけど、今度からは
+JP 手加減はしないよ。
+EN Sorry, but from now
+EN on, I won't hold back.
+
+@ 89C9E0 idx=52
+JP 私が負けたワケじゃない。
+JP リングとの相性が
+JP 悪かっただけさ。
+EN I didn't lose.
+EN The ring just didn't
+EN agree with me.
+
+@ 89C9FF idx=68
+JP ノーコメントだ!
+EN No comment!
+
+@ 89CA08 idx=5
+JP 今の試合じゃ
+JP ウォーミングアップにも
+JP ならないわね。
+EN That match wasn't
+EN even a warm-up.
+
+@ 89CA23 idx=21
+JP 実力が違い過ぎたわね。
+EN Our skill levels were
+EN worlds apart.
+
+@ 89CA2F idx=37
+JP ちょっとは、闘い方を
+JP 知ってるのね。
+JP フフッ・・
+JP 次は手加減しないわよ。
+EN So you know a little
+EN about fighting.
+EN Heh heh...
+EN Next time, no mercy.
+
+@ 89CA54 idx=53
+JP 私も、ヤキが回ったかな。
+EN Maybe I'm losing
+EN my edge.
+
+@ 89CA61 idx=69
+JP パートナーを
+JP 信じきれなかった私が
+JP 負けを呼んだのかもね。
+EN Maybe my failure to
+EN fully trust my partner
+EN is what lost us this.
+
+@ 89CA7F idx=6
+JP 手加減させてもらったよ。
+JP ホープさまに、ケガを
+JP させちゃ大変だからね。
+EN I went easy on you.
+EN Wouldn't want our
+EN precious rising star
+EN getting hurt.
+
+@ 89CAA3 idx=22
+JP 次に闘うときは
+JP 本気で勝負してやるぜ。
+EN Next time we fight,
+EN I'll go all out.
+
+@ 89CAB7 idx=38
+JP 思ってたよりゃ
+JP やるじゃないか?
+JP 次からは手加減なしだよ。
+EN Not bad, better than
+EN I expected, huh?
+EN No more going easy
+EN from now on.
+
+@ 89CAD5 idx=54
+JP 勝負の世界だからね
+JP 言いワケはしないよ。
+JP 弱かったのは私の方さ!!
+EN This is a fight, so
+EN I won't make excuses.
+EN I was the weaker one!!
+
+@ 89CAF7 idx=70
+JP 私が負けたワケじゃない。
+JP パートナーに恵まれて
+JP いなかった、それだけさ。
+EN I didn't lose.
+EN I just wasn't lucky
+EN with my partner.
+EN That's all.
+
+@ 89CB1C idx=7
+JP つまらん試合だったな。
+EN What a boring match.
+
+@ 89CB28 idx=23
+JP もうダウンか?
+JP クックッ・・
+JP 何なら、めいどのみやげを
+JP 聞かせてやろうか?
+EN Down already? Heh heh.
+EN Shall I tell you a
+EN souvenir for the
+EN afterlife?
+
+@ 89CB4E idx=39
+JP 勝負なら、勝たねば
+JP 意味がない。
+EN A fight means nothing
+EN unless you win.
+
+@ 89CB5F idx=55
+JP 小娘に負けるなんて・・・
+EN Losing to some
+EN little brat...
+
+@ 89CB6C idx=71
+JP こんな試合に負けるなんて
+JP フフッ・・
+JP わらってくれて
+JP いいんだよ。
+EN Losing a match like
+EN this... heh heh...
+EN Go ahead and
+EN laugh at me.
+
+@ 89CB8E idx=8
+JP ごめんなさいね
+JP 手加減できなくて。
+JP もっと、手強い相手だと
+JP 思ってたから。
+EN Sorry about that,
+EN I couldn't hold back.
+EN I thought you'd be
+EN a tougher opponent.
+
+@ 89CBB4 idx=24
+JP 私は勝つためにリングに
+JP あがったの。
+JP 負けるはずがないわよ。
+EN I stepped into the
+EN ring to win.
+EN No way I could lose.
+
+@ 89CBD3 idx=40
+JP あなたと闘って、苦戦する
+JP なんて思わなかったけど
+JP 勝ちは勝ちよ。
+EN I never thought you'd
+EN give me such trouble,
+EN but a win is a win.
+
+@ 89CBF4 idx=56
+JP 次は負けないわ!
+JP 必ずあなたを、しとめて
+JP みせる。
+EN I won't lose again!
+EN I'll take you down,
+EN you'll see.
+
+@ 89CC0E idx=72
+JP 私が負けるなんて・・・
+EN Me... losing...?
+
+@ 89CC1A idx=9
+JP あなた・・・・
+JP 弱すぎるんじゃない?
+EN You...
+EN Aren't you a bit
+EN too weak?
+
+@ 89CC2D idx=25
+JP 勝負に勝つには、倒れても
+JP 倒れても闘い続ける。
+JP それが勝者と敗者の
+JP 違いよ!!
+EN Fall, and fall again,
+EN but keep fighting.
+EN That's what separates
+EN winners from losers!!
+
+@ 89CC55 idx=41
+JP 苦しくったってェ・・
+JP かなしくったって・・・
+EN Even when it hurts...
+EN even when it's sad...
+
+@ 89CC6C idx=57
+JP し、しんじらんない!!
+EN I-I don't believe it!!
+
+@ 89CC78 idx=73
+JP あんなにがんばったのに
+JP なんで負けるわけえっ!!
+EN I tried so hard,
+EN so why did I lose?!!
+
+@ 89CC91 idx=10
+JP 勝って当然ですわ!!
+JP オーッホッホッホッ!!
+EN Of course I won!!
+EN Ohohohoho!!
+
+@ 89CCA8 idx=26
+JP なんて、うつくしい結果
+JP なんでしょう!!
+JP オーホッホッホッ!!
+EN What a beautiful
+EN result!!
+EN Ohohoho!!
+
+@ 89CCC8 idx=42
+JP オーッホッホッホッ!!
+JP たまには、このような
+JP 勝ち方も一興ですわね。
+EN Ohohohoho!!
+EN Winning like this
+EN is amusing once
+EN in a while.
+
+@ 89CCEB idx=58
+JP 次に闘うときは
+JP 手加減なしですわよ。
+EN Next time we fight,
+EN I shall show no mercy.
+
+@ 89CCFE idx=74
+JP 私のファンが、ファンが!
+EN My fans, my fans!
+
+@ 89CD0D idx=11
+JP リターンマッチはハラキリ
+JP マッチしたいネ!!!
+EN Return match, me want
+EN harakiri match!!!
+
+@ 89CD25 idx=27
+JP リターンマッチなら
+JP いつでもOKヨ!!
+EN Return match anytime
+EN is OK!!
+
+@ 89CD39 idx=43
+JP 次の試合はフルパワーで
+JP 闘いたいネ。
+EN Next match me want
+EN fight full power.
+
+@ 89CD4C idx=59
+JP ノオォォーッ!!
+JP Meが、Meが
+JP 負けるなんてッ!!!
+EN Noooooo!!
+EN Me... Me lose?!
+EN No way!!!
+
+@ 89CD68 idx=75
+JP Meのセイで負けたネ!!
+JP まだまだ、トレーニングが
+JP 足りなかったヨ。
+EN Me fault we lose!!
+EN Me training still
+EN not enough.

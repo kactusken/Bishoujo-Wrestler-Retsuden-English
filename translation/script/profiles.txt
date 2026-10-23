@@ -1,0 +1,712 @@
+# profiles: strings reached through the pointer table at file 0x639c1 (63 entries).
+# No pages: the whole string is drawn at once, up to 4 lines of 28 letters.
+
+@ 27becb table=profiles refs=1
+# wrestler: Yukiko Shinzaki
+
+JP 新日本女子プロレスの新人。
+JP 活発で先輩に対しても臆さない
+JP そのファイトスタイルは評価が
+JP 高い。
+EN A rookie at Shinjo. Lively,
+EN bold even with her seniors,
+EN and her fighting style is
+EN already highly rated.
+
+@ 27bf07 table=profiles refs=1
+# wrestler: Haruka Yamada
+
+JP シューティングの選手だった
+JP 彼女は新たな格闘技に引かれ、
+JP この世界に飛び込む。 
+JP そのケリを生かした攻撃は驚異
+EN A former shoot fighter drawn
+EN to a new combat sport, she
+EN dove into this world. Her
+EN kicks are a fearsome weapon.
+
+@ 27bf4d table=profiles refs=1
+# wrestler: Kazuko Hada
+
+JP 新人の中で最も長身な彼女の武
+JP 器はその高さを利用した
+JP 投げ技で、大型新人の名が高い
+JP ただ少しお人好しなのが欠点。
+EN The tallest of the rookies,
+EN she uses her height for
+EN throws: a big-time prospect.
+EN Her flaw: a bit too nice.
+
+@ 27bf98 table=profiles refs=1
+# wrestler: Kayo Ozawa
+
+JP スポーツ歴は無いが、並外れた
+JP 根性でプロテストに合格。
+JP 得意なものはないが変なクセが
+JP 無いぶん、大化けの可能性大。
+EN No sports background, but
+EN sheer guts got her through
+EN the pro test. No specialty,
+EN no bad habits: huge upside.
+
+@ 27bfe3 table=profiles refs=1
+# wrestler: Yuki Katsuragi
+
+JP 独自の格闘技スタイルで異彩を
+JP 放つ新人レスラー。レスラーで
+JP あった母の影を追うためにプロ
+JP レス界のトップを狙う。
+EN A rookie with a fighting
+EN style all her own. Chasing
+EN her wrestler mom's shadow,
+EN she aims for the very top.
+
+@ 27c02e table=profiles refs=1
+# wrestler: Toshimi Minami
+
+JP 新日本女子プロレスに道場破り
+JP という型破りな形で入門してき
+JP た異色選手。関節技の切れは
+JP 一級品との評判である。
+EN An oddball who joined Shinjo
+EN by storming its dojo as a
+EN challenger. Her joint locks
+EN are said to be first-rate.
+
+@ 27c074 table=profiles refs=1
+# wrestler: Ryuko Yoshida
+
+JP ワールドに鳴り物入りで入団し
+JP てきた大型新人。新女の市ヶ谷
+JP とは常に比較されるが、本人に
+JP は彼女などは眼中にないらしい。
+EN A hyped rookie signed by
+EN World Joshi. Always compared
+EN to Ichigaya of Shinjo, but
+EN she couldn't care less.
+
+@ 27c0c4 table=profiles refs=1
+# wrestler: Reiko Ichigaya
+
+JP 新日本女子に破格の扱いで入団
+JP してきた市ヶ谷財閥の令嬢。
+JP 柔道世界王者として能力も申し
+JP 分無いが高飛車な性格が玉に傷。
+EN Ichigaya zaibatsu heiress,
+EN signed by Shinjo on lavish
+EN terms. A gifted world judo
+EN champion, but very haughty.
+
+@ 27c10f table=profiles refs=1
+# wrestler: Eri Kishima
+
+JP 祐希子と同期のブルファイター。
+JP 新人の中で唯一、市ヶ谷と互角
+JP の力勝負が出来る選手である。
+JP 無類の練習好き。
+EN A brawler from Yukiko's
+EN class, the only rookie who
+EN can match Ichigaya for raw
+EN power. Loves to train.
+
+@ 27c155 table=profiles refs=1
+# wrestler: Kyoko Uehara
+
+JP 理沙子らとの軍団抗争でハニー
+JP バーズのリーダーとして活躍。
+JP 飛び系を主体とした華麗な試合
+JP 運びはまさに絶品。
+EN Led the Honey Birds in the
+EN faction war with Risako and
+EN co. Her flashy, high-flying
+EN matches are simply superb.
+
+@ 27c19b table=profiles refs=1
+# wrestler: Misato Okumura
+
+JP 派手さはないものの、理沙子に
+JP とって最も信頼できる選手。
+JP 同期の庄司とはライバル関係に
+JP ある。
+EN Not flashy, but the wrestler
+EN Risako trusts most. A rival
+EN of Shoji, from the same
+EN rookie class.
+
+@ 27c1d7 table=profiles refs=1
+# wrestler: Yumi Shoji
+
+JP 打撃戦においては圧倒的な強さ
+JP を発揮する典型的なシューター。
+JP 上原の頼もしいパートナーでも
+JP ある。
+EN A classic shooter, dominant
+EN in striking exchanges. Also
+EN Uehara's reliable partner.
+
+@ 27c218 table=profiles refs=1
+# wrestler: Asuka Kasahara
+
+JP 童顔のわりにナイスなバディで
+JP 男性ファンの人気を一気に集め
+JP ている。そのやられっぷりが
+JP たまらないとの声もあり。
+EN A baby face with a great
+EN body, she won over male fans
+EN fast. Some say the way she
+EN takes a beating is a treat.
+
+@ 27c263 table=profiles refs=1
+# wrestler: Kanako Komatsu
+
+JP あら削りなレスリングスタイル
+JP ではあるものの、そのパワーは
+JP トップクラスに匹敵するものが
+JP ある。元ボディビルダー。
+EN Her wrestling is still raw,
+EN but her power rivals the
+EN top stars. Ex-bodybuilder.
+
+@ 27c2ae table=profiles refs=1
+# wrestler: Sakie Hori
+
+JP 飛び技を得意とする彼女は、大
+JP のネコ好きなのもあってこの
+JP リングネームになったとか。
+JP 若手のよき相談相手でもある。
+EN A high flyer whose ring name
+EN reportedly comes from her
+EN love of cats. Also a good
+EN mentor to young wrestlers.
+
+@ 27c2f9 table=profiles refs=1
+# wrestler: Hikaru Ijuin
+
+JP 芦屋の伊集院財閥の一人娘。
+JP 後輩である市ヶ谷には、並々な
+JP らぬライバル心を持っている。
+JP 得意技はパワースラム
+EN Only daughter of Ashiya's
+EN Ijuin zaibatsu. Fiercely
+EN rivals her junior Ichigaya.
+EN Signature move: powerslam.
+
+@ 27c33f table=profiles refs=1
+# wrestler: Natsumi Miyagi
+
+JP ワールド女子のエース。ハデな
+JP 飛び技こそないが、持ち前の打
+JP たれ強さと驚異のスタミナで数
+JP 々の外敵を打ち負かしている。
+EN World Joshi's ace. No flashy
+EN high-flying moves, but her
+EN toughness and stamina have
+EN beaten many outside rivals.
+
+@ 27c38a table=profiles refs=1
+# wrestler: Shino Ikegami
+
+JP ワールドで最も人気が高い選手。
+JP 彼女の破天荒なファイトはヒー
+JP ルとしての才能も感じさせる
+JP ものがある。気は短いらしい。
+EN World Joshi's most popular
+EN wrestler. Her wild fighting
+EN hints at a talent for heel
+EN work. Said to be hot-headed.
+
+@ 27c3d5 table=profiles refs=1
+# wrestler: Sayaka Tsurumi
+
+JP ワールド女子内で日本勢相手に
+JP １人で立ち向かう一匹狼。
+JP 凶悪ファイトを信条とする。
+JP 腕のどくろがトレードマーク。
+EN World Joshi's lone wolf, who
+EN takes on the Japanese side
+EN solo. Swears by brutality.
+EN Trademark: skull on her arm.
+
+@ 27c420 table=profiles refs=1
+# wrestler: Kana Kozuki
+
+JP 軽量ながら、池上とのコンビで
+JP ＩＷＣタッグの王座を保持する
+JP テクニシャン。ワールドの切り
+JP 込み隊長。
+EN Light but skilled, she holds
+EN the IWC tag belts with
+EN Ikegami. The spearhead of
+EN World Joshi.
+
+@ 27c461 table=profiles refs=1
+# wrestler: Hikaru Ogawa
+
+JP ワールド女子の新人レスラー。
+JP 先輩である香月の誘いで入団、
+JP アマレス仕込みのグラウンドに
+JP 目を見張るものがある。
+EN A World Joshi rookie who
+EN joined at Kozuki's urging.
+EN Her amateur-wrestling ground
+EN game is eye-opening.
+
+@ 27c4ac table=profiles refs=1
+# wrestler: Yoko Hayashi
+
+JP 学生時代はかなりの悪だったら
+JP しく、ケンカファイトを得意と
+JP する。
+JP 強調性がないのが悶題。
+EN Quite the delinquent in
+EN school, she excels at
+EN street-fight brawling.
+EN Problem: not a team player.
+
+@ 27c4e8 table=profiles refs=1
+# wrestler: Yoshimi Takagi
+
+JP なぜこんな子がテストに合格し
+JP たのかと思うほどの気の弱い
+JP 選手。
+JP 市ヶ谷を大の苦手としている。
+EN So timid you wonder how she
+EN passed the pro test at all.
+EN She can't handle Ichigaya.
+
+@ 27c524 table=profiles refs=1
+# wrestler: Izumi Yoshihara
+
+JP 空手全日本チャンプ。空手界の
+JP 頂点を極めた彼女は、空手を最
+JP 強の格闘技と世間に認知させる
+JP 事こそ自分の使命と考えている。
+EN All-Japan karate champion.
+EN Having topped karate, she
+EN sees it her mission to prove
+EN karate is the ultimate art.
+
+@ 27c574 table=profiles refs=1
+# wrestler: Riyu Kikuchi
+
+JP 祐希子に憧れ新日本女子プロレ
+JP スの門を叩く。 団体中、最も
+JP 身長が低いが、そこは持ち前の
+JP ガッツでカバーしている。
+EN She joined Shinjo out of
+EN admiration for Yukiko. The
+EN shortest on the roster, she
+EN makes up for it with guts.
+
+@ 27c5bf table=profiles refs=1
+# wrestler: Hitomi Fujishima
+
+JP 新日本女子に入門した新人。
+JP 彼女のウリは”ルックス”
+JP 練習嫌いな彼女にスポットライ
+JP トが当たる日はくるのか？
+EN A new Shinjo recruit whose
+EN selling point is her looks.
+EN She hates practice. Will she
+EN ever see the spotlight?
+
+@ 27c605 table=profiles refs=1
+# wrestler: Shinobu Echigo
+
+JP 技的に見るものはないが、将来
+JP が楽しみな新人レスラー。
+JP 向こうッ気が強いのはプロレス
+JP には向いているかもしれない。
+EN Little to see in her moves
+EN yet, but a rookie with a
+EN bright future. Her feisty
+EN streak may suit the ring.
+
+@ 27c650 table=profiles refs=1
+# wrestler: Suzumi Ishikawa
+
+JP ワールド女子に所属する新人選
+JP 手。プロレスファンがこうじて、
+JP この世界に入る。夢は週間レッ
+JP スルの表紙を飾る事らしい。
+EN A World Joshi rookie. A huge
+EN wrestling fan, she went pro.
+EN Her dream: the cover of
+EN Weekly Wrestle magazine.
+
+@ 27c69b table=profiles refs=1
+# wrestler: Hulk Hongo
+
+JP ”吠える猛牛”の異名を持ち、
+JP 新日本女子プロレスの前座戦線
+JP をにぎわす若手のホープ。
+JP グラウンドを得意とする。
+EN Known as the "Roaring Bull,"
+EN a young hope livening up
+EN Shinjo's undercard. Strong
+EN on the ground.
+
+@ 27c6e1 table=profiles refs=1
+# wrestler: Satan Choko
+
+JP 最近まで海外でメインイベンタ
+JP ーとして活躍していた日本人。
+JP ワールドに参戦が決定し、宮城
+JP との大型対決が期待される。
+EN Long a main eventer abroad,
+EN this Japanese star is now
+EN set to join World Joshi. A
+EN big clash with Miyagi looms.
+
+@ 27c72c table=profiles refs=1
+# wrestler: Risako Sakuma
+
+JP 新日本女子のトップを張る選手。
+JP きゃしゃな体からわきでる闘志
+JP はエースの風格を感じさせるに
+JP 十分なものがある。
+EN Shinjo's top star. The fight
+EN pouring from her slim frame
+EN has all the air of an ace.
+
+@ 27c772 table=profiles refs=1
+# wrestler: Unknown
+
+JP 最近、突如現れたマスクウーマ
+JP ン。 オリエンタルな雰囲気と
+JP つきない反則攻撃がアメリカ人
+JP の憎悪をかきたてている。
+EN A masked woman who appeared
+EN out of nowhere. Her Eastern
+EN air and endless fouls have
+EN American crowds seething.
+
+@ 27c7bd table=profiles refs=1
+# wrestler: Sarah Clarence
+
+JP 元モデルだけあってスタイルは
+JP 抜群。ニューヨークなどでは絶
+JP 対的な人気をほこる、全米の
+JP アイドルレスラー。
+EN A former model with a superb
+EN figure. Hugely popular in
+EN New York and beyond, she is
+EN America's idol wrestler.
+
+@ 27c803 table=profiles refs=1
+# wrestler: Linda Gilbert
+
+JP 名前通りのバクダン娘。
+JP 一気に試合を決めてしまう秒殺
+JP に快感をもとめる。
+JP 将来が期待される選手。
+EN A bombshell, just as her
+EN name says. She loves winning
+EN in seconds flat. A wrestler
+EN with a promising future.
+
+@ 27c844 table=profiles refs=1
+# wrestler: Miria Mears
+
+JP 現在売出中の新人レスラー。
+JP 地元のジュニア王者でもある。
+JP 大技を習得すれば大化けする可
+JP 能性大。
+EN A rookie now being pushed,
+EN and her hometown's junior
+EN champion. Learn some big
+EN moves and she could explode.
+
+@ 27c885 table=profiles refs=1
+# wrestler: Greta Barren
+
+JP ＵＳＷＡのエース。
+JP 地元では圧倒的な人気を誇る。
+JP そのうまい試合運びはキャリア
+JP ２０年のうまさを感じさせる。
+EN The ace of the USWA, hugely
+EN popular at home. Her smooth
+EN ring craft speaks of a
+EN 20-year career.
+
+@ 27c8cb table=profiles refs=1
+# wrestler: Unknown
+
+JP ＢとのコンビでＵＳＷＡのタッ
+JP グベルトを保持。
+JP 器用ではないものの、ナチュラ
+JP ルパワーで相手を圧倒する。
+EN Holds the USWA tag belts
+EN with B. Not skillful, but
+EN her natural power overwhelms
+EN opponents.
+
+@ 27c911 table=profiles refs=1
+# wrestler: Unknown
+
+JP ２人組のマスクウーマン
+JP 正体は判らないものの、かなり
+JP の実力者であることは間違いな
+JP い。現ＵＳＷＡタッグ王者
+EN A masked tag duo. Identities
+EN unknown, but they are surely
+EN top-class talents. Current
+EN USWA tag champions.
+
+@ 27c957 table=profiles refs=1
+# wrestler: Emily Martel
+
+JP グレタと抗争を繰り広げる同年
+JP 代の中年レスラー。
+JP 昔はアイドル系だったらしいの
+JP だが、今では見る影もない。
+EN Greta's middle-aged rival,
+EN born the same year. Once an
+EN idol type, it's said, but
+EN now there's no trace of it.
+
+@ 27c99d table=profiles refs=1
+# wrestler: Jessie Bird
+
+JP 活きのいい新人レスラー。
+JP かつて日本に留学経験があり、
+JP その時にプロレスラーになるの
+JP を決心したらしい。
+EN A spirited rookie. She once
+EN studied in Japan, and that
+EN is where she decided to
+EN become a pro wrestler.
+
+@ 27c9e3 table=profiles refs=1
+# wrestler: Maria Rodon
+
+JP ニュージャージーの片田舎から
+JP 出てきた新人レスラー。
+JP 才能の面では苦労が多そうだが
+JP 人一倍の努力でトップを狙う。
+EN A rookie from a small town
+EN in New Jersey. Talent may
+EN not come easy, but she aims
+EN for the top by sheer effort.
+
+@ 27ca2e table=profiles refs=1
+# wrestler: Unknown
+
+JP アレナ登場以来一気にトップの
+JP 座を手に入れた、多くのなぞを
+JP 持つマスクウーマン。噂では彼
+JP 女はどうやら東洋人らしい。
+EN Mysterious masked woman who
+EN took the top spot soon after
+EN her Arena debut. Rumor has
+EN it she is from the East.
+
+@ 27ca79 table=profiles refs=1
+# wrestler: Unknown
+
+JP メキシコマットの中心的存在。
+JP 彼女の繰り出す空中殺法はまさ
+JP に芸術品といえるだろう。
+JP 現在、Ｅドレックと抗争中。
+EN The heart of the Mexican
+EN scene. Her aerial moves are
+EN truly works of art. Now
+EN feuding with El Dreck.
+
+@ 27cac4 table=profiles refs=1
+# wrestler: Unknown
+
+JP チョチョカラスのライバル。
+JP 悪役でありながら、地元では圧
+JP 倒的な人気を持つ。自己中心的
+JP でうぬぼれ屋な面あり。
+EN Rival of Chocho Caras. A
+EN heel, yet hugely popular at
+EN home. Self-centered and
+EN rather conceited.
+
+@ 27cb0a table=profiles refs=1
+# wrestler: Radel Michelle
+
+JP ドレックのパートナーとして、
+JP 悪の限りを尽くすが、ルックス
+JP のせいもあって何故かにくめな
+JP い。
+EN Dreck's partner in every
+EN kind of evil, yet thanks in
+EN part to her looks, somehow
+EN no one can hate her.
+
+@ 27cb46 table=profiles refs=1
+# wrestler: Mujer Morena
+
+JP 現ＩＷＷＦジュニア王者。
+JP 関節技を得意とする中堅選手
+JP だが、ことタイトルマッチには
+JP めっぽう強い選手。
+EN Reigning IWWF junior champ.
+EN A midcard submission expert,
+EN but a real terror when a
+EN title is on the line.
+
+@ 27cb87 table=profiles refs=1
+# wrestler: Despina Libre
+
+JP 祐希子達と同年代のレスラーで
+JP 飛び技と共にパワー技も器用に
+JP こなす。
+JP 当面の目標はジュニアベルト。
+EN Same age as Yukiko's group,
+EN she handles high-flying and
+EN power moves with equal ease.
+EN Goal for now: a junior belt.
+
+@ 27cbc8 table=profiles refs=1
+# wrestler: Sierra Gonzalez
+
+JP ＡＡＣの新人レスラー。
+JP 特にこれと言ったものは持って
+JP いないが、何故かすでに固定フ
+JP ァンがいるらしい。
+EN An AAC rookie. Nothing
+EN special about her, yet she
+EN somehow already has a loyal
+EN fan base.
+
+@ 27cc09 table=profiles refs=1
+# wrestler: Selena Nimel
+
+JP ”ヨーロッパの大巨人”の異名
+JP をとる。恵まれた体格自体が、
+JP すでに凶器ともいえ、ワンツで
+JP さえ最近は手が付けられない。
+EN "The Giant of Europe." Her
+EN huge frame is a weapon in
+EN itself; lately even Wantz
+EN can't keep her in check.
+
+@ 27cc54 table=profiles refs=1
+# wrestler: Nolan Wantz
+
+JP ヨーロッパマット界の絶対的な
+JP エース。全盛期は過ぎたものの、
+JP 関節技は未だ驚異。私生活では
+JP 子供思いのいいママさんである。
+EN Undisputed ace of Europe.
+EN Past her prime, but her
+EN locks are still fearsome.
+EN At home, a loving mom.
+
+@ 27cca4 table=profiles refs=1
+# wrestler: Jeanne Lassic
+
+JP 自称ロシア人。 グラウンドを
+JP 主体としたスタイルでヨーロッ
+JP パのリーグ戦では常に上位に入
+JP る実力者。
+EN Self-proclaimed Russian. Her
+EN ground-based style keeps her
+EN near the top of every
+EN European league.
+
+@ 27cce5 table=profiles refs=1
+# wrestler: Alice Smirnov
+
+JP ヨーロッパでは数少ないパワー
+JP ファイターだけあって周りの期
+JP 待は大きいのだが、まだレスリ
+JP ングの幅は少ないのが悶題。
+EN One of Europe's few power
+EN fighters, so hopes are high,
+EN but her wrestling is still
+EN too narrow in range.
+
+@ 27cd30 table=profiles refs=1
+# wrestler: Natasha Han
+
+JP 新人ながら、たちまち中心選手
+JP の一人となる。サンボを生かし
+JP た関節技の切れ味は素晴らしく、
+JP 次期エースの声も高い。
+EN A rookie who quickly became
+EN a core wrestler. Her sambo-
+EN based locks are superb; many
+EN call her the next ace.
+
+@ 27cd7b table=profiles refs=1
+# wrestler: Zabela Belbach
+
+JP 元柔道中量級ヨーロッパチャン
+JP プらしく、投げ技、寝技ともに
+JP 技のバリエーションは豊富。
+JP ヨーロッパリーグの上位を狙う。
+EN Former European middleweight
+EN judo champion, with a wide
+EN range of throws and holds.
+EN Eyes the top of the league.
+
+@ 27cdc6 table=profiles refs=1
+# wrestler: Marna Loco
+
+JP ヨーロッパの軽量クラスでは名
+JP の知れた選手。ワールド女子の
+JP 香月とは毎回好勝負を展開し人
+JP 気も高い。前ジュニア王者。
+EN Well known in Europe's light
+EN divisions. Her bouts with
+EN World Joshi's Kozuki are
+EN hits. Former junior champ.
+
+@ 27ce11 table=profiles refs=1
+# wrestler: Win Mirror
+
+JP ヨーロッパマットの新人有望株。
+JP 関係者の評判もよく、メインイ
+JP ベントに上がってくるのもそう
+JP 先の話ではなさそうだ。
+EN Europe's most promising
+EN rookie. Well rated by
+EN insiders, she may reach the
+EN main event before long.
+
+@ 27ce5c table=profiles refs=1
+# wrestler: Remy Dadarne
+
+JP 現在、ＩＷＷＦベルトを腰に
+JP 巻く全米最強の選手。グラビア
+JP の表紙を飾るなど、芸能人なみ
+JP のまさにスーパースター。
+EN The IWWF champion and the
+EN strongest in America. Her
+EN magazine covers make her a
+EN celebrity-level superstar.
+
+@ 27cea7 table=profiles refs=1
+# wrestler: Unknown
+
+JP 突如現れた謎のマスクウーマン。
+JP その桁外れのパワーは他のレス
+JP ラーには驚異の的だ。
+JP 世界王者になる日も近いか？
+EN A mystery masked woman who
+EN appeared out of nowhere. Her
+EN vast power terrifies others.
+EN A world champ in the making?
+
+@ 27ceed table=profiles refs=1
+# wrestler: Judy Caviar
+
+JP ダダーンと抗争中のトップヒー
+JP ル。すでに中年の域に達してい
+JP るが、その経験に裏打ちされた
+JP 試合運びはあなどれない。
+EN Top heel feuding with
+EN Dadarne. Middle-aged now,
+EN but her veteran ring craft
+EN is not to be underestimated.
+
+@ 27cf38 table=profiles refs=4
+# wrestler: Megumi Muto, Chigusa Yuki, Reiko Kanamori, Narumi Otaka
+
+JP 
+EN 

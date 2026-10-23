@@ -1,0 +1,50 @@
+# menu_select: glyph strings of the glyph set $929416 (tools/glyphstr.py).
+# EN may be as wide as the JP (2 letters per JP glyph); "width=N" in the @ line allows N.
+
+@ 8A96F9 sites=8A9131 width=24
+JP 主人公を決定して下さい　
+EN Choose your heroine
+
+@ 8A9706 sites=8A914F width=16
+JP Ｘボタン　能力値
+EN X: Stats
+
+@ 8A970F sites=8A94F4 width=24
+JP 所属団体を決定して下さい
+EN Choose your faction
+
+@ 8A971C sites=8A953E width=15
+JP 新女　正規軍　
+EN Shinjo Regulars
+
+@ 8A9724 sites=8A955C width=14
+JP 新女　反乱軍　
+EN Shinjo Rebels
+
+@ 8A972C sites=8A95AF width=14
+JP ワールド女子　
+EN World Joshi
+
+@ 8A9734 sites=8A95CD width=15
+JP 　フリー　　　
+EN Freelance
+
+@ 8DEE59 sites=8DED0E width=22
+JP 通算成績　　　勝　　敗
+EN Record        W     L
+
+@ 8DEE65 sites=8DED2C width=20
+JP 勝率　　　　　　　％
+EN Win               %
+
+@ 8CF8D7 table=8CF752 width=6
+JP セーブ
+EN Save
+
+@ 8CF8DB table=8CF752 width=6
+JP ロード
+EN Load
+
+@ 8CF8DF table=8CF752 width=14
+JP タイトルに戻る
+EN Back to Title

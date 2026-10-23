@@ -1,0 +1,16 @@
+# Belts: 11 codes + $FF at file 0x7ebf2 (tools/recfont.py): one letter per code, at most 11.
+# offset	JP	EN
+7ebf2	IWWFヘビー	IWWF Heavy
+7ebfe	EWAタッグ	EWA Tag
+7ec0a	IWWFタッグ	IWWF Tag
+7ec16	北米ヘビー	N.Am. Heavy
+7ec22	メキシコヘビー	Mex. Heavy
+7ec2e	アジアヘビー	Asia Heavy
+7ec3a	USWAヘビー	USWA Heavy
+7ec46	USWAタッグ	USWA Tag
+7ec52	USヘビー	US Heavy
+7ec5e	USタッグ	US Tag
+7ec6a	AACタッグ	AAC Tag
+7ec76	IWCヘビー	IWC Heavy
+7ec82	IWCタッグ	IWC Tag
+7ec8e	IWWFJr	IWWF Jr.

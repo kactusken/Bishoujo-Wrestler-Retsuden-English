@@ -1,0 +1,66 @@
+# menu_card: the show card list header (glyph set $92:C421, tools/glyphstr.py); the small プロレス
+# after a promotion name is blanked. EN may be as wide as "width".
+
+@ 8C9EF6 table=8C93CC width=12
+JP 　新日本女子
+EN Shinjo Pro
+
+@ 8C9EFD table=8C93CC width=12
+JP ワールド女子
+EN World Joshi
+
+@ 8C9F04 table=8C93CC width=12
+JP 　　IWWF
+EN     IWWF
+
+@ 8C9F0B table=8C93CC width=12
+JP 　　USWA
+EN     USWA
+
+@ 8C9F12 table=8C93CC width=12
+JP 　　　AAC
+EN     AAC
+
+@ 8C9F19 table=8C93CC width=12
+JP 　　　SWA
+EN     SWA
+
+@ 8C9F20 table=8C93CC width=16
+JP リーグ戦　　　　
+EN League
+
+@ 8C9F29 table=8C93CC width=16
+JP トーナメント　　
+EN Tournament
+
+@ 8C9F36 table=8C93DE width=16
+JP 新日本正規軍　　
+EN Shinjo Regulars
+
+@ 8C9F3F table=8C93DE width=16
+JP ハニーバーズ　　
+EN Honey Birds
+
+@ 8C9F48 table=8C93DE width=16
+JP 新日本革命軍　　
+EN Revolutionaries
+
+@ 8C9F51 table=8C93DE width=16
+JP ワールド女子　　
+EN World Joshi
+
+@ 8C9F5A table=8C93DE width=16
+JP 龍子維新軍　　　
+EN Team Ryuko
+
+@ 8C9F63 table=8C93DE width=16
+JP 市ヶ谷軍団　　　
+EN Team Ichigaya
+
+@ 8C9F6C table=8C93DE width=16
+JP Yuki軍団　　
+EN Team Yuki
+
+@ 8C9F75 table=8C93DE width=16
+JP IWWF軍団　　
+EN Team IWWF

@@ -1,0 +1,58 @@
+# menu_data: glyph strings of the glyph set $91DC15 (tools/glyphstr.py).
+# EN may be as wide as the JP (2 letters per JP glyph); "width=N" in the @ line allows N.
+
+@ 8AA8B5 sites=8A9BF3,8AA582 width=16
+JP ＮＥＷ　ＧＡＭＥ
+EN NEW GAME
+
+@ 8AA8BE sites=8A9C07,8AA596 width=28
+JP ロードデータを選んで下さい。
+EN Choose data to load.
+
+@ 8AA8CD sites=8A9C1B,8AA5AA width=28
+JP セーブデータを選んで下さい。
+EN Choose a save slot.
+
+@ 8AA8AF sites=8A9CEC width=6
+JP 評価値
+EN Rating
+
+@ 8AA8DC sites=8A9D66,8AA78E width=18
+JP データがありません
+EN No data
+
+@ 8AA8E6 sites=8AA65C width=6
+JP 第　戦
+EN No    
+
+@ 8AA8EA sites=8AA69A width=6
+JP 最終戦
+EN Final
+
+@ 8AB0BE sites=8AAB09 width=28
+JP リングネームを選択して下さい
+EN Choose a ring name
+
+@ 8AA891 table=8A9DFF width=8
+JP 新日女子
+EN Shinjo
+
+@ 8AA896 table=8A9DFF width=8
+JP ワールド
+EN World
+
+@ 8AA89B table=8A9DFF width=8
+JP ＩＷＷＦ
+EN IWWF
+
+@ 8AA8A0 table=8A9DFF width=8
+JP ＵＳＷＡ
+EN USWA
+
+@ 8AA8A5 table=8A9DFF width=8
+JP ＡＡＣ　
+EN AAC
+
+@ 8AA8AA table=8A9DFF width=8
+JP ＳＷＡ　
+EN SWA

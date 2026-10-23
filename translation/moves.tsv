@@ -1,0 +1,108 @@
+# Move names: 12 codes + $FF records at file 0x7e691 (tools/moves.py), drawn from the move font
+# ($90:9962) as letter pairs in capitals: at most 24 letters. Empty JP records stay empty (-).
+# offset	width	JP	EN
+7e691	24		
+7e69e	24	アームホイップ	ARM WHIP
+7e6ab	24	サイドスープレックス	SIDE SUPLEX
+7e6b8	24	Wアームスープレックス	DOUBLE ARM SUPLEX
+7e6c5	24	ブレーンバスター	BRAINBUSTER
+7e6d2	24	高速ブレーンバスター	SPEED BRAINBUSTER
+7e6df	24	フロントスープレックス	FRONT SUPLEX
+7e6ec	24	フィッシャーマンズS	FISHERMAN SUPLEX
+7e6f9	24	バックドロップ	BACKDROP
+7e706	24	オーロラスペシャル	AURORA SPECIAL
+7e713	24	バックドロップホールド	BACKDROP HOLD
+7e720	24	ジャンボスープレックス	JUMBO SUPLEX
+7e72d	24	ノーザンライトS	NORTHERN SUPLEX
+7e73a	24	キャプチュード	CAPTURE SUPLEX
+7e747	24	ジャーマンスープレックス	GERMAN SUPLEX
+7e754	24	タイガースープレックス	TIGER SUPLEX
+7e761	24	ドラゴンスープレックス	DRAGON SUPLEX
+7e76e	24	Rゴリースペシャル	REVERSE GORY SPECIAL
+7e77b	24	JOサイクロン	JO CYCLONE
+7e788	24	雷電	RAIDEN
+7e795	24	震電	SHINDEN
+7e7a2	24	スリーパーホールド	SLEEPER HOLD
+7e7af	24	首四の字固め	FIGURE-4 NECKLOCK
+7e7bc	24	逆エビ固め	BOSTON CRAB
+7e7c9	24	四の字固め	FIGURE-4 LEG LOCK
+7e7d6	24	ワキ固め	ARMBAR HOLD
+7e7e3	24	アキレス腱固め	ACHILLES HOLD
+7e7f0	24	キャメルクラッチ	CAMEL CLUTCH
+7e7fd	24	ロメロスペシャル	ROMERO SPECIAL
+7e80a	24	チキンWアームロック	CHICKEN WING ARMLOCK
+7e817	24	カマ固め	SICKLE HOLD
+7e824	24	コブラツイスト	COBRA TWIST
+7e831	24	腕ひしぎ逆十字	CROSS ARMBAR
+7e83e	24	フェイスロック	FACELOCK
+7e84b	24	ドラゴンスリーパー	DRAGON SLEEPER
+7e858	24	ストレッチプラム	STRETCH PLUM
+7e865	24	サソリ固め	SCORPION HOLD
+7e872	24	卍固め	OCTOPUS HOLD
+7e87f	24	クロスヒールホールド	CROSS HEEL HOLD
+7e88c	24	STF	STF
+7e899	24	ハンマーブロー	HAMMER BLOW
+7e8a6	24	ボディスラム	BODY SLAM
+7e8b3	24	ヘッドバット	HEADBUTT
+7e8c0	24	ラリアート	LARIAT
+7e8cd	24	ショートレンジラリアート	SHORT LARIAT
+7e8da	24	S式バックブリーカー	S BACKBREAKER
+7e8e7	24	DDT	DDT
+7e8f4	24	ジャイアントスイング	GIANT SWING
+7e901	24	Dパイルドライバー	D PILEDRIVER
+7e90e	24	Tパイルドライバー	TOMBSTONE PILEDRIVER
+7e91b	24	チョークスラム	CHOKESLAM
+7e928	24	ノーザンライトボム	NORTHERN BOMB
+7e935	24	パワースラム	POWERSLAM
+7e942	24	パワーボム	POWERBOMB
+7e94f	24	Jパワーボム	JACKKNIFE POWERBOMB
+7e95c	24	投げ捨てパワーボム	RELEASE POWERBOMB
+7e969	24	スプラッシュマウンテン	SPLASH MOUNTAIN
+7e976	24	ドクターボム	DOCTOR BOMB
+7e983	24	タイガードライバー	TIGER DRIVER
+7e990	24	水車おとし	WATERWHEEL DROP
+7e99d	24		
+7e9aa	24		
+7e9b7	24		
+7e9c4	24	エルボーバット	ELBOW BUTT
+7e9d1	24	逆水平チョップ	CHOP
+7e9de	24	カウンターキック	COUNTER KICK
+7e9eb	24	フットスタンプ	FOOT STOMP
+7e9f8	24	掌底	PALM STRIKE
+7ea05	24	裏拳	BACKFIST
+7ea12	24	図器攻撃	WEAPON ATTACK
+7ea1f	24		
+7ea2c	24	ステップキック	STEP KICK
+7ea39	24	ひざげり	KNEE STRIKE
+7ea46	24	えんずい斬り	ENZUIGIRI
+7ea53	24	かかと落とし	HEEL DROP
+7ea60	24	フライングニールキック	FLYING NEIL KICK
+7ea6d	24	コンビネーションキック	COMBO KICK
+7ea7a	24	ローリングエルボー	ROLLING ELBOW
+7ea87	24	ドロップキック	DROPKICK
+7ea94	24	ローリングソバット	ROLLING SOBAT
+7eaa1	24	セントーン	SENTON
+7eaae	24	ムーンサルトフォール	MOONSAULT FALL
+7eabb	24	ギロチンドロップ	GUILLOTINE DROP
+7eac8	24	ジャンピングニーパット	JUMPING KNEE
+7ead5	24	ローリングCホールド	ROLLING CLUTCH HOLD
+7eae2	24	Fボディアタック	FLYING BODY ATTACK
+7eaef	24	Fショルダータックル	FLYING SHOULDER
+7eafc	24	ヒップアタック	HIP ATTACK
+7eb09	24	フェイスクラッシャー	FACE CRUSHER
+7eb16	24	JネックブリーカーD	NECKBREAKER DROP
+7eb23	24	ウラカン・ラナ	HURACANRANA
+7eb30	24	フランケンシュタイナー	FRANKENSTEINER
+7eb3d	24	プランチャー	PLANCHA
+7eb4a	24	トペコンヒーロ	TOPE CON HILO
+7eb57	24	ラ・ケブラータ	LA QUEBRADA
+7eb64	24	フライングニードロップ	FLYING KNEE DROP
+7eb71	24	ミサイルキック	MISSILE KICK
+7eb7e	24	Dエルボードロップ	DIVING ELBOW DROP
+7eb8b	24	Dヘッドバット	DIVING HEADBUTT
+7eb98	24	フライングボディプレス	FLYING BODY PRESS
+7eba5	24	Dフットスタンプ	DIVING FOOT STOMP
+7ebb2	24	Dセントーン	DIVING SENTON
+7ebbf	24	Dギロチンドロップ	DIVING GUILLOTINE DROP
+7ebcc	24	ムーンサルトプレス	MOONSAULT PRESS
+7ebd9	24	Sスタープレス	SHOOTING STAR PRESS

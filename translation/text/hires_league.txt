@@ -1,0 +1,37 @@
+# hires_league: one letter per cell (tools/hires.py). "col=N" moves a label (32 cells a row).
+
+@ 8EE7B7 sites=
+JP Xボタンで能力値
+EN X: Stats
+
+@ 8EE7C0 table=8EBF31
+JP チーム1
+EN Team 1
+
+@ 8EE7C5 table=8EBF31
+JP チーム2
+EN Team 2
+
+@ 8EE7CA table=8EBF31
+JP チーム3
+EN Team 3
+
+@ 8EE7CF table=8EBF31
+JP チーム4
+EN Team 4
+
+@ 8EE7D4 table=8EBF31
+JP チーム5
+EN Team 5
+
+@ 8EE7D9 table=8EBF31
+JP チーム6
+EN Team 6
+
+@ 8EE7DE table=8EBF31
+JP チーム7
+EN Team 7
+
+@ 8EE7E3 table=8EBF31
+JP チーム8
+EN Team 8

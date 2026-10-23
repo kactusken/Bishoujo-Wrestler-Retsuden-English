@@ -1,0 +1,46 @@
+# menu_options: glyph strings of the glyph set $97E9F0 (tools/glyphstr.py).
+# EN may be as wide as the JP (2 letters per JP glyph); "width=N" in the @ line allows N.
+
+@ 8EF205 sites=8EEFDE width=12
+JP ミュージック
+EN Music
+
+@ 8EF20C sites=8EF06F width=6
+JP モード
+EN Mode
+
+@ 8EF216 sites=8EF0A1 width=8
+JP ステレオ
+EN Stereo
+
+@ 8EF21B sites=8EF0B7 width=8
+JP モノラル
+EN Mono
+
+@ 8EF210 sites=8EF0FD width=10
+JP メッセージ
+EN Message
+
+@ 8EF220 sites=8EF12F width=6
+JP はやい
+EN Fast
+
+@ 8EF224 sites=8EF14A width=6
+JP ふつう
+EN Normal
+
+@ 8EF228 sites=8EF160 width=6
+JP おそい
+EN Slow
+
+@ 8EF22C table=8EF1B9 width=8
+JP ハード　
+EN Hard
+
+@ 8EF231 table=8EF1B9 width=8
+JP ノーマル
+EN Normal
+
+@ 8EF236 table=8EF1B9 width=8
+JP イージー
+EN Easy

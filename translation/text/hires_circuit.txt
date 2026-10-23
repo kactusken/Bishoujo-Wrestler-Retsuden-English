@@ -1,0 +1,52 @@
+# hires_circuit: one letter per cell (tools/hires.py). "col=N" moves a label (32 cells a row).
+
+@ 8BB0D1 sites=8BA216 row=7 col=17
+JP    新日本女子正規軍  
+EN  Regulars
+
+@ 8BB0DF sites=8BA234 row=8 col=17
+JP    ハニーバーズ    
+EN  Honey Birds
+
+@ 8BB0ED sites=8BA252 row=9 col=17
+JP    新日本女子革命軍  
+EN  Revolution
+
+@ 8BB0FB sites=8BA270 row=10 col=17
+JP    ワールド女子    
+EN  World Joshi
+
+@ 8BB109 sites=8BA28E row=11 col=17
+JP    龍子革命軍     
+EN  Team Ryuko
+
+@ 8BB117 sites=8BA2AC row=12 col=17
+JP    市ヶ合軍団     
+EN  Ichigaya
+
+@ 8BB125 sites=8BA2CA row=13 col=17
+JP    Yuki軍団    
+EN  Team Yuki
+
+@ 8BB133 sites=8BA324 row=16 col=17
+JP    EDIT      
+EN  Edit
+
+@ 8BB141 sites=8BA342 row=17 col=17
+JP    ク リ ア     
+EN  Clear
+
+@ 8BB14F sites=8BA2E8,8BA306,8BA360,8BA7B4,8BA7D2 row=14 col=17
+JP              
+
+@ 8BB15D sites=8BA12A row=4 col=2
+JP メンバーを決定して下さい
+EN Choose your members.
+
+@ 8BB16A sites=8BA148 row=13 col=2
+JP 消費BP
+EN BP used
+
+@ 8BB16F sites=8BA166 row=14 col=2
+JP 残めBP
+EN BP left

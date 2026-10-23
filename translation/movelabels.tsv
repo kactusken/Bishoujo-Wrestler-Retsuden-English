@@ -1,0 +1,13 @@
+# Move screen labels (Learn, Move Difficulty, Finisher): drawn in the move font's letter pairs
+# (tools/moves.py). codes = cells; 2 letters a cell, capitals.
+# address	codes	JP	EN
+8B9C9F	2	技名	Move
+8B9CA2	6	取得必要BP	BP to learn
+8B9CA9	5	難易度範囲	Difficulty
+8B9CAF	6	ギブアップ技	Submission
+8B9CB6	7	強制フォール技	Forced pin
+8B9CBE	7	特殊フォール技	Special pin
+8DC255	2	技名	Move
+8DC258	3	レベル	Level
+8DC263	7	レベル変更BP	Lv change BP
+8DC26B	7	必殺技変更BP	Finisher BP

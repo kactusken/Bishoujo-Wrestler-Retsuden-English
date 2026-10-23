@@ -1,0 +1,62 @@
+# hires_rivals: one letter per cell (tools/hires.py). "col=N" moves a label (32 cells a row),
+# "width=N" pads it with blanks. A rival's row: assist, logic, then best move type + Atk/Def/Even.
+
+@ 8BD578 table=8BD523 width=6
+JP 標 準 
+EN Normal
+
+@ 8BD57D table=8BD523 width=6
+JP アシスト
+EN Assist
+
+@ 8BD582 table=8BD523 width=6
+JP ワンマン
+EN Solo
+
+@ 8BD587 table=8BD529 width=5
+JP 安定型
+EN Safe
+
+@ 8BD58B table=8BD529 width=5
+JP 平均型
+EN Even
+
+@ 8BD58F table=8BD529 width=5
+JP 攻撃型
+EN Fight
+
+@ 8BD593 table=8BD529 width=5
+JP 突撃型
+EN Rush
+
+@ 8BD597 table=8BD4F9 width=6
+JP 投・
+EN Throw
+
+@ 8BD59A table=8BD4F9 width=6
+JP 関・
+EN Holds
+
+@ 8BD59D table=8BD4F9 width=6
+JP パ・
+EN Power
+
+@ 8BD5A0 table=8BD4F9 width=6
+JP 打・
+EN Hits
+
+@ 8BD5A3 table=8BD4F9 width=6
+JP 飛・
+EN Air
+
+@ 8BD5A6 sites=8BD4BA
+JP 攻撃タイプ
+EN Atk
+
+@ 8BD5AC sites=8BD4E6
+JP 防御タイプ
+EN Def
+
+@ 8BD5B2 sites=8BD4D0
+JP 平均タイプ
+EN Even

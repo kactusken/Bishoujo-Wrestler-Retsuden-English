@@ -1,0 +1,115 @@
+# menu_match: glyph strings of the glyph set $97D6CC (tools/glyphstr.py).
+# EN may be as wide as the JP (2 letters per JP glyph); "width=N" in the @ line allows N.
+
+@ 8CF1FC sites=8CE0B5 width=16
+JP Ｘボタン　能力値
+EN X: Stats
+
+@ 8CF1F7 sites=8CE0D3 width=8
+JP 勝利確率
+EN Win odds
+
+@ 8CF205 sites=8CE672 width=12
+JP 選手権試合
+EN Title Match
+
+@ 8CF20B sites=8CE6B3 width=8
+JP リーグ戦
+EN League
+
+@ 8CF210 sites=8CE6E8 width=12
+JP トーナメント
+EN Tournament
+
+@ 8DEAA5 sites=8DE77E width=12
+JP 選手権試合
+EN Title Match
+
+@ 8DEAB4 sites=8DE7C4 width=16
+JP が奪取しました。
+EN  wins the title.
+
+@ 8DEAAB sites=8DE7E4 width=16
+JP が防衛しました。
+EN  defends it!
+
+@ 8DEA9F sites=8DE8C6,8DE9D6 width=6
+JP 優　勝
+EN Winner
+
+@ 8DEAA3 sites=8DE87E,8DE960,8DEA70 width=5
+# after a tag team's names (YAMADA HADA 組); nothing follows it on the line
+JP 組
+EN  Team
+
+@ 8EA2EB sites=8E9896 width=10
+JP ＲＯＵＮＤ
+EN ROUND
+
+@ 8DEABD table=8DEA88 width=22
+JP ＥＸタッグトーナメント
+EN EX Tag Tournament
+
+@ 8DEAC9 table=8DEA88 width=18
+JP 新人王トーナメント
+EN Rookie Tournament
+
+@ 8DEAD3 table=8DEA88 width=16
+JP ワールドリーグ戦
+EN World League
+
+@ 8DEADC table=8DEA88 width=20
+JP ワールドタックリーグ
+EN World Tag League
+
+@ 8DEAE7 table=8DEA88 width=24
+JP アテナクライマックス予選
+EN Athena Climax Qualifier
+
+@ 8DEAF4 table=8DEA88 width=24
+JP アテナクライマックス決戦
+EN Athena Climax Final
+
+@ 8EA2FC table=8E9985 width=12
+JP 新日本正規軍
+EN Regulars
+
+@ 8EA303 table=8E9985 width=12
+JP ハニーバーズ
+EN Honey Birds
+
+@ 8EA30A table=8E9985 width=12
+JP 新日本革命軍
+EN Revolution
+
+@ 8EA311 table=8E9985 width=12
+JP ワールド女子
+EN World Joshi
+
+@ 8EA318 table=8E9985 width=10
+JP 龍子維新軍
+EN Team Ryuko
+
+@ 8EA31E table=8E9985 width=10
+JP 市ヶ谷軍団
+EN Ichigaya
+
+@ 8EA324 table=8E9985 width=12
+JP Ｙｕｋｉ軍団
+EN Team Yuki
+
+@ 8EA32B table=8E9985 width=12
+JP ＩＷＷＦ軍団
+EN Team IWWF
+
+@ 8EA332 table=8E9985 width=12
+JP ＵＳＷＡ軍団
+EN Team USWA
+
+@ 8EA339 table=8E9985 width=10
+JP ＡＡＣ軍団
+EN Team AAC
+
+@ 8EA33F table=8E9985 width=10
+JP ＥＷＡ軍団
+EN Team EWA

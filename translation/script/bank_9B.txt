@@ -1,0 +1,6275 @@
+# Dialogue of bank $9B (tools/script.py; format and codes: docs/TRANSLATION.md).
+# One JP/EN line = one line on screen. {p} starts a page, {w} waits for a button at its end.
+# Names ({s1} {n1} {player}) are drawn by the game. Lines up to 30 letters, pages up to 4
+# lines (a speaker name alone on the first line counts as a line). Longer lines are wrapped and
+# full pages split by the encoder, but write to fit where you can.
+
+@ 0d8000 refs=1
+JP {p}{s1}
+JP ハハ・・・・{w}
+JP {p}入団テストで
+JP 落ちるなんて・・
+JP 考えてもみなかったなぁ。{w}
+JP {p}目が生意気だって？
+JP ほっといてよね、生まれ
+JP つきなんだからさ。{w}
+EN {p}{s1}
+EN Ha ha....{w}
+EN {p}Failing the entrance
+EN test... I never even
+EN imagined it.{w}
+EN {p}My eyes look "cheeky"?
+EN Leave me alone! I was
+EN born with them!{w}
+
+@ 0d805f refs=1
+JP {p}{s1}
+JP アア～ッ、どうしよう。{w}
+JP {p}・・・あきらめた方が
+JP いいのかなぁ・・・・{w}
+EN {p}{s1}
+EN Aaargh, what do I do?{w}
+EN {p}...Maybe I should just
+EN give up....{w}
+
+@ 0d8091 refs=1
+JP {p}{s1}
+JP う～ん・・・・・・・・・
+JP ・・・・う～ん・・・{w}
+JP {p}あきらめらんないなぁ。
+JP アメリカでもメキシコでも
+JP いいから、プロレスラーに
+JP なりた・・・・？！{w}
+EN {p}{s1}
+EN Hmmm.........
+EN ....hmmm...{w}
+EN {p}I can't give up!
+EN America, Mexico, anywhere,
+EN I just want to become a
+EN pro wrestl....?!{w}
+
+@ 0d80f5 refs=1
+JP {p}{s1}
+JP そうだ！！{w}
+JP {p}何も日本の団体だけに
+JP こだわらなくてもいいんだ！{w}
+JP {p}海外にだって団体は
+JP あるんだもんね。{w}
+EN {p}{s1}
+EN That's it!!{w}
+EN {p}I don't have to stick to
+EN promotions in Japan!{w}
+EN {p}There are promotions
+EN overseas too, after all.{w}
+
+@ 0d8140 refs=1
+JP {p}{s1}
+JP フフッ・・
+JP フッフッフッ・・{w}
+JP {p}海外でプロレスラーに
+JP なって、日本のプロレスを
+JP 見返してやるんだから！！{w}
+EN {p}{s1}
+EN Heh heh..
+EN Heh heh heh..{w}
+EN {p}I'll become a pro wrestler
+EN overseas and show Japanese
+EN wrestling what it missed!!{w}
+
+@ 0d818b refs=1
+JP {p}{s1}
+JP そうと決まれば
+JP 練習あるのみ！
+JP よ～し、がんばるぞぉ！！{w}
+EN {p}{s1}
+EN Now that that's settled,
+EN all I need is training!
+EN All right, let's do this!!{w}
+
+@ 0d81b8 refs=1
+JP {p}かわいいレディが
+JP 待っていると聞いたから
+JP 急いで帰ってきたのですが{w}
+JP {p}やれやれ・・
+JP ま～たＹｏｕですか。{w}
+EN {p}I heard a lovely lady was
+EN waiting, so I hurried
+EN back, but...{w}
+EN {p}Oh dear...
+EN It's YOU again.{w}
+
+@ 0d81fe refs=1
+JP {p}{s1}
+JP 私、どうしてもＩＷＷＦで
+JP レスラーになりたいんです。
+JP お願いします！！{w}
+JP {p}私を入団させて下さい！！{w}
+EN {p}{s1}
+EN I really want to become a
+EN wrestler in the IWWF.
+EN Please!!{w}
+EN {p}Please let me join!!{w}
+
+@ 0d8244 refs=1
+JP {p}・・・・・{w}
+EN {p}.....{w}
+
+@ 0d824e refs=1
+JP {p}{s1}
+JP お願いします！！{w}
+EN {p}{s1}
+EN Please!!{w}
+
+@ 0d8262 refs=1
+JP {p}・・・・・・・ＯＫ{w}
+JP {p}Ｙｏｕには負けたヨ。{w}
+JP {p}入団を許可するネ。{w}
+EN {p}.......OK{w}
+EN {p}You win.{w}
+EN {p}I'll let you join.{w}
+
+@ 0d8294 refs=1
+JP {p}今日から、ＩＷＷＦの
+JP 新人として頑張ってネ。{w}
+EN {p}Starting today, do your
+EN best as an IWWF rookie.{w}
+
+@ 0d82b7 refs=1
+JP {p}こうして{n1}は
+JP ＩＷＷＦに入団が決まった。{w}
+EN {p}And so, {n1} was
+EN accepted into the IWWF.{w}
+
+@ 0d82d5 refs=1
+JP {p}{s2}
+JP すみません。{w}
+JP {p}こちらに
+JP {player}さん、っていう
+JP 日本人の方がいると
+JP 聞いたんですけど・・・{w}
+EN {p}{s2}
+EN Excuse me.{w}
+EN {p}I heard there's a Japanese
+EN wrestler here called
+EN {player}...{w}
+
+@ 0d8316 refs=1
+JP {p}{s1}
+JP ん？
+JP {n1}は私だけど・・
+JP 私に何か？{w}
+EN {p}{s1}
+EN Hm? I'm {n1}...
+EN Can I help you?{w}
+
+@ 0d8334 refs=1
+JP {p}{s2}
+JP {n1}さん・・ですか？{w}
+EN {p}{s2}
+EN You're {n1}...?{w}
+
+@ 0d8348 refs=1
+JP {p}{s2}
+JP はじめまして！！
+JP わたし、新女から来た
+JP {player}です！！{w}
+JP {p}今日から、こちらの団体に
+JP お世話になります。{w}
+EN {p}{s2}
+EN Nice to meet you!!
+EN I came from Shinjo.
+EN I'm {player}!!{w}
+EN {p}Starting today I'll be
+EN working with this
+EN promotion.{w}
+
+@ 0d838e refs=1
+JP {p}{s1}
+JP で、その新女から来た
+JP {n2}さんが私に何か？{w}
+EN {p}{s1}
+EN So what does {n2}
+EN from Shinjo want with me?{w}
+
+@ 0d83b1 refs=1
+JP {p}{s2}
+JP {n1}さん、私と
+JP とも、ともだちに
+JP なって下さい！！{w}
+EN {p}{s2}
+EN {n1}, will you
+EN b-be my friend?!{w}
+
+@ 0d83d9 refs=1
+JP {p}{s2}
+JP わたし、海外なんて
+JP 初めてで、同じ日本人が
+JP いたらな、って思ってて。{w}
+EN {p}{s2}
+EN It's my first time abroad,
+EN and I hoped there'd be
+EN someone else from Japan.{w}
+
+@ 0d840b refs=1
+JP {p}{s1}
+JP いいわよ。
+JP 今から、私とあなたは
+JP 友達って事で。{w}
+EN {p}{s1}
+EN Sure. As of right now,
+EN you and I are friends.{w}
+
+@ 0d8433 refs=1
+JP {p}{s2}
+JP えっ、ほんとに？{w}
+EN {p}{s2}
+EN Huh? Really?{w}
+
+@ 0d8447 refs=1
+JP {p}{s1}
+JP えぇ。{w}
+JP {p}ちょうど私も、日本語の
+JP 話せる友達が
+JP ほしかったしね。{w}
+EN {p}{s1}
+EN Yeah.{w}
+EN {p}I was wanting a friend
+EN I could speak Japanese
+EN with myself.{w}
+
+@ 0d8479 refs=0
+JP {p}{s2}
+JP うわぁ
+JP ありがとうございます。{w}
+EN {p}{s2}
+EN Wow, thank you so much!{w}
+
+@ 0d8492 refs=1
+JP {p}{s1}
+JP でも、リングに上がったら
+JP 手加減はしないから
+JP そのつもりでね。{w}
+EN {p}{s1}
+EN But once we're in the
+EN ring, I won't go easy on
+EN you. Just so you know.{w}
+
+@ 0d84bf refs=1
+JP {p}{s2}
+JP はい！！{w}
+EN {p}{s2}
+EN Okay!!{w}
+
+@ 0d84ce refs=1
+JP {p}{n1}が{n2}と
+JP 出会って２週間が過ぎ{w}
+JP {p}二人の間にあった
+JP ささやかな緊張も
+JP 今日の試合でほぐれた事を
+JP お互いに強く感じていた。{w}
+EN {p}Two weeks had passed since
+EN {n1} met {n2}.{w}
+EN {p}Both of them could feel
+EN that today's match had
+EN melted the little tension
+EN left between them.{w}
+
+@ 0d851e refs=1
+JP {p}{s2}
+JP やっぱり、{n1}と
+JP 闘う時、って
+JP すっごく楽しい。{w}
+JP {p}日本にいても、こうは
+JP いかなかったもん。{w}
+EN {p}{s2}
+EN Fighting you, {n1},
+EN is really so much fun.{w}
+EN {p}It was never like this
+EN back in Japan.{w}
+
+@ 0d8564 refs=1
+JP {p}{s2}
+JP なんて言うか。{w}
+JP {p}{n1}と闘ってると
+JP 知らない間に、夢中に
+JP 闘ってる自分がいる。{w}
+JP {p}自分でも、どうしようも
+JP ないぐらい、夢中になって
+JP 闘ってる自分が。{w}
+EN {p}{s2}
+EN How do I put it...{w}
+EN {p}When we fight, {n1},
+EN before I know it I'm
+EN totally lost in the fight.{w}
+EN {p}So lost that I can't help
+EN myself.{w}
+
+@ 0d85c8 refs=1
+JP {p}{s1}
+JP そういうのってあるよね。{w}
+EN {p}{s1}
+EN Yeah, I know that feeling.{w}
+
+@ 0d85e1 refs=1
+JP {p}{s2}
+JP そう言えば理沙子さんが
+JP 言ってたな。{w}
+JP {p}相手を闘う事だけに
+JP 夢中にさせれるレスラーは
+JP 強いレスラーが多い、って。{w}
+JP {p}きっと{n1}が
+JP そうなんじゃないかな。{w}
+EN {p}{s2}
+EN Come to think of it,
+EN Risako said something like
+EN that.{w}
+EN {p}Wrestlers who can make you
+EN lose yourself in the fight
+EN are often strong ones.{w}
+EN {p}I bet that's you,
+EN {n1}.{w}
+
+@ 0d864a refs=1
+JP {p}{s1}
+JP そんな事ない、って。
+JP {n2}だって・・{w}
+EN {p}{s1}
+EN No way, come on.
+EN You too, {n2}..{w}
+
+@ 0d8668 refs=1
+JP {p}{s2}
+JP ううん。{w}
+JP {p}私なんか、今日だって
+JP 試合の流れについてくので
+JP やっとだったんだもん。{w}
+JP {p}まだまだだよ。{w}
+EN {p}{s2}
+EN Uh-uh.{w}
+EN {p}Today I could barely keep
+EN up with the flow of the
+EN match.{w}
+EN {p}I've still got a long way
+EN to go.{w}
+
+@ 0d86b3 refs=1
+JP {p}{s1}
+JP でも、いい試合できたから
+JP それでいいんじゃない？{w}
+EN {p}{s1}
+EN But we had a good match,
+EN so isn't that enough?{w}
+
+@ 0d86db refs=1
+JP {p}{s2}
+JP それもそうね。{w}
+EN {p}{s2}
+EN I guess you're right.{w}
+
+@ 0d86ea refs=0
+JP {p}{s2}
+JP 楽しかったね、今日の
+JP 試合。{w}
+EN {p}{s2}
+EN Today's match was fun,
+EN wasn't it?{w}
+
+@ 0d8703 refs=0
+JP {p}{s1}
+JP うん。{w}
+JP {p}負けた試合なのに
+JP こんなに、さっぱりした
+JP 気持ちになるなんて・・・{w}
+EN {p}{s1}
+EN Yeah.{w}
+EN {p}I lost, and yet I feel
+EN so refreshed...{w}
+
+@ 0d873a refs=0
+JP {p}{s1}
+JP クスッ。
+JP 変な感じだわ。{w}
+EN {p}{s1}
+EN Tee-hee.
+EN It's a strange feeling.{w}
+
+@ 0d8753 refs=1
+JP {p}{s2}
+JP {n1}・・あのさ・・{w}
+JP {p}わたし・・
+JP わたし、あなたと・・・{w}
+EN {p}{s2}
+EN {n1}.. um, you know..{w}
+EN {p}I.. I want to..
+EN with you...{w}
+
+@ 0d8780 refs=1
+JP {p}{s1}
+JP ち、ちょっと？
+JP どうしたの{n2}。{w}
+EN {p}{s1}
+EN H-hey, hold on?
+EN What's wrong, {n2}?{w}
+
+@ 0d8799 refs=1
+JP {p}{s2}
+JP もう、あなたしか・・{w}
+JP {p}いないの。{w}
+EN {p}{s2}
+EN There's no one else..{w}
+EN {p}but you.{w}
+
+@ 0d87b7 refs=1
+JP {p}{s2}
+JP あなたと・・{w}
+EN {p}{s2}
+EN With you..{w}
+
+@ 0d87c6 refs=1
+JP {p}{s1}
+JP ヒイイッ！！{w}
+EN {p}{s1}
+EN Eeeek!!{w}
+
+@ 0d87d5 refs=1
+JP {p}{s2}
+JP タッグ組みたいの。{w}
+EN {p}{s2}
+EN I want to form a tag team.{w}
+
+@ 0d87e9 refs=1
+JP {p}{s1}
+JP ・・・・・・・・・
+JP ・・・・・・
+JP ・・・・・えっ？{w}
+JP {p}タッグ？{w}
+EN {p}{s1}
+EN .........
+EN ......
+EN .....huh?{w}
+EN {p}A tag team?{w}
+
+@ 0d881b refs=1
+JP {p}{s2}
+JP 私達でタッグ組もうよ。{w}
+JP {p}名前も決めてるんだ。{w}
+EN {p}{s2}
+EN Let's form a tag team!{w}
+EN {p}I've even picked a name.{w}
+
+@ 0d8843 refs=1
+JP {p}{s2}
+JP ウミウシーズ、っていうの。
+JP かぁいいでしょ？{w}
+EN {p}{s2}
+EN The Sea Slugs!
+EN Isn't that cuuute?{w}
+
+@ 0d8866 refs=1
+JP {p}
+JP タッグか・・
+JP タッグには・・
+EN {p}
+EN A tag team, huh..
+EN A tag team, though..
+
+@ 0d887f refs=1
+JP {p}{s1}
+JP ま、タッグ名は後で
+JP 考えるんなら・・・{w}
+JP {p}組んでもいいかな。{w}
+EN {p}{s1}
+EN Well, if we think up the
+EN team name later...{w}
+EN {p}I guess we can team up.{w}
+
+@ 0d88ac refs=1
+JP {p}{s2}
+JP やったぁ！！
+JP ウミウシーズ結成だぁ！！{w}
+EN {p}{s2}
+EN Yaaay!!
+EN The Sea Slugs are born!!{w}
+
+@ 0d88ca refs=1
+JP {p}{s1}
+JP だ～から、それは後に
+JP しよう、って！！{w}
+EN {p}{s1}
+EN I said we'd decide
+EN that later!!{w}
+
+@ 0d88e8 refs=1
+JP {p}{s2}
+JP ウミウシーズ・・
+JP かわいい名前だよねぇ。{w}
+EN {p}{s2}
+EN The Sea Slugs..
+EN Such a cute name.{w}
+
+@ 0d890b refs=1
+JP {p}{s1}
+JP あのねぇ・・・{w}
+EN {p}{s1}
+EN Listen, you...{w}
+
+@ 0d891a refs=1
+JP {p}こうして{n1}は
+JP タッグを組むことに
+JP なったのだった・・{w}
+EN {p}And so, {n1} ended
+EN up forming a tag team..{w}
+
+@ 0d8942 refs=1
+JP {p}{s1}
+JP ・・・{n2}。
+JP タッグは組めないよ。{w}
+EN {p}{s1}
+EN ...{n2}.
+EN I can't team up with you.{w}
+
+@ 0d8960 refs=1
+JP {p}{s2}
+JP え～っ、どうして！？{w}
+EN {p}{s2}
+EN Whaaat? Why not!?{w}
+
+@ 0d8974 refs=1
+JP {p}{s1}
+JP 別に{n2}と組むのが
+JP イヤとか{w}
+JP {p}そういうんじゃないけど
+JP ・・・・{w}
+JP {p}自分が一人で
+JP どこまでやれるかを
+JP 試したいんだ。{w}
+EN {p}{s1}
+EN It's not that I don't
+EN want to team with you,
+EN {n2},{w}
+EN {p}or anything like that....{w}
+EN {p}I want to see how far I
+EN can go on my own.{w}
+
+@ 0d89c4 refs=1
+JP {p}{s2}
+JP ハハ・・{w}
+JP {p}何か・・私ひとりで
+JP ハシャいじゃって・・・
+JP バカみたいだったね。{w}
+EN {p}{s2}
+EN Ha ha..{w}
+EN {p}I guess I got all excited
+EN on my own... I must have
+EN looked so silly.{w}
+
+@ 0d89fb refs=1
+JP {p}{s1}
+JP ・・・・ごめん。{w}
+EN {p}{s1}
+EN ....Sorry.{w}
+
+@ 0d8a0f refs=1
+JP {p}{s2}
+JP いいよ、気にしなくて・・{w}
+JP {p}もし、そうなったら
+JP いいなって思ってただけ
+JP だからさ。{w}
+EN {p}{s2}
+EN It's okay, don't worry..{w}
+EN {p}I just thought it'd be
+EN nice if it happened,
+EN that's all.{w}
+
+@ 0d8a4b refs=1
+JP {p}{s2}
+JP 用事あるから先に帰るね。{w}
+JP {p}じゃあ。{w}
+EN {p}{s2}
+EN I've got something to do,
+EN so I'll head back first.{w}
+EN {p}See you.{w}
+
+@ 0d8a69 refs=1
+JP {p}{n1}は、新女からの
+JP 突然の帰国要請で日本に
+JP 帰る事になった{n2}を
+JP 見送りにきていた{w}
+EN {p}{n1} came to see off
+EN {n2}, who was going
+EN home to Japan after Shinjo
+EN suddenly called her back.{w}
+
+@ 0d8aa0 refs=1
+JP {p}{s2}
+JP この前は・・・ごめんね。{w}
+EN {p}{s2}
+EN About the other day...
+EN I'm sorry.{w}
+
+@ 0d8ab9 refs=1
+JP {p}{s2}
+JP 今だから言うけど
+JP 私あの時から・・{w}
+JP {p}日本に帰るって
+JP 決まってたんだ。{w}
+EN {p}{s2}
+EN I can say it now, but
+EN back then I'd already..{w}
+EN {p}been told I was going
+EN back to Japan.{w}
+
+@ 0d8af0 refs=1
+JP {p}{s2}
+JP せっかく、友達に
+JP なれたのにね。{w}
+EN {p}{s2}
+EN Just when we'd finally
+EN become friends, too.{w}
+
+@ 0d8b0e refs=1
+JP {p}{s2}
+JP 私は日本に帰っちゃうけど
+JP {n1}は、どうするの？{w}
+JP {p}このまま、ＩＷＷＦに？{w}
+EN {p}{s2}
+EN I'm going back to Japan,
+EN but what about you,
+EN {n1}?{w}
+EN {p}Staying with the IWWF?{w}
+
+@ 0d8b45 refs=1
+JP {p}
+JP ＡＡＣに行こうと思うの
+JP ＵＳＷＡに行こうと思うの
+EN {p}
+EN I think I'll go to AAC
+EN I think I'll go to USWA
+
+@ 0d8b68 refs=1
+JP {p}{s1}
+JP メキシコに行って・・
+JP ルチャを覚えようと
+JP 思ってる。{w}
+EN {p}{s1}
+EN I'm going to Mexico..
+EN to learn lucha libre.{w}
+
+@ 0d8b90 refs=1
+JP {p}{s2}
+JP ・・・頑張ってね。{w}
+EN {p}{s2}
+EN ...Good luck.{w}
+
+@ 0d8ba4 refs=1
+JP {p}{s1}
+JP ありがとう。{w}
+EN {p}{s1}
+EN Thanks.{w}
+
+@ 0d8bb3 refs=1
+JP {p}{s2}
+JP ゴメン、もう時間だから
+JP バイバイ。{w}
+EN {p}{s2}
+EN Sorry, it's time to go.
+EN Bye-bye.{w}
+
+@ 0d8bd1 refs=1
+JP {p}５日後
+JP プロモーターに
+JP 辞表を出した{n1}は
+JP ＡＡＣへと移籍した。{w}
+EN {p}5 days later, {n1}
+EN handed her resignation to
+EN the promoter and moved
+EN to the AAC.{w}
+
+@ 0d8bfe refs=1
+JP {p}{s1}
+JP ＵＳＷＡに行こうと
+JP 思ってる。{w}
+EN {p}{s1}
+EN I'm thinking of going
+EN to the USWA.{w}
+
+@ 0d8c17 refs=1
+JP {p}{s2}
+JP 頑張ってね。{w}
+EN {p}{s2}
+EN Good luck.{w}
+
+@ 0d8c26 refs=1
+JP {p}{s1}
+JP ありがと・・・{w}
+EN {p}{s1}
+EN Thanks...{w}
+
+@ 0d8c35 refs=1
+JP {p}５日後
+JP プロモーターのもとに
+JP 一通の辞表がとどき{w}
+JP {p}{n1}はＵＳＷＡに
+JP 移籍した。{w}
+EN {p}5 days later, a letter of
+EN resignation reached the
+EN promoter,{w}
+EN {p}and {n1} moved
+EN to the USWA.{w}
+
+@ 0d8c6c refs=1
+JP {p}{n1}達にとって
+JP 久しぶりの休日。{w}
+EN {p}A day off for {n1}
+EN and friends, at long last.{w}
+
+@ 0d8c85 refs=1
+JP {p}{s2}
+JP ン～ッ、面白かったぁ！{w}
+EN {p}{s2}
+EN Mmm, that was great!{w}
+
+@ 0d8c99 refs=1
+JP {p}{s1}
+JP え、うそぉ？
+JP いまいちだったよぉ。{w}
+EN {p}{s1}
+EN Huh, seriously?
+EN I thought it was so-so.{w}
+
+@ 0d8cb7 refs=1
+JP {p}{s2}
+JP なんで、なんで！
+JP 私なんか、ボロボロに
+JP ないちゃったのに！！{w}
+EN {p}{s2}
+EN Why? Why?!
+EN I was crying my eyes out!!{w}
+
+@ 0d8ce4 refs=1
+JP {p}{s1}
+JP どうも、話がテレビと
+JP 同じじゃねぇ・・{w}
+EN {p}{s1}
+EN The story was exactly the
+EN same as the TV version...{w}
+
+@ 0d8d02 refs=1
+JP {p}{s2}
+JP それでも面白かったの！！{w}
+EN {p}{s2}
+EN I still liked it!!{w}
+
+@ 0d8d1b refs=1
+JP {p}{s1}
+JP ハイハイ。{w}
+EN {p}{s1}
+EN Yeah, yeah.{w}
+
+@ 0d8d2a refs=1
+JP {p}{s2}
+JP 何で、そんな言い方
+JP するわけ？{w}
+EN {p}{s2}
+EN Why do you have to say it
+EN like that?{w}
+
+@ 0d8d43 refs=1
+JP {p}{s1}
+JP そんなに怒らなくても
+JP いいじゃない！
+JP たかが映画じゃない？{w}
+EN {p}{s1}
+EN You don't have to get so
+EN mad! It's just a movie,
+EN isn't it?{w}
+
+@ 0d8d70 refs=1
+JP {p}{s2}
+JP もういい、私帰るから。{w}
+EN {p}{s2}
+EN Forget it, I'm going home.{w}
+
+@ 0d8d84 refs=1
+JP {p}{s1}
+JP ち、ちょっと
+JP 待ちなさいよ！！{w}
+EN {p}{s1}
+EN H-hey, wait a minute!!{w}
+
+@ 0d8d9d refs=1
+JP {p}{s1}
+JP に、してもあついわねぇ。
+JP あっ、ジュースだぁ！！{w}
+JP {p}とうがらしジュース？？
+JP サソリッチョ？？
+JP タハハハハハ・・・
+JP ジムでも探そう。{w}
+EN {p}{s1}
+EN Still, it sure is hot.
+EN Oh, juice!!{w}
+EN {p}Chili pepper juice??
+EN Scorpionade??
+EN Ahahahaha...
+EN I'll go look for a gym.{w}
+
+@ 0d8df7 refs=0
+JP {p}１時間３０分後。{w}
+EN {p}An hour and a half later.{w}
+
+@ 0d8e06 refs=1
+JP {p}ハロ～ォ！！
+JP Ｍｅがプロモーターの
+JP ザイルで～す。{w}
+JP {p}ハッハッハッハッ
+JP よろしくネ。{w}
+EN {p}Hellooo!!
+EN I'm the promoter, Zail.{w}
+EN {p}Ha ha ha ha!
+EN Nice to meet you.{w}
+
+@ 0d8e42 refs=1
+JP {p}{s1}
+JP 初めまして
+JP {player}です。
+JP よろしくお願いします。{w}
+EN {p}{s1}
+EN Nice to meet you.
+EN I'm {player}.
+EN Glad to be working here.{w}
+
+@ 0d8e65 refs=1
+JP {p}ＯＫ ＯＫ{w}
+EN {p}OK, OK.{w}
+
+@ 0d8e6f refs=1
+JP {p}外はあつかったデショ？{w}
+JP {p}ジュースでも飲んでヨ。{w}
+EN {p}Hot outside, wasn't it?{w}
+EN {p}Have some juice.{w}
+
+@ 0d8e92 refs=1
+JP {p}{s1}
+JP あ、どうもすみません。{w}
+JP {p}ハハハ・・変わった色の
+JP ジュース・・・ですね？{w}
+EN {p}{s1}
+EN Oh, thank you very much.{w}
+EN {p}Ha ha ha.. That's an
+EN unusual color for juice...
+EN isn't it?{w}
+
+@ 0d8ec9 refs=1
+JP {p}その色がポイント。
+JP とてもおいしいのネ。{w}
+EN {p}The color is the point.
+EN It's very delicious.{w}
+
+@ 0d8ee7 refs=1
+JP {p}{s1}
+JP はぁ・・・
+JP ハハハハハハ・・・{w}
+JP {p}（ハハハハハハ・・・
+JP 何でこんな色してるの？）{w}
+JP {p}（それより口にして
+JP 大丈夫なのかしら？）{w}
+EN {p}{s1}
+EN Er...
+EN Ahahahahaha...{w}
+EN {p}(Ahahahaha...
+EN Why is it that color?){w}
+EN {p}(More importantly, is it
+EN safe to put in my mouth?){w}
+
+@ 0d8f41 refs=1
+JP {p}Ｎｏ！
+JP 飲んでくれないと
+JP Ｍｅの団体には入れないヨ。{w}
+EN {p}No! If you don't drink it,
+EN you can't join my
+EN promotion.{w}
+
+@ 0d8f69 refs=1
+JP {p}チョチョやドレックも
+JP このジュース飲んで
+JP 強くなったネ。{w}
+EN {p}Chocho and Dreck drank
+EN this juice too, and they
+EN got strong.{w}
+
+@ 0d8f91 refs=1
+JP {p}
+JP グヌヌッ・・
+JP わかりました
+EN {p}
+EN Grrrgh..
+EN All right
+
+@ 0d8fa5 refs=1
+JP {p}{s1}
+JP グヌヌッ・・やっぱり
+JP 飲めません。{w}
+EN {p}{s1}
+EN Grrrgh.. I'm sorry, I just
+EN can't drink it.{w}
+
+@ 0d8fc3 refs=1
+JP {p}ＯＫネ。{w}
+EN {p}OK.{w}
+
+@ 0d8fcd refs=1
+JP {p}{s1}
+JP はい？{w}
+EN {p}{s1}
+EN Huh?{w}
+
+@ 0d8fd7 refs=1
+JP {p}Ｇｏｏｄヨ。{w}
+JP {p}人の意見に流される事ない
+JP Ｙｏｕのスタンスが
+JP 気に入ったヨ。{w}
+JP {p}Ｙｏｕさえよかったら
+JP 正統派レスラーとして
+JP 頑張ってヨ。{w}
+EN {p}Good.{w}
+EN {p}You don't get swayed by
+EN other people's opinions.
+EN I like your stance.{w}
+EN {p}If you're willing, do your
+EN best as a clean,
+EN by-the-book wrestler.{w}
+
+@ 0d9036 refs=1
+JP {p}こうして、{n1}は
+JP ＡＡＣレスラーとしての
+JP 再スタートをきった。{w}
+EN {p}And so, {n1} made a
+EN fresh start as an AAC
+EN wrestler.{w}
+
+@ 0d9063 refs=1
+JP {p}{s1}
+JP 飲ませていただきます。{w}
+JP {p}ンクッンクッ！{w}
+EN {p}{s1}
+EN I'll gladly drink it.{w}
+EN {p}Gulp, gulp!{w}
+
+@ 0d9086 refs=1
+JP {p}Ｏｈ！！
+JP マッチョロスを一気に・・{w}
+JP {p}ブラボーッ！！
+JP それを飲める人間が
+JP この世にいるなんて・・・{w}
+EN {p}Oh!! Chugging Machorros
+EN in one go..{w}
+EN {p}Bravo!! To think there's
+EN a human being in this world
+EN who can drink that...{w}
+
+@ 0d90cc refs=1
+JP {p}{s1}
+JP ！？
+JP ぐぬわあぁぁ～っ！！{w}
+EN {p}{s1}
+EN !?
+EN Gwaaaaaaargh!!{w}
+
+@ 0d90e5 refs=1
+JP {p}目的の為には
+JP 何でもするＹｏｕの
+JP そのタフなスピリッツ！！{w}
+JP {p}それこそＡＡＣのヒールに
+JP 最も必要ネ。{w}
+JP {p}ぜひともヒールとして
+JP 頑張ってヨ。{w}
+EN {p}Your tough spirit, willing
+EN to do anything to reach
+EN your goal!!{w}
+EN {p}That is exactly what an
+EN AAC heel needs most.{w}
+EN {p}Please, do your best
+EN as a heel.{w}
+
+@ 0d9144 refs=1
+JP {p}{s1}
+JP うっぎぎぎぎ・・・
+JP （気分悪いよぉ！）{w}
+EN {p}{s1}
+EN Urggggh...
+EN (I feel sick!){w}
+
+@ 0d9162 refs=1
+JP {p}ＯＫなの？{w}
+JP {p}ハッハッハッハッ！
+JP 頑張ってェネ。{w}
+EN {p}Is that OK?{w}
+EN {p}Ha ha ha ha!
+EN Good luck!{w}
+
+@ 0d9185 refs=1
+JP {p}{s1}
+JP んぐっぐっぐぐっ！！
+JP （違うんですけど！！）{w}
+EN {p}{s1}
+EN Mmgh-gh-gghh!!
+EN (That's not what I
+EN meant!!){w}
+
+@ 0d91a8 refs=1
+JP {p}こうして、悪夢のように
+JP {n1}のＡＡＣ移籍が
+JP 決まったのだった。{w}
+EN {p}And so, like a bad dream,
+EN {n1}'s move to the
+EN AAC was settled.{w}
+
+@ 0d91d5 refs=2
+JP {p}{s2}
+JP {n1}、起きろ。
+JP 何時だと思ってるんだ？{w}
+EN {p}{s2}
+EN {n1}, get up. Do you
+EN know what time it is?{w}
+
+@ 0d91f3 refs=2
+JP {p}{s1}
+JP ん、鶴見さん！！{w}
+JP {p}ハハハ・・
+JP おはようございます。{w}
+EN {p}{s1}
+EN Huh, Tsurumi!!{w}
+EN {p}Ha ha ha..
+EN Good morning.{w}
+
+@ 0d921b refs=2
+JP {p}{s1}
+JP ハハ・・・
+JP ドア開いてました？
+EN {p}{s1}
+EN Ha ha...
+EN Was the door open?
+
+@ 0d9234 refs=2
+JP {p}{s2}
+JP イヤ、開いてなかったけど
+JP ちょいと用事があったんで{w}
+JP {p}勝手に上がらして
+JP もらった。{w}
+EN {p}{s2}
+EN Nope, it wasn't, but I had
+EN a bit of business,{w}
+EN {p}so I let myself in.{w}
+
+@ 0d9270 refs=2
+JP {p}{s1}
+JP は、はぁ・・・
+JP （人がねてる間に
+JP  勝手に入んないでよ！！）{w}
+EN {p}{s1}
+EN Uh, I see...
+EN (Don't just barge in while
+EN  people are asleep!!){w}
+
+@ 0d929d refs=2
+JP {p}{s1}
+JP 話ってなんですか？{w}
+EN {p}{s1}
+EN What did you want to talk
+EN about?{w}
+
+@ 0d92b1 refs=2
+JP {p}{s2}
+JP 次期シリーズなんだが{w}
+JP {p}ＵＳタッグに
+JP 挑戦するよ。{w}
+EN {p}{s2}
+EN About the next series.{w}
+EN {p}We're challenging for the
+EN US Tag titles.{w}
+
+@ 0d92d9 refs=2
+JP {p}{s2}
+JP 何だい？{w}
+JP {p}私の決めた事が、気に
+JP 入らないって顔してるねェ。{w}
+EN {p}{s2}
+EN What's that?{w}
+EN {p}You've got a face that
+EN says you don't like my
+EN decision.{w}
+
+@ 0d9306 refs=2
+JP {p}{s1}
+JP いえ！
+JP そんな事ないです！！{w}
+EN {p}{s1}
+EN No! Not at all!!{w}
+
+@ 0d931f refs=2
+JP {p}{s1}
+JP すみません。{w}
+EN {p}{s1}
+EN I'm sorry.{w}
+
+@ 0d932e refs=2
+JP {p}{s2}
+JP しかし最近の新人は
+JP 先輩が来ても、コーヒーも
+JP 出さないのかねぇ・・・{w}
+JP {p}私が新人の頃とは
+JP 大違いだ。{w}
+EN {p}{s2}
+EN Rookies these days don't
+EN even serve coffee when a
+EN senpai comes over, huh...{w}
+EN {p}Things sure were different
+EN when I was a rookie.{w}
+
+@ 0d9374 refs=2
+JP {p}{s1}
+JP すみません！
+JP 今、何か・・・{w}
+EN {p}{s1}
+EN I'm sorry!
+EN I'll get something now...{w}
+
+@ 0d938d refs=2
+JP {p}{s2}
+JP いらねぇ。{w}
+EN {p}{s2}
+EN Don't want any.{w}
+
+@ 0d939c refs=2
+JP {p}{s1}
+JP えっ？
+JP いいんですか？{w}
+EN {p}{s1}
+EN Huh? Are you sure?{w}
+
+@ 0d93b0 refs=2
+JP {p}{s2}
+JP 同じ事を、二度も
+JP 言わせるなや。
+JP いらねぇんだよ！！{w}
+EN {p}{s2}
+EN Don't make me say the same
+EN thing twice.
+EN I said I don't want any!!{w}
+
+@ 0d93d8 refs=1
+JP {p}{s1}
+JP ・・・・
+JP （いらないなら初めから
+JP  言うなっての！！！ ）{w}
+EN {p}{s1}
+EN ....
+EN (Then why bring it up in
+EN  the first place!!!){w}
+
+@ 0d9405 refs=1
+JP {p}{s2}
+JP じゃあな。{w}
+EN {p}{s2}
+EN See ya.{w}
+
+@ 0d9414 refs=2
+JP {p}{s1}
+JP えっ、もう帰るんですか？{w}
+EN {p}{s1}
+EN Huh, you're leaving
+EN already?{w}
+
+@ 0d942d refs=2
+JP {p}{s2}
+JP あぁ・・・{w}
+JP {p}っと、帰る前に一言だけ
+JP 言っとく。{w}
+EN {p}{s2}
+EN Yeah...{w}
+EN {p}Oh, one thing before I go.{w}
+
+@ 0d9455 refs=1
+JP {p}{s2}
+JP 試合で恥をかきたく
+JP ないんなら、死んでも
+JP 私をサポートするんだ。{w}
+JP {p}いいね？{w}
+EN {p}{s2}
+EN If you don't want to be
+EN humiliated in the match,
+EN support me or die trying.{w}
+EN {p}Got it?{w}
+
+@ 0d948c refs=2
+JP {p}{s1}
+JP は、はぁ・・{w}
+EN {p}{s1}
+EN Uh, um..{w}
+
+@ 0d949b refs=2
+JP {p}{s2}
+JP 返事は
+JP 「ハイ」だ！！{w}
+EN {p}{s2}
+EN The answer is "Yes"!!{w}
+
+@ 0d94af refs=2
+JP {p}{s1}
+JP ハ、ハイ！！{w}
+EN {p}{s1}
+EN Y-yes!!{w}
+
+@ 0d94be refs=2
+JP {p}{s2}
+JP じゃましたな。
+JP コーヒー、おいしかったよ。{w}
+EN {p}{s2}
+EN Sorry for barging in.
+EN The coffee was great.{w}
+
+@ 0d94e1 refs=0
+JP {p}{s3}バタン！！！{w}
+EN {p}{s3}SLAM!!!{w}
+
+@ 0d94f0 refs=1
+JP {p}ＵＳタッグ防衛から
+JP １週間後・・・{w}
+EN {p}One week after the
+EN US Tag title defense...{w}
+
+@ 0d9509 refs=1
+JP {p}{s2}
+JP 違うっ！{w}
+JP {p}そうじゃないだろうが？
+JP 何度やったら覚えんだ！！
+JP このグズが！！！{w}
+EN {p}{s2}
+EN Wrong!{w}
+EN {p}That's not it, is it?
+EN How many times must I
+EN show you?! You slowpoke!!!{w}
+
+@ 0d9545 refs=1
+JP {p}{s1}
+JP はぁっ、はぁ・
+JP そんな事、言われても
+JP はあっ、はあ・・・・{w}
+EN {p}{s1}
+EN Hah, hah.
+EN Even if you say that...
+EN hah, hah....{w}
+
+@ 0d9572 refs=1
+JP {p}{s2}
+JP いいか{n1}！！
+JP 一人前に闘おうなんて
+JP 考えるな！！！{w}
+JP {p}お前は、私を
+JP サポートする事だけを
+JP 考えればいいんだよ！！{w}
+EN {p}{s2}
+EN Listen, {n1}!!
+EN Don't go thinking you can
+EN fight like a pro!!!{w}
+EN {p}All you need to think
+EN about is supporting me!!{w}
+
+@ 0d95c2 refs=1
+JP {p}{s1}
+JP サポート、サポートって。{w}
+JP {p}私は、鶴見さんの
+JP パートナーなんでしょ？{w}
+EN {p}{s1}
+EN Support, support...{w}
+EN {p}I'm your partner,
+EN aren't I, Tsurumi?{w}
+
+@ 0d95f4 refs=1
+JP {p}{s2}
+JP クックック・・笑わせんな。{w}
+JP {p}お前みたいなヒヨッコが
+JP パートナーだって？
+JP １００年早いんだよ。{w}
+EN {p}{s2}
+EN Heh heh heh.. Don't make
+EN me laugh.{w}
+EN {p}A fledgling like you,
+EN my partner? You're 100
+EN years too early.{w}
+
+@ 0d963a refs=1
+JP {p}{s1}
+JP ・・・・・・・・・・
+JP ・・・・・ありがとう。{w}
+JP {p}あなたの事を、先輩だと
+JP パートナーだと
+JP 思ってたけど・・ようやく
+JP わかったわ・・・{w}
+JP {p}鶴見さん、いや
+JP 鶴見 さやか！
+JP 次のシリーズで勝負だ！！{w}
+EN {p}{s1}
+EN ..........
+EN .....Thanks.{w}
+EN {p}I thought of you as my
+EN senpai, my partner.. but
+EN now I finally get it...{w}
+EN {p}Tsurumi.. no,
+EN Sayaka Tsurumi!
+EN Next series, it's you
+EN and me!!{w}
+
+@ 0d96bc refs=1
+JP {p}{s2}
+JP ふざけんなよコラ！{w}
+JP {p}ヒヨッコのくせに
+JP 勝負だとぉ？{w}
+EN {p}{s2}
+EN Quit messing around, you!{w}
+EN {p}A fledgling like you wants
+EN to take me on?{w}
+
+@ 0d96e4 refs=1
+JP {p}{s1}
+JP ふざけてなんかいない！
+JP あなたとのコンビは
+JP 今すぐ解消よ！！{w}
+EN {p}{s1}
+EN I'm not messing around!
+EN Our team is finished,
+EN as of right now!!{w}
+
+@ 0d9711 refs=2
+JP {p}{s2}
+JP てぇめぇ！！
+JP 誰のおかげでベルトを
+JP 手にできたと思ってる？{w}
+EN {p}{s2}
+EN Why, you!! Who do you
+EN think got you that belt?{w}
+
+@ 0d973e refs=2
+JP {p}{s1}
+JP あなたの力じゃないのは
+JP 確かだわね！！{w}
+EN {p}{s1}
+EN It sure wasn't you!!{w}
+
+@ 0d975c refs=1
+JP {p}{s2}
+JP サポートも一人前に
+JP 出来ないガキが
+JP 生意気言うじゃないか？{w}
+EN {p}{s2}
+EN Pretty cheeky talk from a
+EN brat who can't even do
+EN support right, huh?{w}
+
+@ 0d9789 refs=1
+JP {p}{s2}
+JP それとも何か？{w}
+JP {p}頭悪りぃから、自分が
+JP 足手まといなのが
+JP わかんねぇか？{w}
+EN {p}{s2}
+EN Or what?{w}
+EN {p}Are you too dumb to see
+EN that you're the one
+EN holding us back?{w}
+
+@ 0d97c0 refs=1
+JP {p}{s1}
+JP 足手まといは
+JP 私じゃなくてあなたよ！
+JP あなた！！{w}
+EN {p}{s1}
+EN I'm not the one holding us
+EN back, you are!
+EN YOU!!{w}
+
+@ 0d97e8 refs=1
+JP {p}{s2}
+JP の、やろぉぉ、言わせて
+JP おけば！！{w}
+EN {p}{s2}
+EN Why you little...!
+EN I've heard enough!!{w}
+
+@ 0d9806 refs=1
+JP {p}{s1}
+JP 鶴見 さやか。
+JP あなたをツブしてあげる！！{w}
+EN {p}{s1}
+EN Sayaka Tsurumi.
+EN I'm going to crush you!!{w}
+
+@ 0d9829 refs=1
+JP {p}{s2}
+JP 返りうちにしてやるさ。{w}
+EN {p}{s2}
+EN I'll send you right back
+EN where you came from.{w}
+
+@ 0d983d refs=1
+JP {p}{s1}
+JP 残念だけど、私は
+JP あんたなんかに
+JP 負けたりしないわよ！！{w}
+EN {p}{s1}
+EN Sorry, but I'm not going
+EN to lose to the likes of
+EN you!!{w}
+
+@ 0d986a refs=1
+JP {p}鶴見との勝負に
+JP 勝利をおさめた{n1}は
+JP プロモーターに
+JP 呼び出されていた{w}
+EN {p}After winning her showdown
+EN with Tsurumi, {n1}
+EN was called in by the
+EN promoter.{w}
+
+@ 0d989c refs=1
+JP {p}すばらしいヨ。
+JP {n1}の実力は
+JP まぎれもなく本物ネ。{w}
+EN {p}Wonderful.
+EN {n1}, your skill is
+EN the real thing, no doubt.{w}
+
+@ 0d98bf refs=1
+JP {p}{s1}
+JP ありがとうございます。{w}
+EN {p}{s1}
+EN Thank you very much.{w}
+
+@ 0d98d3 refs=1
+JP {p}ところで{n1}。
+JP 先日、またＹｏｕの国から
+JP 帰国要請が来たのヨ。{w}
+JP {p}Ｍｅとしては
+JP 残ってもらいたいと
+JP 思ってるんだけど・・{w}
+EN {p}By the way, {n1}.
+EN The other day, your country
+EN asked for you back again.{w}
+EN {p}Personally, I'd like you
+EN to stay, but..{w}
+
+@ 0d9923 refs=1
+JP {p}{s1}
+JP どうしようかなぁ。{w}
+EN {p}{s1}
+EN What should I do...{w}
+
+@ 0d9937 refs=1
+JP {p}Ｙｏｕの為に鶴見には
+JP 辞めてもらうんだから
+JP 残ってヨ。{w}
+EN {p}I'm letting Tsurumi go for
+EN your sake, so please stay.{w}
+
+@ 0d995f refs=1
+JP {p}{s1}
+JP 鶴見さんに！？{w}
+EN {p}{s1}
+EN Tsurumi?!{w}
+
+@ 0d996e refs=1
+JP {p}Ｍｅだって、鶴見の新人を
+JP 強くしてやりたい気持ちは
+JP わかるヨ。{w}
+JP {p}わかるけど、教え方が
+JP きびしすぎるヨ。{w}
+JP {p}不器用というか
+JP なんというか・・・
+JP あれじゃ、新人達が
+JP 辞めていくのも・・{w}
+EN {p}I understand that Tsurumi
+EN wants to make the rookies
+EN stronger.{w}
+EN {p}I understand, but she's
+EN far too harsh with them.{w}
+EN {p}She's clumsy, or how do
+EN I say it... With her like
+EN that, no wonder the rookies
+EN keep quitting..{w}
+
+@ 0d99e6 refs=1
+JP {p}{s1}
+JP 鶴見さんが・・・
+JP ・・・・・・・・・{w}
+EN {p}{s1}
+EN Tsurumi...
+EN .........{w}
+
+@ 0d9a04 refs=1
+JP {p}{s1}
+JP わたし帰ります。{w}
+EN {p}{s1}
+EN I'm going home.{w}
+
+@ 0d9a18 refs=1
+JP {p}どうしてヨ？{w}
+JP {p}鶴見には、辞めて
+JP もらうのヨ。
+JP 他に何かイヤな事でもある？{w}
+EN {p}Why?{w}
+EN {p}Tsurumi is leaving.
+EN Is something else bothering
+EN you?{w}
+
+@ 0d9a4f refs=1
+JP {p}{s1}
+JP 私、今まで鶴見さんの
+JP 本当の気持ちが
+JP わかりませんでした。{w}
+JP {p}鶴見さんが、わざと
+JP きびしくしてるなんて・・{w}
+JP {p}だから、鶴見さんを
+JP 辞めさせてまで、私が
+JP 残るなんて事は・・・{w}
+EN {p}{s1}
+EN Until now I never
+EN understood how Tsurumi
+EN really felt.{w}
+EN {p}That she was being hard on
+EN me on purpose..{w}
+EN {p}So for me to stay here by
+EN getting her fired...{w}
+
+@ 0d9ac7 refs=1
+JP {p}{s1}
+JP だからお願いです。
+JP 鶴見さんを、辞めさせたり
+JP しないで下さい。{w}
+EN {p}{s1}
+EN So please. Don't let
+EN Tsurumi go.{w}
+
+@ 0d9af4 refs=1
+JP {p}どうしてヨ？{w}
+EN {p}Why?{w}
+
+@ 0d9b03 refs=1
+JP {p}{s1}
+JP そりゃ、鶴見さんの
+JP 教え方はきびしいです。{w}
+JP {p}けど、それが私達を
+JP 思っての事なら・・・{w}
+JP {p}これからの新人達の
+JP 為にもお願いします。
+JP 鶴見さんを、辞めさせたり
+JP しないで下さい。{w}
+EN {p}{s1}
+EN Sure, Tsurumi's way of
+EN teaching is harsh.{w}
+EN {p}But if she's doing it for
+EN our sake...{w}
+EN {p}Please, for the rookies
+EN still to come.
+EN Don't let Tsurumi go.{w}
+
+@ 0d9b7b refs=1
+JP {p}ＯＫ{w}
+JP {p}わかったヨ。
+JP Ｙｏｕの顔を立てて
+JP 鶴見には残ってもらうヨ。{w}
+EN {p}OK.{w}
+EN {p}I understand. For your
+EN sake, I'll keep Tsurumi on.{w}
+
+@ 0d9bad refs=1
+JP {p}{s1}
+JP ありがとうございます！{w}
+EN {p}{s1}
+EN Thank you so much!{w}
+
+@ 0d9bc1 refs=1
+JP {p}{n1}の頼みなら
+JP 仕方ないからネ。{w}
+JP {p}ま、鶴見の事は
+JP 任せといてヨ。{w}
+EN {p}If {n1} asks,
+EN what can I do?{w}
+EN {p}Well, leave Tsurumi
+EN to me.{w}
+
+@ 0d9bee refs=1
+JP {p}３日後。{w}
+EN {p}3 days later.{w}
+
+@ 0d9bf8 refs=1
+JP {p}{s1}
+JP ふあぁっ・・ヒマだわ・・
+JP 早く来すぎたかしら。{w}
+EN {p}{s1}
+EN Yaaawn.. I'm so bored..
+EN Maybe I came too early.{w}
+
+@ 0d9c1b refs=1
+JP {p}{s3}
+JP {n1}、すまなかった。{w}
+JP {p}私が残れるように
+JP 頼んでくれたんだってね。{w}
+EN {p}{s3}
+EN {n1}, I'm sorry.{w}
+EN {p}I hear you asked them
+EN to let me stay.{w}
+
+@ 0d9c4d refs=1
+JP {p}{s1}
+JP す、すみませんでした。{w}
+JP {p}私、鶴見さんの考えとか
+JP 気持ちとか・・・
+JP わかんなくて・・・・{w}
+JP {p}鶴見さんが、私の為に
+JP きびしくしてくれてた
+JP なんて・・・{w}
+EN {p}{s1}
+EN I-I'm the one who's sorry.{w}
+EN {p}I didn't understand what
+EN you were thinking, or how
+EN you felt....{w}
+EN {p}That you were being hard
+EN on me for my own good...{w}
+
+@ 0d9cb6 refs=1
+JP {p}{s3}
+JP そんな事より
+JP 大事な話がある。{w}
+JP {p}ワールド所属の
+JP 私にゃ関係ないんだが
+JP お前はそうはいかないんだ。{w}
+EN {p}{s3}
+EN Never mind that. I've got
+EN something important to
+EN say.{w}
+EN {p}It's no concern of mine,
+EN since I'm in World Joshi,
+EN but it does concern you.{w}
+
+@ 0d9cfc refs=1
+JP {p}{s1}
+JP どうかしたんです？{w}
+EN {p}{s1}
+EN What happened?{w}
+
+@ 0d9d10 refs=1
+JP {p}{s3}
+JP ブレード上原が{w}
+JP {p}失踪した。{w}
+EN {p}{s3}
+EN Blade Uehara...{w}
+EN {p}has disappeared.{w}
+
+@ 0d9d29 refs=1
+JP {p}{s1}
+JP どうして！{w}
+EN {p}{s1}
+EN Why?!{w}
+
+@ 0d9d38 refs=1
+JP {p}{s3}
+JP わからん。{w}
+JP {p}突然ハニーバーズの
+JP 解散を宣言して
+JP そのまま・・・{w}
+EN {p}{s3}
+EN No idea.{w}
+EN {p}She suddenly announced the
+EN Honey Birds were splitting
+EN up, and then just...{w}
+
+@ 0d9d6a refs=1
+JP {p}上原の失踪、そして
+JP ハニーバーズの解散{w}
+JP {p}{n1}のいない日本で
+JP 日本プロレス界が
+JP 変わろうとしていた。{w}
+EN {p}Uehara's disappearance, and
+EN the Honey Birds' breakup...{w}
+EN {p}In Japan, without
+EN {n1}, the wrestling
+EN world was about to change.{w}
+
+@ 0d9db0 refs=1
+JP {p}{s1}
+JP プフゥ～ッ・・{w}
+JP {p}やっと、今日の練習が
+JP 終わったわ。{w}
+EN {p}{s1}
+EN Phewww..{w}
+EN {p}Today's training is
+EN finally over.{w}
+
+@ 0d9dd8 refs=1
+JP {p}{s2}
+JP どう、調子は？{w}
+EN {p}{s2}
+EN How are you feeling?{w}
+
+@ 0d9de7 refs=1
+JP {p}{s1}
+JP 最高ですよ。
+JP 自分のイメージ通りに
+JP 体が動く、って感じで。{w}
+JP {p}今ならきっと、誰と
+JP 闘っても勝てるかな。{w}
+JP {p}なぁんて、ハハハハ・・・{w}
+EN {p}{s1}
+EN Great. My body moves just
+EN the way I picture it.{w}
+EN {p}Right now I feel like I
+EN could beat anyone I fight.{w}
+EN {p}Just kidding, ha ha ha...{w}
+
+@ 0d9e41 refs=1
+JP {p}{s2}
+JP なるほどね・・{w}
+EN {p}{s2}
+EN I see..{w}
+
+@ 0d9e50 refs=1
+JP {p}{s1}
+JP どうしたんです急に？{w}
+EN {p}{s1}
+EN What's wrong, all of a
+EN sudden?{w}
+
+@ 0d9e64 refs=1
+JP {p}{s2}
+JP 気にしないで、何でも
+JP ないわ。{w}
+EN {p}{s2}
+EN Don't worry, it's nothing.{w}
+
+@ 0d9e7d refs=1
+JP {p}{s1}
+JP いやだなぁ小松先輩。
+JP さっきのは冗談なんですよ。{w}
+JP {p}気にしないで下さいよぉ。{w}
+EN {p}{s1}
+EN Come on, Komatsu-senpai.
+EN I was only joking.{w}
+EN {p}Don't take it seriously.{w}
+
+@ 0d9eb4 refs=1
+JP {p}{s2}
+JP わかってるわよ。{w}
+JP {p}さてと、帰るとするか。{w}
+EN {p}{s2}
+EN I know.{w}
+EN {p}Well, time to head home.{w}
+
+@ 0d9ed7 refs=1
+JP {p}{s2}
+JP じゃね、{n1}。
+JP おやすみ・・{w}
+EN {p}{s2}
+EN See you, {n1}.
+EN Good night..{w}
+
+@ 0d9ef0 refs=1
+JP {p}小松との試合は
+JP 見事、{n1}の
+JP 勝利におわった。{w}
+JP {p}だが、その代償として
+JP ２週間の入院を
+JP 言いわたされたのだった。{w}
+EN {p}The match against Komatsu
+EN ended in a fine victory
+EN for {n1}.{w}
+EN {p}But the price was a
+EN 2-week hospital stay.{w}
+
+@ 0d9f3b refs=1
+JP {p}{s1}
+JP あと３日で退院かぁ・・{w}
+JP {p}意外と長かったなぁ。{w}
+EN {p}{s1}
+EN 3 more days till I'm out..{w}
+EN {p}It felt longer than
+EN I expected.{w}
+
+@ 0d9f63 refs=1
+JP {p}
+JP オーッホッホッホッ！
+JP 無様なかっこうですわね
+JP {n1}さん。{w}
+EN {p}
+EN Oh-ho-ho-ho!
+EN What a sorry state you're
+EN in, {n1}.{w}
+
+@ 0d9f8b refs=1
+JP {p}{s1}
+JP 良美。{w}
+JP {p}市ヶ谷のマネだけは
+JP やめた方がいいわよ。{w}
+JP {p}バカになるから。{w}
+EN {p}{s1}
+EN Yoshimi.{w}
+EN {p}You'd better stop doing
+EN your Ichigaya impression.{w}
+EN {p}You'll turn into an idiot.{w}
+
+@ 0d9fc2 refs=1
+JP {p}{s2}
+JP えへっ、ばれてた？{w}
+EN {p}{s2}
+EN Hee hee, figured me out?{w}
+
+@ 0d9fd6 refs=1
+JP {p}{s1}
+JP そりゃあねぇ。
+JP 本物の市ヶ谷は、もっと
+JP イヤミたっぷりだもの。{w}
+JP {p}それより、今日は
+JP どうしたの？{w}
+EN {p}{s1}
+EN Of course. The real
+EN Ichigaya's way more snide.{w}
+EN {p}Anyway, what brings you
+EN here today?{w}
+
+@ 0da01c refs=1
+JP {p}{s2}
+JP たまには、みんなの
+JP 闘いっぷりを教えて
+JP あげようと思ってね。{w}
+JP {p}えっとねぇ、祐希子が
+JP ＩＷＷＦＪｒのベルトを
+JP 取ってぇ・・・{w}
+JP {p}それでぇ、市ヶ谷が
+JP ＥＷＡのリーグで３位・・
+JP だったかな。{w}
+EN {p}{s2}
+EN I thought I'd tell you how
+EN everyone's been doing, for
+EN a change.{w}
+EN {p}Let's see, Yukiko took the
+EN IWWF Jr. belt...{w}
+EN {p}And then Ichigaya was 3rd
+EN in the EWA league..
+EN I think.{w}
+
+@ 0da099 refs=1
+JP {p}{s1}
+JP それだったら、私だって
+JP 大したものじゃない？
+JP 小松先輩に勝ったもの。{w}
+JP {p}ま、結果はこんなだけど。{w}
+EN {p}{s1}
+EN Then I've done pretty well
+EN myself, haven't I? I beat
+EN Komatsu-senpai.{w}
+EN {p}Even if this is how it
+EN ended up.{w}
+
+@ 0da0df refs=1
+JP {p}{s2}
+JP フフッ、それもそだね。{w}
+EN {p}{s2}
+EN Heh, I guess that's true.{w}
+
+@ 0da0f3 refs=1
+JP {p}{s1}
+JP そういう事。{w}
+EN {p}{s1}
+EN Exactly.{w}
+
+@ 0da102 refs=1
+JP {p}５０６の
+JP {n1}さん、お電話です。{w}
+JP {p}５０６の
+JP {n1}さん、お電話です。{w}
+EN {p}Room 506, {n1},
+EN you have a phone call.{w}
+EN {p}Room 506, {n1},
+EN you have a phone call.{w}
+
+@ 0da12f refs=1
+JP {p}{s1}
+JP 悪いけどお願い。{w}
+EN {p}{s1}
+EN Sorry, could you get it?{w}
+
+@ 0da143 refs=1
+JP {p}{s2}
+JP 行って来るね。{w}
+EN {p}{s2}
+EN Be right back.{w}
+
+@ 0da152 refs=1
+JP {p}{s1}
+JP 祐希子が、ＩＷＷＦＪｒの
+JP 王者で、市ヶ谷が・・・・{w}
+JP {p}・・・・市ヶ谷が・・
+JP まあ、いいか。{w}
+JP {p}みんな頑張ってるなぁ。
+JP 私もこんな所で、ゆっくり
+JP してられないわねぇ・・・{w}
+EN {p}{s1}
+EN Yukiko is IWWF Jr. champ,
+EN and Ichigaya...{w}
+EN {p}....Ichigaya was..
+EN Oh, whatever.{w}
+EN {p}Everyone's working hard.
+EN I can't just lie around
+EN here either...{w}
+
+@ 0da1c5 refs=1
+JP {p}{s1}
+JP ここを出たら
+JP 頑張ってトレーニング
+JP しなくちゃ。{w}
+EN {p}{s1}
+EN Once I get out of here,
+EN I've got to train hard.{w}
+
+@ 0da1ed refs=1
+JP {p}{s2}
+JP 大変よ{n1}！{w}
+EN {p}{s2}
+EN {n1}, it's terrible!{w}
+
+@ 0da1fc refs=1
+JP {p}{s2}
+JP 上原さんが、上原さんが・・{w}
+EN {p}{s2}
+EN Uehara, Uehara..{w}
+
+@ 0da215 refs=1
+JP {p}{s2}
+JP ハニーバーズを解散させて
+JP 失踪した、って！！{w}
+EN {p}{s2}
+EN They say she broke up the
+EN Honey Birds and vanished!!{w}
+
+@ 0da238 refs=1
+JP {p}{s1}
+JP 上原さんが失踪！！
+JP ウソでしょ？{w}
+EN {p}{s1}
+EN Uehara vanished?!
+EN You're kidding, right?{w}
+
+@ 0da256 refs=1
+JP {p}{s2}
+JP ほんとだよ！{w}
+JP {p}だって、理沙子さんが
+JP そう言ってたんだもん！！{w}
+EN {p}{s2}
+EN It's true!{w}
+EN {p}Risako said so herself!!{w}
+
+@ 0da288 refs=0
+JP {p}{s1}
+JP どうして？{w}
+EN {p}{s1}
+EN Why?{w}
+
+@ 0da297 refs=0
+JP {p}{s2}
+JP あ～ん。
+JP そんなの私に聞かれても
+JP わかんないよ～ぉ！！{w}
+EN {p}{s2}
+EN Waaah. How should I know?!
+EN Don't ask me!!{w}
+
+@ 0da2bf refs=1
+JP {p}{s1}
+JP 社長に聞いてみるしか
+JP ないわね。{w}
+EN {p}{s1}
+EN We'll just have to ask
+EN the President.{w}
+
+@ 0da2dd refs=1
+JP {p}{s2}
+JP でも、そのケガじゃ。{w}
+EN {p}{s2}
+EN But with that injury...{w}
+
+@ 0da2f1 refs=1
+JP {p}{s1}
+JP そんな事、言ってらんない。{w}
+JP {p}さ、良美。
+JP 行くよ！！{w}
+EN {p}{s1}
+EN This is no time to worry
+EN about that.{w}
+EN {p}Come on, Yoshimi.
+EN Let's go!!{w}
+
+@ 0da319 refs=1
+JP {p}{n1}さん。
+JP どうですか？{w}
+EN {p}{n1}.
+EN How are you feeling?{w}
+
+@ 0da32d refs=1
+JP {p}{s1}
+JP 調子いいから
+JP 帰る、って先生に
+JP 言っといて。{w}
+EN {p}{s1}
+EN Tell the doctor I'm fine,
+EN so I'm going home.{w}
+
+@ 0da350 refs=1
+JP {p}えっ？
+JP ちょ、{n1}さん！！{w}
+EN {p}What?
+EN W-wait, {n1}!!{w}
+
+@ 0da364 refs=1
+JP {p}{s1}
+JP どういう事なんですか
+JP 上原さんが失踪なんて！！{w}
+EN {p}{s1}
+EN What's going on?
+EN Uehara disappeared?!{w}
+
+@ 0da387 refs=1
+JP {p}上原は・・・{w}
+JP {p}「自分を見つめ直したい。
+JP  私の求めるプロレスは
+JP  ここにはないから。」{w}
+JP {p}そう言って、私に辞表を
+JP 出したよ。
+JP それ以外の事はわからん。
+JP あいつの気持ちも含めてな。{w}
+EN {p}Uehara...{w}
+EN {p}"I want to take a hard
+EN  look at myself. The wrestling
+EN  I want isn't here."{w}
+EN {p}She said that and handed
+EN me her resignation.
+EN That's all I know.
+EN Not even how she felt.{w}
+
+@ 0da3ff refs=1
+JP {p}{s1}
+JP ・・・・{w}
+EN {p}{s1}
+EN ....{w}
+
+@ 0da40e refs=1
+JP {p}{s2}
+JP {n1}、大変よぉ！
+JP たいへん、たいへん！！{w}
+EN {p}{s2}
+EN {n1}, it's bad!
+EN Really, really bad!!{w}
+
+@ 0da42c refs=1
+JP {p}{s2}
+JP ハニーバーズが
+JP 解散させられるって！！{w}
+EN {p}{s2}
+EN They say the Honey Birds
+EN are being broken up!!{w}
+
+@ 0da44a refs=1
+JP {p}{s1}
+JP どういう事！！{w}
+EN {p}{s1}
+EN What do you mean?!{w}
+
+@ 0da459 refs=1
+JP {p}{s2}
+JP わかんないよ！
+JP とにかく、今日づけで
+JP 解散だって！！{w}
+EN {p}{s2}
+EN I don't know! Anyway,
+EN they're breaking up as of
+EN today!!{w}
+
+@ 0da481 refs=1
+JP {p}{s1}
+JP 社長に話を聞くしか
+JP ないわね。{w}
+EN {p}{s1}
+EN We'll have to hear it from
+EN the President.{w}
+
+@ 0da49a refs=1
+JP {p}{s2}
+JP でも、そのケガじゃ。{w}
+EN {p}{s2}
+EN But with that injury...{w}
+
+@ 0da4ae refs=1
+JP {p}{s1}
+JP そんな事
+JP 言ってらんないよ！！{w}
+JP {p}良美、行くよ！！{w}
+EN {p}{s1}
+EN This is no time to worry
+EN about that!!{w}
+EN {p}Yoshimi, let's go!!{w}
+
+@ 0da4d6 refs=1
+JP {p}{n1}さん。
+JP どうですか？{w}
+EN {p}{n1}.
+EN How are you feeling?{w}
+
+@ 0da4ea refs=1
+JP {p}{s1}
+JP 調子いいから
+JP 帰るって、先生に
+JP 言っといて。{w}
+EN {p}{s1}
+EN Tell the doctor I'm fine,
+EN so I'm going home.{w}
+
+@ 0da50d refs=1
+JP {p}えっ？！
+JP {n1}さん！！{w}
+EN {p}What?!
+EN {n1}!!{w}
+
+@ 0da521 refs=1
+JP {p}{s1}
+JP どういう事なんですか！！
+JP ハニーバーズが解散なんて？{w}
+EN {p}{s1}
+EN What's going on?!
+EN The Honey Birds are
+EN breaking up?{w}
+
+@ 0da549 refs=1
+JP {p}君達には・・・
+JP 言いにくい事だが・・・{w}
+JP {p}上原が失踪した。{w}
+EN {p}This is hard to say to
+EN you girls, but...{w}
+EN {p}Uehara has disappeared.{w}
+
+@ 0da576 refs=1
+JP {p}{s1}
+JP えぇっ！！{w}
+EN {p}{s1}
+EN What?!!{w}
+
+@ 0da585 refs=1
+JP {p}{s1}
+JP ハニーバーズの解散も
+JP 上原さんの失踪が？{w}
+EN {p}{s1}
+EN The Honey Birds splitting
+EN up... is that because
+EN Uehara disappeared too?{w}
+
+@ 0da5a8 refs=1
+JP {p}残念だが
+JP ハニーバーズの解散は・・{w}
+JP {p}上原自身が決めた事だ。{w}
+EN {p}I'm afraid breaking up the
+EN Honey Birds..{w}
+EN {p}was Uehara's own decision.{w}
+
+@ 0da5d5 refs=1
+JP {p}それが、どういう事か
+JP わからない。{w}
+JP {p}だが、今回の失踪も
+JP ハニーバーズの解散も
+JP 上原なりの考えが
+JP あっての事だろう。{w}
+EN {p}What it means, I can't
+EN say.{w}
+EN {p}But both her disappearance
+EN and the Honey Birds' breakup
+EN must have her own reasons
+EN behind them.{w}
+
+@ 0da625 refs=1
+JP {p}{s2}
+JP そんな・・・{w}
+EN {p}{s2}
+EN No way...{w}
+
+@ 0da634 refs=1
+JP {p}とにかく
+JP ハニーバーズは、本日を
+JP もって解散する。
+JP 以上だ。{w}
+EN {p}In any case, as of today
+EN the Honey Birds are
+EN disbanded.
+EN That is all.{w}
+
+@ 0da661 refs=2
+JP {p}上原の失踪と
+JP ハニーバーズの解散
+JP それは、新なる新女神話の
+JP プロローグでしかなかった{w}
+EN {p}Uehara's disappearance and
+EN the Honey Birds' breakup
+EN were only the prologue to a
+EN new Shinjo legend.{w}
+
+@ 0da69d refs=1
+JP {p}{s1}
+JP う～ん・・・
+JP やっぱり、あの技は
+JP 最初に・・{w}
+EN {p}{s1}
+EN Hmmm...
+EN I really should open with
+EN that move..{w}
+
+@ 0da6c0 refs=1
+JP {p}{s1}
+JP あ、でもなぁ・・・{w}
+EN {p}{s1}
+EN Oh, but then again...{w}
+
+@ 0da6d4 refs=1
+JP {p}{s2}
+JP あのぉ・・{w}
+EN {p}{s2}
+EN Um..{w}
+
+@ 0da6e3 refs=1
+JP {p}{s1}
+JP それとも、あれかなぁ・・{w}
+EN {p}{s1}
+EN Or maybe that one..{w}
+
+@ 0da6fc refs=1
+JP {p}{s2}
+JP すみません！！{w}
+EN {p}{s2}
+EN Excuse me!!{w}
+
+@ 0da70b refs=1
+JP {p}{s1}
+JP わあぁぁぁぁっ！！{w}
+JP {p}{n2}さん、びっくり
+JP させないでよ。{w}
+EN {p}{s1}
+EN Waaaaaah!!{w}
+EN {p}{n2}, don't scare
+EN me like that.{w}
+
+@ 0da738 refs=1
+JP {p}{s2}
+JP {n1}さんお願いします。{w}
+JP {p}私とタッグを組んで・・
+JP パ、パ、パートナーに
+JP なって下さい！{w}
+EN {p}{s2}
+EN {n1}, please.{w}
+EN {p}Form a tag team with me..
+EN Be my p-p-partner!{w}
+
+@ 0da774 refs=1
+JP {p}{s1}
+JP 突然、そう言われてもなぁ。
+JP う～ん・・・・{w}
+EN {p}{s1}
+EN That's kind of sudden.
+EN Hmmm....{w}
+
+@ 0da797 refs=1
+JP {p}
+JP 組んでみるか
+JP タッグねぇ・・・
+EN {p}
+EN Let's give it a try
+EN A tag team, huh...
+
+@ 0da7b0 refs=1
+JP {p}{s1}
+JP いいわよ。{w}
+JP {p}ちょうど、私も
+JP パートナーが欲しい、って
+JP 思ってたとこだし。{w}
+EN {p}{s1}
+EN Sure.{w}
+EN {p}I was just thinking I
+EN wanted a partner myself.{w}
+
+@ 0da7e7 refs=1
+JP {p}{s2}
+JP よかったぁ。{w}
+JP {p}{n1}さんが
+JP ずっと、考えてるから
+JP イヤ、って言われるかと
+JP 思っちゃった。{w}
+EN {p}{s2}
+EN Thank goodness.{w}
+EN {p}You were thinking so long,
+EN {n1}, I thought you
+EN were going to say no.{w}
+
+@ 0da828 refs=1
+JP {p}{s1}
+JP よろしくね{n2}さん。{w}
+EN {p}{s1}
+EN Let's do our best,
+EN {n2}.{w}
+
+@ 0da83c refs=1
+JP {p}次の日から
+JP タッグチームとしての
+JP 二人のトレーニングが
+JP 開始された。{w}
+EN {p}From the next day on, the
+EN two began training as a
+EN tag team.{w}
+
+@ 0da86e refs=1
+JP {p}{s1}
+JP やっぱりやめとくわ。{w}
+EN {p}{s1}
+EN On second thought,
+EN I'll pass.{w}
+
+@ 0da882 refs=1
+JP {p}{s2}
+JP そんな～ぁ！！
+JP 私じゃダメなんですか？{w}
+EN {p}{s2}
+EN Oh nooo!!
+EN Am I not good enough?{w}
+
+@ 0da8a0 refs=1
+JP {p}{s1}
+JP ダメって事はないけど・・
+JP 今は・・{w}
+EN {p}{s1}
+EN It's not that you're not
+EN good enough.. it's just
+EN that right now..{w}
+
+@ 0da8be refs=1
+JP {p}{s2}
+JP わかった！！{w}
+JP {p}{n1}さんには
+JP 心に決めたパートナーが
+JP いるんですね！！{w}
+JP {p}絶対そうに違いないわ！！
+JP 強くてカッコよくて
+JP 技なんかも手取り足取り
+JP レッスンしてくれたりして。{w}
+EN {p}{s2}
+EN I get it!!{w}
+EN {p}{n1}, you've already
+EN got your heart set on a
+EN partner, haven't you!!{w}
+EN {p}That's got to be it!!
+EN Someone strong and cool,{w}
+EN {p}who gives you hands-on
+EN lessons in all the moves.{w}
+
+@ 0da931 refs=1
+JP {p}{s1}
+JP ・・・・
+JP ・・・・・・・{w}
+EN {p}{s1}
+EN ....
+EN .......{w}
+
+@ 0da94a refs=1
+JP {p}{s1}
+JP だあぁぁっ！！
+JP んなワケないでしょ！！{w}
+EN {p}{s1}
+EN Gaaah!!
+EN As if!!{w}
+
+@ 0da968 refs=1
+JP {p}{s2}
+JP じゃあ、何で私とタッグを
+JP 組んでくれないんです？{w}
+EN {p}{s2}
+EN Then why won't you form
+EN a tag team with me?{w}
+
+@ 0da990 refs=1
+JP {p}{s1}
+JP {n2}さん。{w}
+JP {p}悪いけど、今はタッグを
+JP 組む事より、自分一人の
+JP 力でどこまでやれるかを
+JP 試したいの。{w}
+JP {p}タッグを組まないワケは
+JP それだけよ。{w}
+EN {p}{s1}
+EN {n2}.{w}
+EN {p}Sorry, but right now
+EN rather than teaming up,
+EN I want to test how far I
+EN can go on my own.{w}
+EN {p}That's the only reason I
+EN won't team up.{w}
+
+@ 0da9ef refs=1
+JP {p}{s2}
+JP じゃ、じゃあ・・
+JP パートナーになるのは
+JP あきらめます。{w}
+JP {p}だから、だから友達に
+JP なって下さい。{w}
+EN {p}{s2}
+EN Th-then..
+EN I'll give up on being
+EN your partner.{w}
+EN {p}So, so please be my
+EN friend.{w}
+
+@ 0daa35 refs=1
+JP {p}{s1}
+JP そうね。
+JP その程度なら。{w}
+EN {p}{s1}
+EN Sure.
+EN That much I can do.{w}
+
+@ 0daa4e refs=1
+JP {p}{s1}
+JP {n2}。
+JP どうしたの、あらたまって
+JP 私に話があるなんて。{w}
+EN {p}{s1}
+EN {n2}. What's up? You
+EN said you had something
+EN serious to tell me.{w}
+
+@ 0daa76 refs=1
+JP {p}{s2}
+JP {n1}。
+JP ごめんね。{w}
+JP {p}突然、呼び出しちゃって。
+JP 私さ・・・・{w}
+EN {p}{s2}
+EN {n1}.
+EN Sorry.{w}
+EN {p}For calling you out of
+EN the blue. I...{w}
+
+@ 0daaa3 refs=1
+JP {p}{s2}
+JP 突然なんだけど・・・
+JP 明日、日本に帰らなく
+JP ちゃいけなくなったの。{w}
+EN {p}{s2}
+EN This is sudden, but...
+EN I have to go back to Japan
+EN tomorrow.{w}
+
+@ 0daad5 refs=1
+JP {p}{s2}
+JP 私だって帰りたくないけど
+JP 社長が帰ってこいって・・{w}
+EN {p}{s2}
+EN I don't want to go home,
+EN but the President says I
+EN have to come back...{w}
+
+@ 0daafd refs=1
+JP {p}{s1}
+JP {n2}・・・{w}
+EN {p}{s1}
+EN {n2}...{w}
+
+@ 0dab0c refs=1
+JP {p}{s1}
+JP 日本に帰る、って
+JP 本当なの！！{w}
+EN {p}{s1}
+EN You're going back to
+EN Japan? Is that true?!{w}
+
+@ 0dab25 refs=1
+JP {p}{s2}
+JP 今まで、ありがとね。
+JP けっこう楽しかったよ。{w}
+JP {p}じゃあね。{w}
+EN {p}{s2}
+EN Thanks for everything.
+EN It was pretty fun, really.{w}
+EN {p}Well, bye.{w}
+
+@ 0dab52 refs=1
+JP {p}{s1}
+JP {n2}・・・{w}
+EN {p}{s1}
+EN {n2}...{w}
+
+@ 0dab61 refs=1
+JP {p}{s2}
+JP あ！{w}
+JP {p}{n1}は、ずっと
+JP ＵＳＷＡにいるつもりなの？{w}
+EN {p}{s2}
+EN Oh!{w}
+EN {p}{n1}, are you planning
+EN to stay in the USWA
+EN forever?{w}
+
+@ 0dab89 refs=1
+JP {p}{s1}
+JP そんな事ないけど。
+JP どうしたの、突然？{w}
+EN {p}{s1}
+EN Not really. Why do you ask
+EN all of a sudden?{w}
+
+@ 0daba7 refs=1
+JP {p}{s2}
+JP じゃあさ、ワールド女子に
+JP 来ない？{w}
+EN {p}{s2}
+EN Then how about coming to
+EN World Joshi?{w}
+
+@ 0dabc5 refs=1
+JP {p}{s1}
+JP ワールドに、って
+JP まったく、あなたの話は
+JP いつも突然ね。{w}
+EN {p}{s1}
+EN To World? Honestly, you
+EN always spring things on me
+EN out of nowhere.{w}
+
+@ 0dabf2 refs=1
+JP {p}{s2}
+JP ワールドに来なよ。{w}
+JP {p}きっと、日本のリングに
+JP いる方が、強くなれるよ。{w}
+JP {p}{n1}が日本に
+JP いた頃より、レベルは
+JP 上がってるんだからさ。{w}
+EN {p}{s2}
+EN Come to World.{w}
+EN {p}I bet you'll get stronger
+EN in the rings back in
+EN Japan.{w}
+EN {p}The level's gone way up
+EN since you were in Japan,
+EN {n1}.{w}
+
+@ 0dac4c refs=1
+JP {p}{s2}
+JP 日本で一緒にがんばろうよ。{w}
+EN {p}{s2}
+EN Let's do our best together
+EN in Japan!{w}
+
+@ 0dac65 refs=1
+JP {p}
+JP 帰ってみようかな
+JP 今は帰国しても・・
+EN {p}
+EN Maybe I'll go back
+EN Going home now would...
+
+@ 0dac83 refs=1
+JP {p}{s1}
+JP わかった。{w}
+JP {p}私も一緒に、日本で
+JP 大暴れしてあげる。{w}
+EN {p}{s1}
+EN All right.{w}
+EN {p}I'll come too, and we'll
+EN tear Japan apart together.{w}
+
+@ 0dacab refs=1
+JP {p}{n2}のさそいで
+JP ワールド女子への移籍を
+JP 決意した{n1}。{w}
+JP {p}果たして、日本で
+JP 何が彼女を待ち受けて
+JP いるのだろうか？{w}
+EN {p}At {n2}'s invitation,
+EN {n1} decided
+EN to move to World Joshi.{w}
+EN {p}What awaits her
+EN back in Japan?{w}
+
+@ 0dacf6 refs=1
+JP {p}{s1}
+JP 残念だけど・・
+JP しばらくは、日本に
+JP 帰る気がないから。{w}
+EN {p}{s1}
+EN Sorry, but... I don't plan
+EN on going back to Japan
+EN for a while.{w}
+
+@ 0dad1e refs=1
+JP {p}{s2}
+JP どうして？{w}
+EN {p}{s2}
+EN Why not?{w}
+
+@ 0dad2d refs=1
+JP {p}{s1}
+JP 日本よりＵＳＷＡの方が
+JP 好きだし、今はまだ
+JP こっちの方がレベルが高い{w}
+JP {p}気がするのよね。{w}
+EN {p}{s1}
+EN I like the USWA more than
+EN Japan, and right now the
+EN level here seems higher{w}
+EN {p}to me.{w}
+
+@ 0dad6e refs=1
+JP {p}{s2}
+JP ・・・わかった。
+JP {n1}が、そういう風に
+JP 思ってるなら仕方ないか。{w}
+EN {p}{s2}
+EN ...I see. If that's how
+EN you feel, {n1},
+EN then it can't be helped.{w}
+
+@ 0dad9b refs=1
+JP {p}{s2}
+JP {n1}・・{w}
+JP {p}あ、やだっ！！
+JP もう行かなくちゃ！！{w}
+JP {p}突然、こんな話しちゃって
+JP ごめんね。{w}
+EN {p}{s2}
+EN {n1}...{w}
+EN {p}Oh no!! I've got to go!!{w}
+EN {p}Sorry for springing this
+EN on you out of nowhere.{w}
+
+@ 0daddc refs=1
+JP {p}{s1}
+JP ううん、いいよ。{w}
+EN {p}{s1}
+EN No, it's fine.{w}
+
+@ 0dadf0 refs=1
+JP {p}{s2}
+JP じゃね。{w}
+EN {p}{s2}
+EN See ya.{w}
+
+@ 0dadff refs=1
+JP {p}こうして、{n2}は
+JP あわただしく日本へと
+JP 帰っていったのだった。{w}
+EN {p}And so {n2}
+EN hurried back to Japan.{w}
+
+@ 0dae2c refs=1
+JP {p}{n2}が
+JP 日本に帰った次の日{w}
+JP {p}{n1}は
+JP プロモーターに
+JP 呼び出された・・{w}
+EN {p}The day after {n2}
+EN went back to Japan,{w}
+EN {p}{n1} was called in
+EN by the promoter...{w}
+
+@ 0dae5e refs=1
+JP {p}突然の話で悪いんだが
+JP 日本に行ってくれないか？{w}
+EN {p}Sorry to spring this on you,
+EN but would you go to Japan?{w}
+
+@ 0dae81 refs=1
+JP {p}{s1}
+JP 私が日本に？{w}
+JP {p}ほんっとに突然ですね。{w}
+EN {p}{s1}
+EN Me? To Japan?{w}
+EN {p}That's really sudden.{w}
+
+@ 0daea4 refs=1
+JP {p}すまないね。{w}
+JP {p}実は、新女から君に
+JP 要請があってね。{w}
+JP {p}つい、ＯＫの返事を
+JP してしまったんだ。{w}
+EN {p}Sorry about that.{w}
+EN {p}The thing is, Shinjo sent
+EN a request for you.{w}
+EN {p}And I went ahead and
+EN said yes.{w}
+
+@ 0daee5 refs=1
+JP {p}{s1}
+JP でも、{n2}に
+JP 誘われたとき、日本には
+JP 行かない、って{w}
+JP {p}言っちゃたんですよ！！{w}
+EN {p}{s1}
+EN But when {n2} asked
+EN me, I told her I wasn't
+EN going back to Japan!{w}
+EN {p}I said that to her face!!{w}
+
+@ 0daf1c refs=1
+JP {p}そこを何とか頼むよ。{w}
+EN {p}Please, do this for me.{w}
+
+@ 0daf30 refs=1
+JP {p}この通りだ、頼むよ！！{w}
+EN {p}I'm begging you here!!{w}
+
+@ 0daf44 refs=1
+JP {p}{s1}
+JP わかりました。
+JP 日本に行けばいいんですね！{w}
+EN {p}{s1}
+EN All right. I just have to
+EN go to Japan, right?{w}
+
+@ 0daf67 refs=1
+JP {p}いいのかい？{w}
+EN {p}You'll do it?{w}
+
+@ 0daf76 refs=1
+JP {p}{s1}
+JP イヤ、って
+JP 答えても、行かなきゃ
+JP 仕方ないんでしょ？{w}
+EN {p}{s1}
+EN Even if I said no, I'd
+EN have to go anyway, right?{w}
+
+@ 0daf9e refs=1
+JP {p}ハハハハハ・・・{w}
+EN {p}Hahahahaha...{w}
+
+@ 0dafad refs=1
+JP {p}{s1}
+JP その代わり、{n2}には
+JP この事をキチンと
+JP 説明して下さいね。{w}
+EN {p}{s1}
+EN In exchange, you have to
+EN explain it all to
+EN {n2} properly, okay?{w}
+
+@ 0dafda refs=1
+JP {p}わかってる、任せて
+JP おきなさい。{w}
+EN {p}I know. Leave it to me.{w}
+
+@ 0daff3 refs=1
+JP {p}{s1}
+JP 頼みますよぉ。{w}
+JP {p}（ほんとに
+JP 大丈夫かなぁ・・
+JP あやしいもんだわ。）{w}
+EN {p}{s1}
+EN I'm counting on you.{w}
+EN {p}(Will he really do it...?
+EN I have my doubts.){w}
+
+@ 0db025 refs=1
+JP {p}こうして
+JP {n1}は
+JP 一時的ではあるが、日本に
+JP 帰ることになった。{w}
+EN {p}And so {n1}
+EN was headed back to Japan,
+EN if only for a while.{w}
+
+@ 0db052 refs=2
+JP {p}{s1}
+JP つかれたぁ！！{w}
+JP {p}まったく、龍子の買い物に
+JP つき合うのって、体力が
+JP いるんだから。{w}
+EN {p}{s1}
+EN I'm beat!!{w}
+EN {p}Honestly, shopping with
+EN Ryuko takes real stamina.{w}
+
+@ 0db08e refs=2
+JP {p}{s2}
+JP 何、言ってるの。{w}
+JP {p}こんなのトレーニングに
+JP 比べたら「ヘ」でも
+JP ないでしょ。{w}
+EN {p}{s2}
+EN What're you talking about?{w}
+EN {p}Compared to training, this
+EN isn't even worth a fart.{w}
+
+@ 0db0c5 refs=2
+JP {p}{s1}
+JP へっ？{w}
+EN {p}{s1}
+EN Huh?{w}
+
+@ 0db0cf refs=2
+JP {p}{s1}
+JP 龍子が、「ヘ」だって！
+JP アハ、アハ、アハハハ！！{w}
+EN {p}{s1}
+EN Ryuko said "fart"!
+EN Aha, aha, ahahaha!!{w}
+
+@ 0db0f7 refs=2
+JP {p}{s2}
+JP フンだ！！{w}
+EN {p}{s2}
+EN Hmph!!{w}
+
+@ 0db106 refs=2
+JP {p}{s1}
+JP ハハハ・・・ごめん、って。{w}
+JP {p}もう笑わないから
+JP アハハハハハ！！{w}
+EN {p}{s1}
+EN Hahaha... sorry, okay?{w}
+EN {p}I won't laugh anymore...
+EN Ahahahahaha!!{w}
+
+@ 0db138 refs=2
+JP {p}５分後{w}
+EN {p}5 minutes later{w}
+
+@ 0db142 refs=2
+JP {p}{s1}
+JP 龍子ぉ、キゲン直してよ。
+JP アイスおごるからさ。{w}
+EN {p}{s1}
+EN Ryuko, come on, cheer up.
+EN I'll buy you an ice cream.{w}
+
+@ 0db165 refs=1
+JP {p}{s1}
+JP ね、ね？{w}
+EN {p}{s1}
+EN Okay? Okay?{w}
+
+@ 0db174 refs=2
+JP {p}{s2}
+JP ・・・・・・・・・{w}
+JP {p}仕方ないわね。
+JP 今回だけは許したげるわ。{w}
+EN {p}{s2}
+EN .........{w}
+EN {p}Oh, fine. I'll forgive
+EN you, just this once.{w}
+
+@ 0db1a6 refs=2
+JP {p}{s1}
+JP やったぁ。
+JP じゃあ、行こう。{w}
+EN {p}{s1}
+EN Yay! Then let's go.{w}
+
+@ 0db1bf refs=2
+JP {p}{s1}
+JP 私はチョコクッキーに
+JP しよ～う、っと。
+JP 龍子は？{w}
+EN {p}{s1}
+EN I think I'll have
+EN chocolate cookie!
+EN What about you, Ryuko?{w}
+
+@ 0db1e7 refs=2
+JP {p}{s2}
+JP バニラのダブル。{w}
+EN {p}{s2}
+EN Double vanilla.{w}
+
+@ 0db1fb refs=2
+JP {p}{s1}
+JP おじさ・・・{w}
+EN {p}{s1}
+EN Mister...{w}
+
+@ 0db20a refs=2
+JP {p}{s3}
+JP おじさん、チョコクッキー
+JP それとバニラをダブルで。{w}
+EN {p}{s3}
+EN Mister, a chocolate cookie
+EN and a double vanilla.{w}
+
+@ 0db232 refs=1
+JP {p}{s1}
+JP ちょっと、わりこまないで
+JP ・・・ああっ！！{w}
+JP {p}新女のマイティ ゆかこ！{w}
+EN {p}{s1}
+EN Hey, don't cut in line...
+EN Ahh!!{w}
+EN {p}Shinjo's Mighty Yukako!{w}
+
+@ 0db269 refs=1
+JP {p}{s3}
+JP 祐希子よ！！{w}
+JP {p}失礼なヤツね、人の
+JP 名前を間違えるなんて。{w}
+EN {p}{s3}
+EN It's Yukiko!!{w}
+EN {p}How rude, getting
+EN someone's name wrong.{w}
+
+@ 0db296 refs=1
+JP {p}{s1}
+JP うぬぬっ・・{w}
+JP {p}名前なんて
+JP どうでもいいわよ。{w}
+JP {p}そんな事より、私達が
+JP 先に来たんだから
+JP わりこまないでよね！！{w}
+EN {p}{s1}
+EN Grrr...{w}
+EN {p}Who cares about names?{w}
+EN {p}More importantly, we were
+EN here first, so don't
+EN cut in line!!{w}
+
+@ 0db2e6 refs=1
+JP {p}{s3}
+JP わりこんでなんか
+JP いないわよ！{w}
+EN {p}{s3}
+EN I did NOT cut in line!{w}
+
+@ 0db2ff refs=1
+JP {p}{s2}
+JP いいじゃないの。{w}
+JP {p}あの娘一人のせいで
+JP アイスがなくなる
+JP ワケじゃないだろうし。{w}
+EN {p}{s2}
+EN Oh, let it go.{w}
+EN {p}It's not like that one
+EN girl is going to make them
+EN run out of ice cream.{w}
+
+@ 0db33b refs=1
+JP {p}{s1}
+JP そりゃ、そうだけど・・・{w}
+EN {p}{s1}
+EN Well, that's true, but...{w}
+
+@ 0db354 refs=1
+JP {p}{s3}
+JP さ～すが龍子さんは
+JP 人間ができてるわ。{w}
+JP {p}こんな小娘とは
+JP 大違いだわね！{w}
+EN {p}{s3}
+EN As expected of Ryuko. Such
+EN a mature person.{w}
+EN {p}A world apart from this
+EN little brat!{w}
+
+@ 0db38b refs=1
+JP {p}{s1}
+JP うぐぐっ・・・
+JP 悪かったわね。{w}
+EN {p}{s1}
+EN Ugh... Well, excuse me.{w}
+
+@ 0db3a4 refs=1
+JP {p}{s3}
+JP ところで龍子さん。
+JP 団体対抗戦の話は
+JP 知ってるわよね？{w}
+EN {p}{s3}
+EN By the way, Ryuko. You've
+EN heard about the inter-
+EN promotion battle, right?{w}
+
+@ 0db3cc refs=1
+JP {p}{s2}
+JP えぇ。{w}
+EN {p}{s2}
+EN Yes.{w}
+
+@ 0db3d6 refs=1
+JP {p}{s1}
+JP 何それ？{w}
+EN {p}{s1}
+EN What's that?{w}
+
+@ 0db3e5 refs=1
+JP {p}{s2}
+JP 次シリーズでね、新女と
+JP 私達ワールドの間で
+JP 団体対抗戦があるの。{w}
+EN {p}{s2}
+EN Next series, we at World
+EN have an inter-promotion
+EN battle with Shinjo.{w}
+
+@ 0db417 refs=1
+JP {p}{s3}
+JP そう言う事よ。{w}
+JP {p}まあ、{n1}さんとも
+JP チャンスがあったら
+JP 闘えるかもね。{w}
+EN {p}{s3}
+EN That's right.{w}
+EN {p}Well, {n1}, if we get
+EN the chance, maybe I'll get
+EN to fight you too.{w}
+
+@ 0db44e refs=1
+JP {p}{s1}
+JP うぬぬっ・・・{w}
+EN {p}{s1}
+EN Grrr...{w}
+
+@ 0db45d refs=1
+JP {p}はい、ねぇちゃん。
+JP チョコとバニラのダブル
+JP おまちどう。{w}
+EN {p}Here you go, miss.
+EN Chocolate and a double
+EN vanilla. Sorry for the wait.{w}
+
+@ 0db485 refs=1
+JP {p}{s3}
+JP うわぁい、ありがとう。{w}
+EN {p}{s3}
+EN Yaaay, thank you!{w}
+
+@ 0db499 refs=1
+JP {p}{s3}
+JP 龍子さん。
+JP あなたと闘えるのを
+JP 楽しみにしてるわよ。{w}
+EN {p}{s3}
+EN Ryuko. I'm looking forward
+EN to fighting you.{w}
+
+@ 0db4c1 refs=1
+JP {p}{s2}
+JP それは私のセリフよ。{w}
+EN {p}{s2}
+EN That's my line.{w}
+
+@ 0db4d5 refs=1
+JP {p}{s3}
+JP じゃあね。{w}
+EN {p}{s3}
+EN Bye now.{w}
+
+@ 0db4e4 refs=1
+JP {p}{s1}
+JP なんで私には
+JP {n1}さん団体戦でね。
+JP とか、言わないのよ！！{w}
+JP {p}あの女は！！{w}
+EN {p}{s1}
+EN Why didn't she tell ME
+EN "See you at the battle,
+EN {n1}" or anything?!{w}
+EN {p}That woman!!{w}
+
+@ 0db51b refs=1
+JP {p}{s2}
+JP 気にすることないわよ。{w}
+JP {p}{n1}の実力は
+JP あの娘だって
+JP 知ってるはずなんだから。{w}
+EN {p}{s2}
+EN Don't let it bother you.{w}
+EN {p}Even she must know how
+EN good you are, {n1}.{w}
+
+@ 0db552 refs=1
+JP {p}ねぇちゃん達、アイスの
+JP 金もらえない？{w}
+JP {p}今のねぇちゃんの
+JP 知り合いなんだろ？{w}
+EN {p}Hey, girls, can I get the
+EN money for that ice cream?{w}
+EN {p}You know that girl who just
+EN left, don't you?{w}
+
+@ 0db589 refs=1
+JP {p}{s1}
+JP 祐希子めぇ！！{w}
+EN {p}{s1}
+EN Yukiko, you...!!{w}
+
+@ 0db598 refs=1
+JP {p}{s2}
+JP ま、それぐらいは
+JP いいじゃない。
+JP それより私達も。{w}
+EN {p}{s2}
+EN Well, that much is no big
+EN deal. Let's get ours.{w}
+
+@ 0db5c0 refs=1
+JP {p}{s1}
+JP ハイハイ、おじさん。
+JP バニラとチョコクッキーね。{w}
+EN {p}{s1}
+EN Yes, yes, mister.
+EN A vanilla and a chocolate
+EN cookie.{w}
+
+@ 0db5e8 refs=1
+JP {p}悪ぃな。{w}
+JP {p}ちょうど、さっきの
+JP ねぇちゃんので
+JP なくなっちまったんだ。{w}
+EN {p}Sorry.{w}
+EN {p}That girl just now took
+EN the last of it.{w}
+
+@ 0db61a refs=1
+JP {p}{s2}
+JP マ、マイティ祐希子ぉ！！{w}
+EN {p}{s2}
+EN M-Mighty Yukiko!!{w}
+
+@ 0db633 refs=1
+JP {p}{s1}
+JP あっ！？
+JP 祐希子じゃない！！{w}
+EN {p}{s1}
+EN Huh?! Isn't that Yukiko?!{w}
+
+@ 0db64c refs=1
+JP {p}{s3}
+JP ん！？
+JP {n1}、元気だった？{w}
+EN {p}{s3}
+EN Hm?! {n1}! How have
+EN you been?{w}
+
+@ 0db665 refs=1
+JP {p}{s1}
+JP うん。{w}
+EN {p}{s1}
+EN Good.{w}
+
+@ 0db66f refs=1
+JP {p}{s3}
+JP あれっ！
+JP となりにいるのは
+JP サンダー龍子さん？{w}
+EN {p}{s3}
+EN Oh! Is that Thunder Ryuko
+EN next to you?{w}
+
+@ 0db692 refs=1
+JP {p}{s2}
+JP 始めまして祐希子さん。{w}
+EN {p}{s2}
+EN Nice to meet you, Yukiko.{w}
+
+@ 0db6a6 refs=1
+JP {p}{s3}
+JP こちらこそ。{w}
+JP {p}そう言えば、龍子さんは
+JP 新女との団体対抗戦には
+JP もちろん出場するの？{w}
+EN {p}{s3}
+EN Likewise.{w}
+EN {p}Oh, that reminds me.
+EN Ryuko, you're entering the
+EN battle against Shinjo,
+EN of course?{w}
+
+@ 0db6e2 refs=1
+JP {p}{s2}
+JP さぁ。{w}
+JP {p}こればっかりは、私が
+JP 決める事じゃないから。{w}
+EN {p}{s2}
+EN Who knows.{w}
+EN {p}That's not something
+EN I get to decide.{w}
+
+@ 0db70f refs=1
+JP {p}{s1}
+JP ん？
+JP 団体対抗戦って
+JP 何の事？{w}
+EN {p}{s1}
+EN Hm? What's this about an
+EN inter-promotion battle?{w}
+
+@ 0db728 refs=1
+JP {p}{s2}
+JP 次シリーズはね
+JP ワールドと新女の対抗戦が
+JP あるのよ。{w}
+EN {p}{s2}
+EN Next series, there's a
+EN battle between World and
+EN Shinjo.{w}
+
+@ 0db750 refs=1
+JP {p}{s3}
+JP 楽しみね、龍子さんと
+JP 闘えるなんて。{w}
+EN {p}{s3}
+EN I can't wait. I get to
+EN fight Ryuko!{w}
+
+@ 0db76e refs=1
+JP {p}{s1}
+JP あら、私とは楽しみじゃ
+JP ないの？{w}
+EN {p}{s1}
+EN Oh? And you're not looking
+EN forward to fighting me?{w}
+
+@ 0db78c refs=1
+JP {p}{s3}
+JP そんな事ないわ。
+JP {n1}と闘うのも
+JP 楽しみだけど{w}
+JP {p}ただ、闘った事のない人と
+JP 闘ってみたい、それだけよ。{w}
+JP {p}しかも、その相手が
+JP 強いなら言う事ないわね。{w}
+EN {p}{s3}
+EN Not true. I can't wait to
+EN fight you too, {n1}.{w}
+EN {p}I just want to fight
+EN someone I've never fought,
+EN that's all.{w}
+EN {p}And if they're strong,
+EN even better.{w}
+
+@ 0db7f5 refs=1
+JP {p}こまるんだよね、お客さん。
+JP 買うの？
+JP 買わないの？{w}
+EN {p}You're making this hard on
+EN me, ladies. Are you buying
+EN or not?{w}
+
+@ 0db818 refs=1
+JP {p}{s3}
+JP ハハハハハ・・・
+JP 買います買います。{w}
+EN {p}{s3}
+EN Hahahahaha...
+EN We'll buy, we'll buy.{w}
+
+@ 0db836 refs=1
+JP {p}{s1}
+JP よ～し、ここは私が
+JP 出してあげる。
+JP 何がいい？{w}
+EN {p}{s1}
+EN All right, this one's on
+EN me. What'll it be?{w}
+
+@ 0db859 refs=1
+JP {p}{s3}
+JP ラッキーィ！！
+JP 私、チョコチップ！！{w}
+EN {p}{s3}
+EN Lucky!! Chocolate chip
+EN for me!!{w}
+
+@ 0db877 refs=1
+JP {p}{s2}
+JP バニラのダブル。{w}
+EN {p}{s2}
+EN Double vanilla.{w}
+
+@ 0db88b refs=1
+JP {p}{s1}
+JP はいはい。{w}
+EN {p}{s1}
+EN Yes, yes.{w}
+
+@ 0db89a refs=1
+JP {p}ホイ、お待たせ。
+JP ７５０えんね。{w}
+EN {p}Here you go.
+EN That's 750 yen.{w}
+
+@ 0db8b3 refs=1
+JP {p}{s1}
+JP はいはい、って。
+JP あ・・・ゴメン。{w}
+JP {p}誰か立てかえて。
+JP サイフ、からっぽだった。{w}
+EN {p}{s1}
+EN Yes, yes... Oh... sorry.{w}
+EN {p}Can someone cover me?
+EN My wallet's empty.{w}
+
+@ 0db8ef refs=1
+JP {p}{s2}
+JP ハハハハ・・
+JP {n1}らしいわ。{w}
+EN {p}{s2}
+EN Hahahaha...
+EN That's so like {n1}.{w}
+
+@ 0db908 refs=1
+JP {p}新日本女子に移籍した
+JP 次の日{w}
+JP {p}{n1}は
+JP あいさつする為に
+JP 社長のもとに向かった{w}
+EN {p}The day after she transferred
+EN to Shin-Nihon,{w}
+EN {p}{n1} went to see
+EN the President to introduce
+EN herself.{w}
+
+@ 0db93f refs=1
+JP {p}{s1}
+JP 失礼します。{w}
+EN {p}{s1}
+EN Excuse me.{w}
+
+@ 0db94e refs=1
+JP {p}君が{n1}さんか・・
+JP 祐希子から話は聞いてるよ。{w}
+JP {p}かなり祐希子が入れこんで
+JP いるみたいだからね。{w}
+EN {p}So you're {n1}...
+EN I've heard about you from
+EN Yukiko.{w}
+EN {p}She seems to be quite
+EN taken with you.{w}
+
+@ 0db98f refs=1
+JP {p}{s1}
+JP ハハハハハハ・・{w}
+EN {p}{s1}
+EN Hahahahahaha...{w}
+
+@ 0db9a3 refs=1
+JP {p}君も、今日から新女の
+JP 一員だ。{w}
+JP {p}みんなに負けないように
+JP 頑張ってね。{w}
+EN {p}As of today, you're a member
+EN of Shinjo too.{w}
+EN {p}Work hard so you don't fall
+EN behind everyone else.{w}
+
+@ 0db9d5 refs=1
+JP {p}{s1}
+JP はい。
+JP ガンガン勝って期待に
+JP そえるよう頑張ります！！{w}
+EN {p}{s1}
+EN Yes, sir. I'll win, win,
+EN win, and live up to your
+EN expectations!!{w}
+
+@ 0db9fd refs=1
+JP {p}この日から、{n1}は
+JP 新日本女子プロレスの
+JP 一員となり
+JP 新たなスタートをきった{w}
+EN {p}From that day on, {n1}
+EN was a member of Shin-Nihon
+EN Women's Pro Wrestling, and
+EN made a fresh start.{w}
+
+@ 0dba2f refs=1
+JP {p}そして、この２日後。
+JP {n1}と入れ換わりの
+JP ように、高木が新女を
+JP 辞めていった。{w}
+EN {p}2 days later, as if
+EN trading places with {n1},
+EN Takagi quit Shinjo.{w}
+
+@ 0dba66 refs=1
+JP {p}すさまじきかな
+JP パンサー理沙子！！{w}
+JP {p}もはや、彼女の実力は
+JP アジアの女王を名のっても
+JP 恥ずかしくはない・・{w}
+JP {p}ああぁっ！！{w}
+EN {p}What a fearsome woman,
+EN Panther Risako!!{w}
+EN {p}By now she could call
+EN herself the Queen of Asia
+EN and no one would laugh...{w}
+EN {p}Whoa!!{w}
+
+@ 0dbabb refs=1
+JP {p}{s3}
+JP パンサー理沙子ぉ！！{w}
+EN {p}{s3}
+EN Panther Risakooo!!{w}
+
+@ 0dbacf refs=1
+JP {p}お～っとぉ、何者かが
+JP マイクを奪っての
+JP 乱入だあぁ！！{w}
+EN {p}Whoa! Someone has grabbed
+EN the mic and stormed the
+EN ring!!{w}
+
+@ 0dbaf7 refs=1
+JP {p}{s3}
+JP パンサー理沙子！！{w}
+JP {p}プロレスが、最強の
+JP 格闘技だと思うなら
+JP 私と闘え！！！{w}
+EN {p}{s3}
+EN Panther Risako!!{w}
+EN {p}If you think pro wrestling
+EN is the strongest fighting
+EN art, then fight me!!!{w}
+
+@ 0dbb2e refs=1
+JP {p}この声は、吉原 泉だぁ！！{w}
+JP {p}日本では負け知らず
+JP 空手界の女王とさえ
+JP 呼ばれています！！！{w}
+EN {p}That voice... it's Izumi
+EN Yoshihara!!{w}
+EN {p}Undefeated in Japan, she's
+EN even been called the Queen
+EN of Karate!!!{w}
+
+@ 0dbb6f refs=1
+JP {p}その吉原が
+JP パンサー理沙子に
+JP 挑戦状を叩きつけたぞぉ！！{w}
+JP {p}さぁ、パンサー理沙子は
+JP 吉原の挑戦を
+JP 受け入れるのかぁ！！{w}
+EN {p}And now Yoshihara has thrown
+EN down the gauntlet to
+EN Panther Risako!!{w}
+EN {p}Will Panther Risako accept
+EN Yoshihara's challenge?!{w}
+
+@ 0dbbbf refs=1
+JP {p}{s2}
+JP 吉原さん。{w}
+JP {p}あなた、ずいぶんと
+JP 元気がいいみたいだけど
+JP それだけじゃ
+JP 私には勝てないわよ。{w}
+EN {p}{s2}
+EN Yoshihara.{w}
+EN {p}You seem to have plenty of
+EN spirit, but that alone
+EN won't beat me.{w}
+
+@ 0dbc00 refs=1
+JP {p}{s3}
+JP あんまり私を
+JP 見くびらない方がいいわよ。{w}
+JP {p}あなたも、ケガして
+JP 引退なんてイヤでしょ？{w}
+EN {p}{s3}
+EN You'd better not
+EN underestimate me.{w}
+EN {p}You wouldn't want to get
+EN hurt and have to retire,
+EN would you?{w}
+
+@ 0dbc41 refs=1
+JP {p}{s2}
+JP 勝つ自信があるとでも？{w}
+EN {p}{s2}
+EN You think you can win?{w}
+
+@ 0dbc55 refs=1
+JP {p}{s3}
+JP もちろんあるわ。{w}
+EN {p}{s3}
+EN Of course I can.{w}
+
+@ 0dbc69 refs=1
+JP {p}{s2}
+JP ・・・・・・いいわ。{w}
+JP {p}あなたと闘ってあげる。{w}
+EN {p}{s2}
+EN ......Very well.{w}
+EN {p}I'll fight you.{w}
+
+@ 0dbc91 refs=1
+JP {p}女子プロレス界では
+JP 不可能とまで言われた
+JP 禁断の異種格闘技戦！
+JP その禁断のドアが{w}
+JP {p}パンサー理沙子の
+JP 手によって開かれたぁ！！{w}
+EN {p}A forbidden mixed-style
+EN fight, called impossible in
+EN women's pro wrestling!{w}
+EN {p}That forbidden door has been
+EN opened by Panther Risako!!{w}
+
+@ 0dbce6 refs=0
+JP {p}{s3}
+JP 本当は今すぐ、って
+JP 言いたいところだけど・・{w}
+JP {p}ベストじゃない
+JP あなたに勝っても
+JP 意味がないものね。{w}
+JP {p}勝負は、次まで
+JP 待ってあげる。{w}
+EN {p}{s3}
+EN I'd love to say
+EN "right now," but...{w}
+EN {p}Beating you when you're
+EN not at your best would
+EN mean nothing.{w}
+EN {p}I'll wait until next time
+EN to settle this.{w}
+
+@ 0dbd45 refs=0
+JP {p}{s2}
+JP そうね。{w}
+JP {p}せっかくだから
+JP その言葉にあまえさせて
+JP もらうわ。{w}
+EN {p}{s2}
+EN I see.{w}
+EN {p}Then I'll gladly take you
+EN up on that.{w}
+
+@ 0dbd77 refs=0
+JP {p}{s3}
+JP 本当にいいの？{w}
+JP {p}今、闘って負けたなら
+JP 言いワケできるけど
+JP ベストの時に負けたら
+JP 言いワケできないわよ。{w}
+EN {p}{s3}
+EN Are you sure?{w}
+EN {p}Lose now and you'd have an
+EN excuse. Lose at your best
+EN and you'll have none.{w}
+
+@ 0dbdc2 refs=0
+JP {p}{s2}
+JP 悪いけど、そんな心配は
+JP 必要ないわよ。{w}
+EN {p}{s2}
+EN Sorry, but there's no need
+EN to worry about that.{w}
+
+@ 0dbde0 refs=0
+JP {p}{s3}
+JP フフッ・・
+JP 楽しみにしてるわ。{w}
+JP {p}最強の格闘技が
+JP 空手だってわかる時をね。{w}
+EN {p}{s3}
+EN Heh... I can't wait.{w}
+EN {p}For the moment you learn
+EN the strongest fighting art
+EN is karate.{w}
+
+@ 0dbe17 refs=1
+JP {p}突然、理沙子の前に
+JP 現われた 吉原 泉。{w}
+JP {p}はたして、理沙子は
+JP 本当に、吉原に勝てるの
+JP だろうか？{w}
+EN {p}Izumi Yoshihara has suddenly
+EN appeared before Risako.{w}
+EN {p}Can Risako really beat
+EN Yoshihara?{w}
+
+@ 0dbe5d refs=1
+JP {p}理沙子と吉原の
+JP 異種格闘技戦から３日後{w}
+EN {p}3 days after Risako and
+EN Yoshihara's mixed-style bout{w}
+
+@ 0dbe7b refs=1
+JP {p}{s1}
+JP どうかしたんですか？{w}
+EN {p}{s1}
+EN What is it?{w}
+
+@ 0dbe8f refs=1
+JP {p}突然だが{n1}。
+JP 海外のリングに上がって
+JP みる気はないかね？{w}
+EN {p}This is sudden, {n1},
+EN but would you like to try
+EN fighting in a ring overseas?{w}
+
+@ 0dbeb7 refs=1
+JP {p}{s1}
+JP そりゃ、少しぐらいは
+JP ありますけど・・{w}
+JP {p}海外って・・
+JP どこなんです？{w}
+EN {p}{s1}
+EN Well, I'm a little
+EN interested...{w}
+EN {p}Overseas... where?{w}
+
+@ 0dbeee refs=1
+JP {p}ＵＳＷＡ
+JP グレタバーレンがいる
+JP 団体だ。{w}
+JP {p}ここに庄司と二人で
+JP 行ってほしい。{w}
+EN {p}The USWA. The promotion
+EN where Greta Barren is.{w}
+EN {p}I'd like you to go there
+EN together with Shoji.{w}
+
+@ 0dbf25 refs=1
+JP {p}
+JP ＵＳＷＡ・・・
+JP 海外ねぇ・・・
+EN {p}
+EN The USWA...
+EN Overseas, huh...
+
+@ 0dbf3e refs=1
+JP {p}{s1}
+JP ＵＳＷＡに行きます。{w}
+JP {p}レベルＵＰするには
+JP チャンスですもんね。{w}
+EN {p}{s1}
+EN I'll go to the USWA.{w}
+EN {p}It's a chance to level up,
+EN after all.{w}
+
+@ 0dbf70 refs=1
+JP {p}ＯＫ
+JP じゃあ、出発の日は後日
+JP 連絡しよう。{w}
+JP {p}庄司に負けないように
+JP しっかりとレベルＵＰ
+JP してきなさい。{w}
+EN {p}OK. Then I'll let you know
+EN the departure date later.{w}
+EN {p}Don't let Shoji outdo you.
+EN Go level up properly.{w}
+
+@ 0dbfb6 refs=1
+JP {p}５日後・・
+JP {n1}と庄司は
+JP ＵＳＷＡのあるダラスへと
+JP 旅立った。{w}
+JP {p}はたしてＵＳＷＡで
+JP 何が{n1}を
+JP 待っているのだろうか？{w}
+EN {p}5 days later...
+EN {n1} and Shoji left
+EN for Dallas, home of the
+EN USWA.{w}
+EN {p}What awaits {n1}
+EN in the USWA?{w}
+
+@ 0dc006 refs=1
+JP {p}{s1}
+JP お気持ちは
+JP うれしいんですけど
+JP 今は・・{w}
+EN {p}{s1}
+EN Thank you for the offer,
+EN but right now...{w}
+
+@ 0dc029 refs=1
+JP {p}そうか・・・
+JP 仕方がないな。{w}
+EN {p}I see...
+EN It can't be helped.{w}
+
+@ 0dc042 refs=1
+JP {p}{s1}
+JP すみません、せっかくの
+JP 話を断わったりして。{w}
+EN {p}{s1}
+EN I'm sorry for turning down
+EN such a great offer.{w}
+
+@ 0dc065 refs=1
+JP {p}気にしなくてもいいよ。{w}
+JP {p}君さえ強くなって
+JP くれたらね。{w}
+EN {p}Don't worry about it.{w}
+EN {p}As long as you get
+EN stronger.{w}
+
+@ 0dc08d refs=1
+JP {p}{s1}
+JP はい！！
+JP 社長の期待にそえるよう
+JP 頑張りますね。{w}
+EN {p}{s1}
+EN Yes!! I'll work hard to
+EN live up to your
+EN expectations, Boss.{w}
+
+@ 0dc0b5 refs=1
+JP {p}３日後に
+JP ワールド女子との対抗戦を
+JP ひかえた新女では
+JP 気合を入れる為{w}
+JP {p}ジムで集会が
+JP 行なわれていた{w}
+EN {p}With the battle against
+EN World Joshi 3 days away,
+EN Shinjo held a meeting at the
+EN gym{w}
+EN {p}to fire everyone up.{w}
+
+@ 0dc0fb refs=1
+JP {p}{s2}
+JP 聞いてちょうだい。{w}
+JP {p}みんな、知ってるとは
+JP 思うけど、３年ぶりに
+JP ワールド女子との
+JP 団体対抗戦があるわ。{w}
+JP {p}そこで、今回も
+JP 恥ずかしい負け方を
+JP した者は・・・・{w}
+EN {p}{s2}
+EN Listen up.{w}
+EN {p}As you all know, for the
+EN first time in 3 years, we
+EN have an inter-promotion
+EN battle with World Joshi.{w}
+EN {p}So, once again, anyone who
+EN loses in an embarrassing
+EN way will...{w}
+
+@ 0dc169 refs=1
+JP {p}{s3}
+JP あれ・・・ですか？{w}
+EN {p}{s3}
+EN You mean... THAT?{w}
+
+@ 0dc17d refs=1
+JP {p}{s4}
+JP 堀、うれしいだろ？{w}
+EN {p}{s4}
+EN Hori, aren't you thrilled?{w}
+
+@ 0dc191 refs=1
+JP {p}{s3}
+JP ヤですよ。
+JP もう、あんな思いを
+JP するのは。{w}
+EN {p}{s3}
+EN No way. I never want to go
+EN through that again.{w}
+
+@ 0dc1b4 refs=1
+JP {p}{s5}
+JP そうですわよね。{w}
+JP {p}堀ちゃんはあの後ずっと
+JP ＯＯＯＯがイタイ、って
+JP 言ってましたものね。{w}
+EN {p}{s5}
+EN I should think not.{w}
+EN {p}After that, Hori kept
+EN saying her OOOO hurt for
+EN ages.{w}
+
+@ 0dc1f5 refs=0
+JP {p}{s1}
+JP そ、そうなんですか？
+JP 堀先輩！！{w}
+EN {p}{s1}
+EN R-really?
+EN Hori-senpai!!{w}
+
+@ 0dc213 refs=0
+JP {p}{s3}
+JP ハッ、ハハハ・・・{w}
+EN {p}{s3}
+EN Ha, hahaha...{w}
+
+@ 0dc227 refs=1
+JP {p}{s4}
+JP でも、理沙子のアレは
+JP スゴイからなぁ。{w}
+JP {p}ま、堀がＯＯＯに
+JP なるのも仕方ないわな。{w}
+EN {p}{s4}
+EN Well, Risako's THAT is
+EN really something.{w}
+EN {p}No wonder Hori ended up
+EN with a OOO.{w}
+
+@ 0dc263 refs=1
+JP {p}{s3}
+JP わああっああっ！
+JP 先輩、それ以上はダメ！！{w}
+EN {p}{s3}
+EN Waaah, aaah!
+EN Senpai, don't say more!!{w}
+
+@ 0dc286 refs=1
+JP {p}{s1}
+JP 堀さんがＯＯＯ・・・{w}
+EN {p}{s1}
+EN Hori's OOO...{w}
+
+@ 0dc29a refs=0
+JP {p}{s2}
+JP フフッ・・{w}
+JP {p}ま、そういうワケだから
+JP しっかりと闘うのよ。{w}
+EN {p}{s2}
+EN Heh...{w}
+EN {p}Anyway, that's how it is,
+EN so fight hard out there.{w}
+
+@ 0dc2c7 refs=0
+JP {p}{s1}
+JP はい！！！{w}
+EN {p}{s1}
+EN Yes!!!{w}
+
+@ 0dc2d6 refs=1
+JP {p}{s3}
+JP ハ～ン！！！{w}
+JP {p}おヨメに行けないよぉ！！{w}
+EN {p}{s3}
+EN Waaah!!!{w}
+EN {p}No one'll ever marry me!!{w}
+
+@ 0dc2f9 refs=1
+JP {p}{s5}
+JP ま、堀ちゃん。{w}
+JP {p}この話をすると
+JP みなさんも気合が
+JP 入ることですし{w}
+JP 気にしない、気にしない。{w}
+EN {p}{s5}
+EN Now, now, Hori.{w}
+EN {p}Telling this story fires
+EN everyone up, after all,{w}
+EN so please don't mind it.{w}
+
+@ 0dc33f refs=1
+JP {p}{s3}
+JP ハハハハハハ・・・{w}
+EN {p}{s3}
+EN Hahahahahaha...{w}
+
+@ 0dc353 refs=1
+JP {p}{s5}
+JP あらあら、この様子じゃ
+JP 何も聞こえてないみたい
+JP ですわねぇ・・・・{w}
+EN {p}{s5}
+EN Oh dear, by the looks of
+EN it she can't hear a word
+EN we're saying...{w}
+
+@ 0dc385 refs=1
+JP {p}{s3}
+JP アハ、アハハッハッ・・・{w}
+EN {p}{s3}
+EN Aha, ahahahaha...{w}
+
+@ 0dc39e refs=0
+JP {p}団体対抗戦最終試合
+JP 理沙子 ＶＳ 宮城は
+JP 理沙子の勝利に終わった。{w}
+JP {p}負けた事のくやしさから
+JP 宮城は再戦を望むが・・・{w}
+EN {p}The final match of the
+EN battle, Risako vs. Miyagi,
+EN ended in victory for Risako.{w}
+EN {p}Bitter over the loss,
+EN Miyagi wants a rematch...{w}
+
+@ 0dc3ee refs=0
+JP {p}{s1}
+JP そういえばさ、昨日の
+JP 対抗戦ってどうなったの？{w}
+EN {p}{s1}
+EN Hey, by the way, how did
+EN yesterday's battle go?{w}
+
+@ 0dc411 refs=0
+JP {p}{s2}
+JP 対抗戦は終わったんだよ。{w}
+EN {p}{s2}
+EN The battle's over.{w}
+
+@ 0dc42a refs=0
+JP {p}{s1}
+JP 終わったって、ほんとに？{w}
+EN {p}{s1}
+EN Over? Really?{w}
+
+@ 0dc443 refs=0
+JP {p}{s2}
+JP さっき、社長が
+JP 言ってたじゃない！{w}
+EN {p}{s2}
+EN The President just said
+EN so, didn't he?!{w}
+
+@ 0dc461 refs=0
+JP {p}{s1}
+JP そうかぁ・・・宮城さん
+JP くやしいだろうなぁ。{w}
+EN {p}{s1}
+EN I see... Miyagi must be
+EN so frustrated.{w}
+
+@ 0dc484 refs=1
+JP {p}団体対抗戦最終試合
+JP 理沙子 ＶＳ 宮城は
+JP 理沙子の勝利に終わった。{w}
+JP {p}負けた事のくやしさから
+JP 宮城は理沙子に再戦を
+JP 望むが、それは理沙子に
+JP 受け入れられなかった。{w}
+EN {p}The final match of the
+EN battle, Risako vs. Miyagi,
+EN ended in victory for Risako.{w}
+EN {p}Bitter over the loss,
+EN Miyagi demanded a rematch,
+EN but Risako refused.{w}
+
+@ 0dc4f2 refs=1
+JP {p}{s1}
+JP そういえばさ。{w}
+JP {p}この前の宮城さんと
+JP 理沙子さんの試合って
+JP どうなんの、再戦すんの？{w}
+EN {p}{s1}
+EN Hey, by the way.{w}
+EN {p}What about Miyagi and
+EN Risako's match the other
+EN day? Will there be a
+EN rematch?{w}
+
+@ 0dc52e refs=1
+JP {p}{s2}
+JP 聞いてないのぉ？
+JP 対抗戦が終わったから
+JP 再戦もないんだよ。{w}
+EN {p}{s2}
+EN You didn't hear? The
+EN battle's over, so there
+EN won't be any rematch.{w}
+
+@ 0dc55b refs=1
+JP {p}{s1}
+JP 終わったって、ほんとに
+JP 終わっちゃったの？{w}
+EN {p}{s1}
+EN Over? It's really, truly
+EN over?{w}
+
+@ 0dc57e refs=1
+JP {p}{s2}
+JP ほんとよ！！
+JP さっき、社長が
+JP 言ってたじゃない。{w}
+EN {p}{s2}
+EN Really!! The President
+EN just said so, didn't he?{w}
+
+@ 0dc5a6 refs=1
+JP {p}{s1}
+JP そうかぁ・・・
+JP それで、今日は宮城さんが
+JP 来てないんだ。{w}
+EN {p}{s1}
+EN I see... So that's why
+EN Miyagi isn't here today.{w}
+
+@ 0dc5d3 refs=1
+JP {p}{s2}
+JP 仕方ないよ。
+JP あんなカタチで対抗戦が
+JP 終わっちゃったんだもん。{w}
+EN {p}{s2}
+EN It can't be helped.
+EN The battle ended the way
+EN it did, after all.{w}
+
+@ 0dc600 refs=1
+JP {p}{s1}
+JP 宮城さん・・・{w}
+EN {p}{s1}
+EN Miyagi...{w}
+
+@ 0dc60f refs=1
+JP {p}３日後に新女との
+JP 団体対抗戦をひかえた
+JP ワールド女子では{w}
+JP {p}レスラー達に気合を
+JP 入れる為、集会が
+JP 行なわれていた{w}
+EN {p}With the battle against
+EN Shinjo 3 days away,
+EN World Joshi{w}
+EN {p}held a meeting to fire up
+EN its wrestlers.{w}
+
+@ 0dc65a refs=1
+JP {p}{s2}
+JP みんなぁ！
+JP 新女との団体対抗戦が
+JP 近い事は知ってるね。{w}
+JP {p}自分の力を信じて
+JP 最後まで闘うんだ。{w}
+EN {p}{s2}
+EN Everyone!
+EN You all know the battle
+EN with Shinjo is coming up.{w}
+EN {p}Believe in your own
+EN strength and fight to the
+EN very end.{w}
+
+@ 0dc6a0 refs=1
+JP {p}{s3}
+JP 池上さん。{w}
+JP {p}バナナはおやつに
+JP 入るんですかぁ？{w}
+EN {p}{s3}
+EN Ikegami.{w}
+EN {p}Do bananas count as
+EN snacks?{w}
+
+@ 0dc6c8 refs=1
+JP {p}{s4}
+JP 入りません。{w}
+JP {p}バナナは、くだものです。{w}
+EN {p}{s4}
+EN They do not.{w}
+EN {p}Bananas are fruit.{w}
+
+@ 0dc6eb refs=1
+JP {p}{s1}
+JP 香月先輩は、バナナが
+JP 好きなんですか？{w}
+EN {p}{s1}
+EN Kozuki-senpai, do you
+EN like bananas?{w}
+
+@ 0dc709 refs=1
+JP {p}{s3}
+JP 好きっ、もう大好きっ！！
+JP 色といい、つやといい・・{w}
+EN {p}{s3}
+EN I love them, I LOVE them!!
+EN That color, that shine...{w}
+
+@ 0dc731 refs=1
+JP {p}{s2}
+JP バカな事を言ってないで
+JP さっさとトレーニングしな！{w}
+EN {p}{s2}
+EN Quit talking nonsense and
+EN get to your training!{w}
+
+@ 0dc759 refs=1
+JP {p}{s1}
+JP は、はいっ！！{w}
+EN {p}{s1}
+EN Y-yes, ma'am!!{w}
+
+@ 0dc768 refs=1
+JP {p}{n1}さん、次の
+JP シリーズでやな
+JP ワールドタッグリーグを
+JP やるんやけどな。{w}
+EN {p}{n1}, see, next series
+EN we're puttin' on
+EN a World Tag League.{w}
+
+@ 0dc79a refs=1
+JP {p}{s1}
+JP はぁ・・{w}
+EN {p}{s1}
+EN Uh-huh...{w}
+
+@ 0dc7a9 refs=1
+JP {p}出場してみぃへんか？{w}
+EN {p}How 'bout enterin' it?{w}
+
+@ 0dc7bd refs=1
+JP {p}{s1}
+JP 私がですか？{w}
+EN {p}{s1}
+EN Me?{w}
+
+@ 0dc7cc refs=1
+JP {p}{n1}さんには
+JP どうしても、今回の
+JP ワールドタッグに
+JP 出場して欲しいと思てる。{w}
+JP {p}出てもらわれへんか？{w}
+EN {p}{n1}, I really want
+EN you in this World Tag.{w}
+EN {p}Won't ya enter?{w}
+
+@ 0dc812 refs=1
+JP {p}{s1}
+JP そりゃ、出場させてくれる
+JP っていうんだったら・・{w}
+EN {p}{s1}
+EN Well, if you're saying
+EN you'll let me enter...{w}
+
+@ 0dc83a refs=1
+JP {p}そうか、えぇんか！！
+JP いやぁ、よかったよかった。{w}
+JP {p}出ぇへん、って
+JP 言われたらどうしようか
+JP 思たわな。{w}
+EN {p}Really? You will?!
+EN Well, that's a relief.{w}
+EN {p}I was wonderin' what I'd do
+EN if you said no.{w}
+
+@ 0dc880 refs=1
+JP {p}{s1}
+JP 出るのはいいんですけど
+JP 誰とタッグを
+JP 組んだらいいんですか？{w}
+EN {p}{s1}
+EN I'm happy to enter, but
+EN who should I team up with?{w}
+
+@ 0dc8ad refs=1
+JP {p}そやそや、それやけどな。{w}
+JP {p}実は、もう決めてあるんや。{w}
+EN {p}Right, right, about that.{w}
+EN {p}Thing is, I already decided.{w}
+
+@ 0dc8d5 refs=1
+JP {p}{s1}
+JP 誰なんです？{w}
+EN {p}{s1}
+EN Who is it?{w}
+
+@ 0dc8e4 refs=1
+JP {p}サンダー龍子や。{w}
+JP {p}ま、タッグ言うても
+JP 今回だけやしな。{w}
+EN {p}Thunder Ryuko.{w}
+EN {p}Well, it's just a team
+EN for this one time.{w}
+
+@ 0dc90c refs=1
+JP {p}{s1}
+JP サンダー龍子・・・{w}
+EN {p}{s1}
+EN Thunder Ryuko...{w}
+
+@ 0dc920 refs=1
+JP {p}
+JP わかりました
+JP 私・・彼女とは
+EN {p}
+EN All right
+EN Me... with her...
+
+@ 0dc939 refs=1
+JP {p}{s1}
+JP 求めているプロレスが
+JP 違うからこそ{w}
+JP {p}彼女と組んでみるのも
+JP いい勉強になりますよね。{w}
+EN {p}{s1}
+EN It's because we want
+EN different things from
+EN wrestling{w}
+EN {p}that teaming with her
+EN could be a good learning
+EN chance.{w}
+
+@ 0dc975 refs=1
+JP {p}そうか、ほなら二人で
+JP 力を合わせて頑張ってや。
+JP 頼むで。{w}
+EN {p}Is that so? Then you two
+EN pull together and give it
+EN your all. I'm countin' on ya.{w}
+
+@ 0dc99d refs=1
+JP {p}{s1}
+JP すみません。{w}
+JP {p}私、彼女と一緒に
+JP 闘うなんてできません。{w}
+EN {p}{s1}
+EN I'm sorry.{w}
+EN {p}I can't fight alongside
+EN her.{w}
+
+@ 0dc9ca refs=1
+JP {p}なんでイヤやねんな。{w}
+EN {p}Why don'tcha want to?{w}
+
+@ 0dc9de refs=1
+JP {p}{s1}
+JP すみません。
+JP あの人だけは・・・{w}
+EN {p}{s1}
+EN I'm sorry.
+EN Anyone but her...{w}
+
+@ 0dc9fc refs=1
+JP {p}しゃぁない。{w}
+JP {p}そしたら、タッグリーグの
+JP 出場は・・{w}
+EN {p}Can't be helped.{w}
+EN {p}Then, as for enterin'
+EN the tag league...{w}
+
+@ 0dca24 refs=1
+JP {p}{s1}
+JP ３日だけ待って下さい。{w}
+JP {p}パートナーをつれて
+JP きますから。{w}
+EN {p}{s1}
+EN Please give me 3 days.{w}
+EN {p}I'll bring a partner.{w}
+
+@ 0dca51 refs=1
+JP {p}そう言われてもなぁ。{w}
+EN {p}Even if you say that...{w}
+
+@ 0dca65 refs=1
+JP {p}{s1}
+JP お願いします。
+JP 勝手な事を言ってるのは
+JP わかります。{w}
+JP {p}でも、出場したいんです！！{w}
+EN {p}{s1}
+EN Please. I know I'm being
+EN selfish.{w}
+EN {p}But I want to enter!!{w}
+
+@ 0dcaa1 refs=1
+JP {p}しゃぁないな。
+JP そんかし、きっかり３日や。
+JP それ以上は・・{w}
+EN {p}Can't be helped.
+EN But it's 3 days, exactly.
+EN Any longer and...{w}
+
+@ 0dcac9 refs=1
+JP {p}{s1}
+JP ありがとうございます。
+JP 絶対に待ってて下さいね。{w}
+EN {p}{s1}
+EN Thank you so much.
+EN Please wait for me, okay?{w}
+
+@ 0dcaf1 refs=1
+JP {p}{s1}
+JP でも、びっくりしたわよね。
+JP 向こうから、ベルトに
+JP 挑戦させてくれるなんてさ。{w}
+EN {p}{s1}
+EN What a surprise, though.
+EN Them letting us go for the
+EN belt, of all things.{w}
+
+@ 0dcb28 refs=1
+JP {p}{s2}
+JP えぇ・・・{w}
+JP {p}でも、なんかイヤな
+JP 感じがするヨ。{w}
+JP {p}自分達の好きなように
+JP 暴れまくってる私達を
+JP ベルトに挑戦させるなんて。{w}
+EN {p}{s2}
+EN Yes...{w}
+EN {p}But I have bad feeling.{w}
+EN {p}We go wild however we
+EN like, and they let US
+EN challenge for the belt?{w}
+
+@ 0dcb7d refs=1
+JP {p}{s1}
+JP カオスが、そう言うならさ
+JP 私が挑戦してもいい？{w}
+EN {p}{s1}
+EN If you feel that way,
+EN Chaos, can I be the one
+EN to challenge?{w}
+
+@ 0dcba0 refs=1
+JP {p}{s2}
+JP そりゃ・・別にいいけど。
+JP 自信ある？{w}
+EN {p}{s2}
+EN Well... I don't mind.
+EN You are confident?{w}
+
+@ 0dcbbe refs=0
+JP {p}{s1}
+JP なかったら、こんな事
+JP 言わないって。{w}
+EN {p}{s1}
+EN If I wasn't, I wouldn't be
+EN saying this.{w}
+
+@ 0dcbdc refs=0
+JP {p}{s2}
+JP わかった、気をつけてね。{w}
+EN {p}{s2}
+EN Okay. Be careful.{w}
+
+@ 0dcbf5 refs=1
+JP {p}{s2}
+JP 任せといてよ。{w}
+EN {p}{s2}
+EN Leave it to me.{w}
+
+@ 0dcc04 refs=1
+JP {p}自信ありげに
+JP ダダーンのベルトに
+JP 挑戦しようとする{n1}。{w}
+JP {p}はたして、ダダーンの
+JP ベルトを奪う事が
+JP できるのだろうか？{w}
+EN {p}Full of confidence,
+EN {n1} sets out to
+EN challenge for Dadarne's belt.{w}
+EN {p}Can she take Dadarne's
+EN belt away?{w}
+
+@ 0dcc54 refs=1
+JP {p}{s1}
+JP ハハハハ・・・
+JP ドレックさんは
+JP やっぱ強いわね。{w}
+EN {p}{s1}
+EN Hahahaha...
+EN Dreck really is strong.{w}
+
+@ 0dcc7c refs=1
+JP {p}{s2}
+JP でも、これで私達の実力が
+JP 世界に通用するって事が
+JP よくわかったわ・・{w}
+EN {p}{s2}
+EN But now we know for sure
+EN that we can hold our own
+EN against the world...{w}
+
+@ 0dccae refs=1
+JP {p}{s1}
+JP まぁね。
+JP 私達が力を合わせ・・{w}
+EN {p}{s1}
+EN Yeah. If we join forces...{w}
+
+@ 0dccc7 refs=1
+JP {p}{s1}
+JP ちょっ、カオス？
+JP どうしたの、どうしたの？
+JP カオスったら！！{w}
+EN {p}{s1}
+EN Wha-- Chaos?
+EN What's wrong?
+EN What's wrong? Chaos!!{w}
+
+@ 0dccf4 refs=1
+JP {p}{s3}
+JP う、う～ん・・・{w}
+EN {p}{s3}
+EN Uhh, nnn...{w}
+
+@ 0dcd08 refs=1
+JP {p}{s1}
+JP マリア。
+JP 気が・・ついた？{w}
+EN {p}{s1}
+EN Maria.
+EN Are you... awake?{w}
+
+@ 0dcd21 refs=1
+JP {p}{s3}
+JP {n1}？{w}
+EN {p}{s3}
+EN {n1}?{w}
+
+@ 0dcd2b refs=1
+JP {p}{s3}
+JP ハハハ・・・
+JP とうとう倒れたのね・・{w}
+JP {p}いつかは、こんな日が
+JP 来るんじゃないか、って
+JP 思ってたけど・・・{w}
+EN {p}{s3}
+EN Hahaha...
+EN So I finally collapsed...{w}
+EN {p}I thought a day like this
+EN might come someday...{w}
+
+@ 0dcd76 refs=1
+JP {p}{s3}
+JP {n1}。
+JP 私の目は・・・{w}
+EN {p}{s3}
+EN {n1}.
+EN My eyes...{w}
+
+@ 0dcd8a refs=1
+JP {p}{s1}
+JP ２ヶ月もすれば
+JP 見えるようになるだろう
+JP って言われたわ。{w}
+EN {p}{s1}
+EN They said you'll be able
+EN to see again in about
+EN 2 months.{w}
+
+@ 0dcdb7 refs=0
+JP {p}{s3}
+JP そう・・{w}
+EN {p}{s3}
+EN I see...{w}
+
+@ 0dcdc6 refs=0
+JP {p}{s1}
+JP いつから？{w}
+EN {p}{s1}
+EN Since when?{w}
+
+@ 0dcdd5 refs=1
+JP {p}{s3}
+JP ＡＡＣタッグの
+JP 後から、少しずつ目が
+JP 見えにくくなってきて・・{w}
+JP {p}今は、ほとんど・・{w}
+EN {p}{s3}
+EN After the AAC Tag, my eyes
+EN little by little got
+EN harder to see with...{w}
+EN {p}Now I can barely...{w}
+
+@ 0dce11 refs=1
+JP {p}{s1}
+JP どうして・・・{w}
+EN {p}{s1}
+EN Why didn't you...{w}
+
+@ 0dce20 refs=1
+JP {p}{s3}
+JP 私も何度か・・言おうと
+JP 思った。{w}
+JP {p}けど、自分に負けたく
+JP なかったから・・・{w}
+JP {p}でも、こうなっちゃ
+JP 無敵のカオスも引退ね。{w}
+EN {p}{s3}
+EN I thought about... telling
+EN you, more than once.{w}
+EN {p}But I did not want to lose
+EN to myself...{w}
+EN {p}But now, even the
+EN invincible Chaos must
+EN retire.{w}
+
+@ 0dce75 refs=1
+JP {p}{s1}
+JP 私、マリアが気がつくまで
+JP いろんな事を考えてた。
+JP カオスの事、自分の事を{w}
+JP {p}いろいろね。
+JP そして、一つの答えが出た。
+JP 安心してマリア。{w}
+JP {p}あなたが辞めても
+JP カオスは、引退なんか
+JP しないわよ。{w}
+EN {p}{s1}
+EN Until you woke up, Maria,
+EN I thought about so much.
+EN About Chaos, and me.{w}
+EN {p}All sorts of things. And I
+EN came to an answer.
+EN Don't worry, Maria.{w}
+EN {p}Even if you quit,
+EN Chaos won't be retiring.{w}
+
+@ 0dcef7 refs=1
+JP {p}{s3}
+JP あなた、まさか！！{w}
+EN {p}{s3}
+EN You don't mean...!!{w}
+
+@ 0dcf0b refs=1
+JP {p}{s1}
+JP そうよ、私がカオスに
+JP なる。{w}
+EN {p}{s1}
+EN That's right. I'll become
+EN Chaos.{w}
+
+@ 0dcf24 refs=1
+JP {p}{s3}
+JP 本気なの！！
+JP マスクマンは、あなたが
+JP 思ってるほど・・{w}
+EN {p}{s3}
+EN Are you serious?!
+EN Being a masked wrestler is
+EN not as easy as you...{w}
+
+@ 0dcf4c refs=1
+JP {p}{s1}
+JP そんな事わかってる。
+JP でも、今、カオスが
+JP 消えてしまったら{w}
+EN {p}{s1}
+EN I know that. But if Chaos
+EN disappears now,{w}
+
+@ 0dcf79 refs=1
+JP {p}{s1}
+JP やっぱり、口だけだ{w}
+JP {p}生意気だから
+JP 辞めさせられた、みたいに
+JP 思われちゃって
+JP 何だかシャクじゃない。{w}
+EN {p}{s1}
+EN people will think she was
+EN all talk after all,{w}
+EN {p}that she was forced out
+EN for being too cocky.
+EN That'd be so annoying,
+EN wouldn't it?{w}
+
+@ 0dcfbf refs=1
+JP {p}{s3}
+JP ・・・・{n1}。
+JP 本当に本気なの？{w}
+EN {p}{s3}
+EN ....{n1}.
+EN Are you really serious?{w}
+
+@ 0dcfd8 refs=1
+JP {p}{s1}
+JP えぇ。{w}
+JP {p}狂気の獅子王
+JP カオスになって見せる。{w}
+EN {p}{s1}
+EN Yes.{w}
+EN {p}I'll show them. I'll
+EN become Chaos, the Mad Lion
+EN King.{w}
+
+@ 0dd000 refs=1
+JP {p}{s3}
+JP {n1}がそこまで
+JP 言うなら、止められそうに
+JP ないか。{w}
+JP {p}くれぐれも、無理な事は
+JP しちゃダメよ。{w}
+EN {p}{s3}
+EN If you say that much,
+EN {n1}, I don't think
+EN I can stop you.{w}
+EN {p}Just don't push yourself
+EN too hard.{w}
+
+@ 0dd041 refs=1
+JP {p}{s1}
+JP わかってる。
+JP ありがとう、マリア。{w}
+EN {p}{s1}
+EN I know. Thank you, Maria.{w}
+
+@ 0dd05f refs=1
+JP {p}次の日、{n1}は
+JP 引退を表明。
+JP 事実上{n1}とカオスの
+JP タッグは解散となった。{w}
+JP {p}また、パートナーの
+JP 引退についてカオスは{w}
+EN {p}The next day, {n1}
+EN announced her retirement,
+EN effectively ending the team
+EN of {n1} and Chaos.{w}
+EN {p}As for her partner's
+EN retirement, Chaos{w}
+
+@ 0dd0af refs=1
+JP {p}「一人になった今
+JP   自分は 新生 カオス
+JP   として闘い続ける。」{w}
+JP {p}とだけ発表した。{w}
+EN {p}"Now that I am alone,
+EN I will keep fighting as
+EN the reborn Chaos."{w}
+EN {p}That was all she said.{w}
+
+@ 0dd0eb refs=1
+JP {p}１ヵ月後のＥＸに
+JP 出場が決まった事を
+JP マリアに伝える為に
+JP {n1}は病院にきていた。{w}
+EN {p}To tell Maria she was set
+EN to enter the EX in a month,
+EN {n1} came to the
+EN hospital.{w}
+
+@ 0dd122 refs=1
+JP {p}あのぉ・・
+JP マリアロードンさんの
+JP ご友人の方ですよね？{w}
+EN {p}Excuse me...
+EN You're a friend of
+EN Maria Rodon, aren't you?{w}
+
+@ 0dd14a refs=0
+JP {p}{s1}
+JP はい、そうですけど。{w}
+JP {p}面会時間は１時間も
+JP 過ぎてるんですよ。
+JP どうして、マリアに
+JP 会わせてくれないんです？{w}
+EN {p}{s1}
+EN Yes, I am.{w}
+EN {p}Visiting hours ended over
+EN an hour ago. Why won't you
+EN let me see Maria?{w}
+
+@ 0dd195 refs=0
+JP {p}すみません。
+JP 実はマリアさんの事で
+JP お話がありまして。
+JP 少し、よろしいですか？{w}
+EN {p}I'm sorry. Actually, I need
+EN to talk to you about Maria.
+EN Do you have a moment?{w}
+
+@ 0dd1cc refs=0
+JP {p}{s1}
+JP なんですか？{w}
+EN {p}{s1}
+EN What is it?{w}
+
+@ 0dd1db refs=0
+JP {p}実はマリアさんの
+JP 右目の事なんですけど。{w}
+EN {p}It's about Maria's
+EN right eye.{w}
+
+@ 0dd1f9 refs=1
+JP {p}実は、３ヵ月以内に
+JP オペを行なわないと
+JP 彼女の目は・・・・{w}
+JP {p}一生、何も見えなく
+JP なるかもしれないんです。{w}
+EN {p}The truth is, unless she has
+EN an operation within 3 months,
+EN her eye...{w}
+EN {p}may never see anything again
+EN for the rest of her life.{w}
+
+@ 0dd244 refs=1
+JP {p}{s1}
+JP マリアの目が・・
+JP そんな・・・{w}
+EN {p}{s1}
+EN Maria's eye...
+EN No...{w}
+
+@ 0dd25d refs=1
+JP {p}ですが、あくまでも
+JP そうなるかもしれないと
+JP 言うだけであって・・{w}
+EN {p}However, I'm only saying
+EN that it might happen...{w}
+
+@ 0dd28a refs=1
+JP {p}{s1}
+JP そのオペをすれば
+JP 本当に、見えるように
+JP なるんですか！！{w}
+EN {p}{s1}
+EN If she has the operation,
+EN will she really be able
+EN to see again?!{w}
+
+@ 0dd2b7 refs=1
+JP {p}確かに見えるように
+JP なりますが、あくまで
+JP そうなるかも知れないと
+JP いう事ですし。{w}
+JP {p}なにより・・{w}
+EN {p}Yes, she would be able to
+EN see, but again, that's only
+EN a possibility.{w}
+EN {p}And above all...{w}
+
+@ 0dd2f8 refs=0
+JP {p}{s1}
+JP なんです！？{w}
+EN {p}{s1}
+EN What?!{w}
+
+@ 0dd307 refs=1
+JP {p}このオペを行なうには
+JP ３０万ドル必要なんです。{w}
+EN {p}This operation would cost
+EN 300,000 dollars.{w}
+
+@ 0dd32a refs=1
+JP {p}{s1}
+JP ３０万ドル？{w}
+EN {p}{s1}
+EN 300,000 dollars?{w}
+
+@ 0dd339 refs=1
+JP {p}そうです。{w}
+EN {p}That's right.{w}
+
+@ 0dd343 refs=1
+JP {p}{s1}
+JP わかりました。
+JP 何とかしてみます。{w}
+EN {p}{s1}
+EN All right.
+EN I'll find a way somehow.{w}
+
+@ 0dd361 refs=1
+JP {p}そうですよね・・
+JP ３０万なんて、大金
+JP 用意できないですよね。{w}
+JP {p}えっ？
+JP ちょ、あの３０万ドル
+JP ですよ！！
+JP ３０万ドル。{w}
+EN {p}Of course... Nobody could
+EN come up with 300,000 just
+EN like that...{w}
+EN {p}Huh? W-wait, that's 300,000
+EN DOLLARS!! 300,000 dollars!{w}
+
+@ 0dd3b1 refs=1
+JP {p}{s1}
+JP わかってます。
+JP とにかく、３ヶ月以内に
+JP なんとかしてみます。{w}
+JP {p}それまでマリアの事を
+JP よろしく頼みます。
+JP じゃあ。{w}
+EN {p}{s1}
+EN I know. Anyway, I'll find
+EN a way within 3 months.{w}
+EN {p}Until then, please take
+EN care of Maria. Goodbye.{w}
+
+@ 0dd401 refs=1
+JP {p}{s1}
+JP ハァッ・・・
+JP やっぱ、何度数えても
+JP ２０万程足りないわ。{w}
+EN {p}{s1}
+EN Haah...
+EN No matter how many times I
+EN count, I'm 200,000 short.{w}
+
+@ 0dd42e refs=1
+JP {p}{s1}
+JP なんか、こうプワーッと
+JP お金が入る
+JP 方法なんてないかしら？{w}
+JP {p}う～ん・・・{w}
+EN {p}{s1}
+EN Isn't there some way to
+EN make a big pile of money
+EN all at once?{w}
+EN {p}Hmmm...{w}
+
+@ 0dd465 refs=1
+JP {p}{s1}
+JP そうだ！！{w}
+JP {p}ＥＸに優勝すれば
+JP １０万ドルぐらいは・・
+JP ダメだぁ・・{w}
+JP {p}それでも、残り１０万は
+JP 足りないもんね。
+JP と、なれば・・{w}
+EN {p}{s1}
+EN I know!!{w}
+EN {p}If I win the EX, that's
+EN about 100,000 dollars...
+EN No good...{w}
+EN {p}I'd still be 100,000
+EN short. In that case...{w}
+
+@ 0dd4bf refs=1
+JP {p}{s1}
+JP あ！！{w}
+JP {p}そう言えば
+JP アテナクライマックスの
+JP 優勝者には１０万ドル出る
+JP って、ドレックさんが・・{w}
+JP {p}でもなぁ・・プライドの
+JP 高い市ヶ谷さんが
+JP 私に出場要請とか許可とか
+JP 出すワケないし・・{w}
+EN {p}{s1}
+EN Oh!!{w}
+EN {p}Come to think of it,
+EN Dreck said the Athena
+EN Climax winner gets
+EN 100,000 dollars...{w}
+EN {p}But... someone as proud
+EN as Ichigaya would never
+EN invite me or let me in...{w}
+
+@ 0dd53c refs=1
+JP {p}{s1}
+JP プライド・・・
+JP それだ！！{w}
+JP {p}フフッ・・・
+JP 自分がこわくなるぐらいの
+JP ナイスアイデアだわ！！{w}
+EN {p}{s1}
+EN Pride...
+EN That's it!!{w}
+EN {p}Heh heh... What a great
+EN idea. I almost scare
+EN myself!!{w}
+
+@ 0dd57d refs=1
+JP {p}{s1}
+JP 市ヶ谷さんには
+JP 悪いけど、私がアテナに
+JP 出るために、たっぷり{w}
+JP {p}恥かいてもらうわよ！！
+JP フフフフッッ・・・{w}
+EN {p}{s1}
+EN Sorry, Ichigaya, but for
+EN me to enter the Athena,
+EN you'll have to be utterly{w}
+EN {p}humiliated!!
+EN Heh heh heh heh...{w}
+
+@ 0dd5c8 refs=1
+JP {p}{s1}
+JP さてと、こまっちゃったな。
+JP どうしよう・・・{w}
+EN {p}{s1}
+EN Well, now I'm in a fix.
+EN What do I do...{w}
+
+@ 0dd5eb refs=1
+JP {p}{s1}
+JP ＥＸに出る為には
+JP パートナーをなんとか
+JP しないと！！{w}
+JP {p}どうしよう、どうしよう！！{w}
+EN {p}{s1}
+EN If I want to enter the EX,
+EN I have to find a partner
+EN somehow!!{w}
+EN {p}What do I do?!
+EN What do I do?!{w}
+
+@ 0dd627 refs=1
+JP {p}{s1}
+JP ハァ～ン！！
+JP このままじゃ、ＥＸに
+JP 出れなくなっちゃうよぉ！！{w}
+EN {p}{s1}
+EN Waaah!!
+EN At this rate I won't get
+EN to enter the EX!!{w}
+
+@ 0dd654 refs=1
+JP {p}ジリリリィーン
+JP   ジリリリィーン{w}
+EN {p}Brrrring...
+EN   Brrrring...{w}
+
+@ 0dd66d refs=1
+JP {p}{s1}
+JP ハイハイ
+JP 今でますよぉ、っと。{w}
+JP {p}ったく、こんな時に！！{w}
+JP {p}ハイ、どちら様ですか？{w}
+EN {p}{s1}
+EN Yes, yes, I'm coming, I'm
+EN coming.{w}
+EN {p}Ugh, at a time like this!!{w}
+EN {p}Hello, who is this?{w}
+
+@ 0dd6a9 refs=1
+JP {p}ハッハハ・・{w}
+JP {p}ヒールの女王
+JP ダークスターカオスも
+JP 電話の時は
+JP 普通に話すんだ。{w}
+EN {p}Ha ha ha...{w}
+EN {p}So even Dark Star Chaos,
+EN the Queen of Heels, talks
+EN like a normal person on the
+EN phone.{w}
+
+@ 0dd6e0 refs=1
+JP {p}{s1}
+JP 誰ですか？{w}
+EN {p}{s1}
+EN Who is this?{w}
+
+@ 0dd6ef refs=1
+JP {p}{s2}
+JP わからない？
+JP 私よ、エルドレック。{w}
+EN {p}{s2}
+EN Can't tell? It's me,
+EN El Dreck.{w}
+
+@ 0dd70d refs=1
+JP {p}{s1}
+JP ドレックさん！！
+JP お久しぶりです。
+JP 元気です？{w}
+EN {p}{s1}
+EN Dreck!!
+EN It's been so long!
+EN How are you?{w}
+
+@ 0dd730 refs=1
+JP {p}{s2}
+JP 聞いたわよ。
+JP ＥＸに出場したい、って？{w}
+EN {p}{s2}
+EN I heard the news.
+EN You want to enter the EX?{w}
+
+@ 0dd74e refs=1
+JP {p}{s1}
+JP そうなんですよ。
+JP でも、パートナーも
+JP いないし・・・{w}
+JP {p}！？
+JP ドレックさん！！
+JP 誰に聞いたんですか？・{w}
+EN {p}{s1}
+EN That's right. But I don't
+EN have a partner yet...{w}
+EN {p}...!?
+EN Dreck!!
+EN Who told you that?{w}
+
+@ 0dd799 refs=1
+JP {p}{s2}
+JP 病院のベッドで
+JP おしゃべりなヤツが
+JP そう言ってたよ。{w}
+JP {p}あなたが、カオスに
+JP なった事もＥＸに出場
+JP したがってる事もね。{w}
+EN {p}{s2}
+EN A certain chatterbox in a
+EN hospital bed told me.{w}
+EN {p}That you became Chaos, and
+EN that you want to enter
+EN the EX.{w}
+
+@ 0dd7ee refs=1
+JP {p}{s1}
+JP グヌヌッ・・
+JP あのぉ、おしゃべり娘め！！{w}
+JP {p}もう、見舞いに行って
+JP やんないわよ。{w}
+EN {p}{s1}
+EN Grrr...
+EN That blabbermouth!!{w}
+EN {p}I'm never visiting her
+EN again!{w}
+
+@ 0dd834 refs=1
+JP {p}{s2}
+JP まあまあ、そう言い
+JP なさんな。{w}
+JP {p}で、どう？
+JP ＥＸには、出場できそう？
+EN {p}{s2}
+EN Now, now, don't say
+EN that.{w}
+EN {p}So, how's it going?
+EN Think you'll make the EX?
+
+@ 0dd866 refs=1
+JP {p}{s1}
+JP それがまだ、パートナーが
+JP 決まってないんですよ。{w}
+EN {p}{s1}
+EN Well, I still haven't
+EN found a partner.{w}
+
+@ 0dd88e refs=1
+JP {p}{s2}
+JP だと思ったわ。
+JP どう、よかったら私が
+JP 力になったげようか？{w}
+EN {p}{s2}
+EN I thought so.
+EN If you like, how about
+EN I lend you a hand?{w}
+
+@ 0dd8bb refs=1
+JP {p}{s1}
+JP えっ！！
+JP いいんですか！？{w}
+EN {p}{s1}
+EN What!!
+EN Are you sure!?{w}
+
+@ 0dd8d4 refs=1
+JP {p}{s2}
+JP あなたがイヤで
+JP なければね。{w}
+EN {p}{s2}
+EN If you don't mind having
+EN me, that is.{w}
+
+@ 0dd8ed refs=1
+JP {p}{s1}
+JP とんでもない！！
+JP お願いしますよ。
+JP 私とタッグを組んで下さい。{w}
+EN {p}{s1}
+EN Mind? Not at all!!
+EN Please, team up with me!{w}
+
+@ 0dd91a refs=1
+JP {p}{s2}
+JP 任せときなさい、って。{w}
+JP {p}でも、タッグを組むのは
+JP ＥＸの間だけよ。{w}
+JP {p}私も、アテナクライマックス
+JP までには、体調をベストに
+JP しておきたいし・・{w}
+EN {p}{s2}
+EN Leave it to me.{w}
+EN {p}But we're a tag team only
+EN for the EX.{w}
+EN {p}I want to be in top shape
+EN by the time the Athena
+EN Climax comes around...{w}
+
+@ 0dd97e refs=1
+JP {p}{s1}
+JP 何です？
+JP アテナクライマックスって？{w}
+EN {p}{s1}
+EN What's that?
+EN The Athena Climax?{w}
+
+@ 0dd99c refs=1
+JP {p}{s2}
+JP アテナクライマックス
+JP またの名を
+JP 世界最強リーグ戦{w}
+EN {p}{s2}
+EN The Athena Climax, also
+EN known as the World's
+EN Strongest League.{w}
+
+@ 0dd9c4 refs=1
+JP {p}{s1}
+JP 最強リーグ戦・・・{w}
+EN {p}{s1}
+EN The Strongest League...{w}
+
+@ 0dd9d8 refs=1
+JP {p}{s2}
+JP その名の通り、世界の
+JP トップレスラー達が
+JP シングル世界最強を目指す{w}
+JP {p}まさに、最強のリーグ戦{w}
+JP {p}ま、私は世界最強よりも
+JP 優勝者への１０万ドルに
+JP 興味があるんだけどね。{w}
+EN {p}{s2}
+EN As the name says, the
+EN world's top women fight
+EN to be the best in singles.{w}
+EN {p}The ultimate league.{w}
+EN {p}Well, I'm more interested
+EN in the $100,000 for the
+EN winner than in the title.{w}
+
+@ 0dda4b refs=1
+JP {p}{s1}
+JP シングルで
+JP 世界最強を決めるか・・{w}
+JP {p}面白そうですね。
+JP 私も出たいなあぁ・・{w}
+EN {p}{s1}
+EN Deciding who's the world's
+EN best in singles, huh...{w}
+EN {p}Sounds like fun.
+EN Wish I could enter too...{w}
+
+@ 0dda82 refs=1
+JP {p}{s2}
+JP それはムズカシイわね。{w}
+EN {p}{s2}
+EN That would be tough.{w}
+
+@ 0dda96 refs=1
+JP {p}{s1}
+JP どうしてです？{w}
+EN {p}{s1}
+EN Why's that?{w}
+
+@ 0ddaa5 refs=1
+JP {p}{s2}
+JP だって、アテナに出るには
+JP 半年以上、どこかの団体に
+JP 籍がないとダメなのよ。{w}
+EN {p}{s2}
+EN To enter the Athena, you
+EN must have been with some
+EN promotion for 6 months.{w}
+
+@ 0ddadc refs=1
+JP {p}{s1}
+JP どうしてもダメですかね？{w}
+EN {p}{s1}
+EN Is there no way at all?{w}
+
+@ 0ddaf5 refs=1
+JP {p}{s2}
+JP そうねぇ、どうしても
+JP 出場したいなら
+JP 市ヶ谷に頼んでみれば？{w}
+EN {p}{s2}
+EN Well, if you really want
+EN in that badly, why not
+EN ask Ichigaya?{w}
+
+@ 0ddb22 refs=1
+JP {p}{s1}
+JP 市ヶ谷って・・
+JP ＩＷＷＦヘビー王者の？{w}
+EN {p}{s1}
+EN Ichigaya...
+EN The IWWF Heavy champion?{w}
+
+@ 0ddb40 refs=1
+JP {p}{s2}
+JP そうよ。{w}
+JP {p}ＩＷＷＦ王者の彼女から
+JP 許可が出るか、要請が
+JP あれば出場はできるわよ。{w}
+EN {p}{s2}
+EN That's right.{w}
+EN {p}As IWWF champion, if she
+EN gives you permission or
+EN asks for you, you're in.{w}
+
+@ 0ddb7c refs=1
+JP {p}{s1}
+JP でも、きっと簡単に
+JP 出場させてやる、なんて
+JP 言わないんでしょ。{w}
+EN {p}{s1}
+EN But I bet she won't just
+EN let me in that easily.{w}
+
+@ 0ddba9 refs=1
+JP {p}{s2}
+JP そうでしょうね。{w}
+JP {p}ま、今はアテナの事より
+JP ＥＸに勝つ事を
+JP 考えなさい。{w}
+JP {p}アテナの事は、後からでも
+JP 遅くないんだしね。{w}
+EN {p}{s2}
+EN Probably not.{w}
+EN {p}Anyway, for now, think
+EN about winning the EX, not
+EN the Athena.{w}
+EN {p}There's still time to
+EN worry about the Athena
+EN later.{w}
+
+@ 0ddbfe refs=1
+JP {p}{s1}
+JP はい。{w}
+EN {p}{s1}
+EN Okay.{w}
+
+@ 0ddc08 refs=1
+JP {p}次の日{w}
+EN {p}The next day{w}
+
+@ 0ddc12 refs=1
+JP {p}{s1}
+JP 邪魔するぜ。{w}
+EN {p}{s1}
+EN Pardon the intrusion.{w}
+
+@ 0ddc21 refs=1
+JP {p}おや、誰かと思ったら
+JP カオスか。{w}
+JP {p}で、どうかね
+JP ＥＸに出場するための
+JP パートナーは
+JP 見つかったかね？{w}
+EN {p}Well, look who it is.
+EN Chaos.{w}
+EN {p}So, tell me, have you
+EN found a partner to enter
+EN the EX with?{w}
+
+@ 0ddc67 refs=1
+JP {p}{s1}
+JP その通りだ。{w}
+JP {p}タッグを組む事が
+JP できたんで、ＥＸの出場を
+JP 許可してもらおうと
+JP 思ってね。{w}
+EN {p}{s1}
+EN That's right.{w}
+EN {p}I've formed a tag team,
+EN so I came to get your
+EN permission to enter
+EN the EX.{w}
+
+@ 0ddca8 refs=1
+JP {p}お前とタッグを組むなんて
+JP 物好きなレスラーも
+JP いたものだ。{w}
+JP {p}で、パートナーは
+JP 誰かね？
+JP ワールドの鶴見あたりじゃ
+JP ないかね？{w}
+EN {p}Imagine a wrestler odd
+EN enough to team up with
+EN the likes of you.{w}
+EN {p}So who's your partner?
+EN Someone like Tsurumi from
+EN World, perhaps?{w}
+
+@ 0ddcfd refs=1
+JP {p}{s1}
+JP そんな事より、ＥＸへの
+JP 出場許可は、これで出して
+JP もらえるんだろうな？{w}
+EN {p}{s1}
+EN Never mind that. So you'll
+EN let me enter the EX now,
+EN right?{w}
+
+@ 0ddd2f refs=1
+JP {p}もちろんだ。
+JP 君がパートナーと共に
+JP ＥＸタッグに出場する事を
+JP 許可しよう。{w}
+JP {p}これが、ＥＸ出場の為の
+JP 契約書だ。{w}
+EN {p}Of course.
+EN I hereby permit you and
+EN your partner to enter
+EN the EX Tag.{w}
+EN {p}Here is the contract for
+EN the EX.{w}
+
+@ 0ddd7a refs=1
+JP {p}{s1}
+JP 確かに。{w}
+EN {p}{s1}
+EN Got it.{w}
+
+@ 0ddd89 refs=1
+JP {p}１回戦なんかで
+JP 負けないように
+JP 努力したまえ。{w}
+EN {p}Do try not to lose in
+EN the first round.{w}
+
+@ 0dddac refs=1
+JP {p}{s1}
+JP おっさん、そうやって
+JP 余裕かましてるのも
+JP 今のうちだ。{w}
+JP {p}私の出場を許可した事を
+JP 後悔させてやる。
+JP 必ずな。{w}
+EN {p}{s1}
+EN Enjoy acting so smug while
+EN you can, old man.{w}
+EN {p}I'll make you regret
+EN letting me in.
+EN Count on it.{w}
+
+@ 0dddf7 refs=1
+JP {p}ついに、ＥＸタッグへの
+JP 出場が決定したカオス。{w}
+JP {p}そして、次の日から
+JP ＥＸにむけての
+JP 特訓が始まった。{w}
+EN {p}At last, Chaos had won
+EN a place in the EX Tag.{w}
+EN {p}And from the next day on,
+EN her special training for
+EN the EX began.{w}
+
+@ 0dde3d refs=1
+JP {p}入ったぁぁ！
+JP カオスパワー全開！！{w}
+EN {p}It's in!
+EN Chaos Power at full blast!!{w}
+
+@ 0dde56 refs=1
+JP {p}そして
+JP ここで試合終了だぁっ！！{w}
+EN {p}And the match is over
+EN right here!!{w}
+
+@ 0dde6f refs=1
+JP {p}これは、まさかの
+JP 出来事だあぁぁ！！{w}
+EN {p}Nobody saw this coming!!{w}
+
+@ 0dde8d refs=1
+JP {p}おそるべし
+JP ダークスターカオス！！！{w}
+EN {p}What a fearsome wrestler!
+EN Dark Star Chaos!!!{w}
+
+@ 0ddeab refs=1
+JP {p}{s1}
+JP （よし、何とか
+JP  勝てたわね。
+JP   挑発作戦開始よ！）{w}
+JP {p}やれやれ・・
+JP トップレスラーといえども{w}
+EN {p}{s1}
+EN (All right, somehow I
+EN  won. Time to start
+EN  Operation Provoke!){w}
+EN {p}Well, well...
+EN Even a top wrestler...{w}
+
+@ 0ddef1 refs=1
+JP {p}{s1}
+JP この程度か・・{w}
+JP {p}ククッ・・
+JP クハハハハハハ・・・{w}
+EN {p}{s1}
+EN ...is only this good...{w}
+EN {p}Heh heh...
+EN Kuhahahahaha...{w}
+
+@ 0ddf19 refs=1
+JP {p}{s2}
+JP ウヌヌヌッッ！！{w}
+EN {p}{s2}
+EN Grrrrrr!!{w}
+
+@ 0ddf2d refs=1
+JP {p}{s2}
+JP カオスさん{w}
+JP {p}ＩＷＷＦヘビーの
+JP 挑戦者を、あなたに
+JP 決めましたわ！！{w}
+EN {p}{s2}
+EN Chaos!{w}
+EN {p}I have decided that you
+EN will be the challenger for
+EN the IWWF Heavy title!!{w}
+
+@ 0ddf5f refs=1
+JP {p}{s1}
+JP （作戦成功！！）{w}
+EN {p}{s1}
+EN (Mission accomplished!!){w}
+
+@ 0ddf73 refs=1
+JP {p}{s3}
+JP ええぇっ！！！{w}
+JP {p}こら、市ヶ谷！！
+JP ふざけんじゃないわよ！！{w}
+EN {p}{s3}
+EN Whaaat!!!{w}
+EN {p}Hey, Ichigaya!!
+EN Are you kidding me!!{w}
+
+@ 0ddfa0 refs=1
+JP {p}{s4}
+JP せめて、私達と闘ってから
+JP 挑戦者を決めろぉ！！{w}
+EN {p}{s4}
+EN At least fight us before
+EN you pick a challenger!!{w}
+
+@ 0ddfc3 refs=1
+JP {p}{s3}
+JP そうだそうだ！{w}
+EN {p}{s3}
+EN Yeah, that's right!{w}
+
+@ 0ddfd2 refs=1
+JP {p}{s1}
+JP （ちょっと
+JP  あんた達うるさいわよ！{w}
+JP {p} 今、いいとこなんだから
+JP  ジャマすんなっての！！）{w}
+JP {p}（仕方ない
+JP   もっと、あおってやれ）{w}
+EN {p}{s1}
+EN (Hey, you two,
+EN  pipe down!{w}
+EN {p} We're at the good part,
+EN  so stay out of the way!!){w}
+EN {p}(Oh well, guess I'll have
+EN  to egg her on some more.){w}
+
+@ 0de031 refs=1
+JP {p}{s1}
+JP いいのか？
+JP 挑戦者を私にしても。{w}
+EN {p}{s1}
+EN Are you sure?
+EN Making me the challenger?{w}
+
+@ 0de04f refs=1
+JP {p}{s2}
+JP 当然ですわ。{w}
+EN {p}{s2}
+EN Naturally.{w}
+
+@ 0de05e refs=1
+JP {p}{s1}
+JP 仲間達はやめろ
+JP と、言ってるようだが？{w}
+EN {p}{s1}
+EN Your friends seem to be
+EN telling you not to.{w}
+
+@ 0de07c refs=1
+JP {p}{s2}
+JP 仲間ですって？{w}
+JP {p}オーッホッホッホッ！！
+JP 下々の輩と、一緒に
+JP しないでいただきたいわ。{w}
+EN {p}{s2}
+EN My friends, you say?{w}
+EN {p}Oh-ho-ho-ho!!
+EN Kindly do not lump me in
+EN with the common rabble.{w}
+
+@ 0de0bd refs=1
+JP {p}{s1}
+JP いいんだな？{w}
+JP {p}（お願い！
+JP  今さら、ウソとか
+JP   言わないでよぉ！！）{w}
+EN {p}{s1}
+EN You're sure, then?{w}
+EN {p}(Please! Don't go
+EN  telling me you were
+EN  kidding now!!){w}
+
+@ 0de0f4 refs=1
+JP {p}{s2}
+JP ホーッホッホッホッホ！！
+JP もちろんですわ。{w}
+JP {p}今度こそ、ＩＷＷＦ王者の
+JP 力を、その体に教えこんで
+JP 差し上げます！！{w}
+EN {p}{s2}
+EN Oh-ho-ho-ho-ho!!
+EN Of course I am.{w}
+EN {p}This time, I shall teach
+EN your body the power of the
+EN IWWF champion!!{w}
+
+@ 0de144 refs=1
+JP {p}{s1}
+JP （よしっ！）{w}
+JP {p}じゃ、日時が決まったら
+JP 呼んでくれ。
+JP じゃあな。{w}
+EN {p}{s1}
+EN (Yes!){w}
+EN {p}Then call me once the
+EN date is set.
+EN Later.{w}
+
+@ 0de176 refs=1
+JP {p}ここで試合終了だぁ！！{w}
+EN {p}And the match is over
+EN right here!!{w}
+
+@ 0de18a refs=1
+JP {p}{s1}
+JP （よ～し、行くわよぉ！
+JP  挑発作戦 ２ 開始！）{w}
+JP {p}市ヶ谷、王者、ってのは
+JP この程度のもんなのか？{w}
+EN {p}{s1}
+EN (Okaaay, here goes!
+EN  Operation Provoke 2,
+EN  start!){w}
+EN {p}Ichigaya, is this all
+EN a champion amounts to?{w}
+
+@ 0de1d0 refs=1
+JP {p}{s2}
+JP 何ですって？{w}
+EN {p}{s2}
+EN What did you say?{w}
+
+@ 0de1df refs=1
+JP {p}{s1}
+JP （よしっ！！）{w}
+JP {p}お前の力は
+JP この程度なのか、と
+JP 聞いたのさ。{w}
+EN {p}{s1}
+EN (All right!!){w}
+EN {p}I asked if this is all
+EN your power amounts to.{w}
+
+@ 0de211 refs=1
+JP {p}{s2}
+JP オーッホッホッホッ！！{w}
+JP {p}あなたが、何を
+JP たくらんで私を挑発して
+JP いるのかは知りませんが
+JP 何を言ってもムダですわよ。{w}
+EN {p}{s2}
+EN Oh-ho-ho-ho!!{w}
+EN {p}I don't know what you are
+EN scheming, provoking me
+EN like this, but nothing you
+EN say will work on me.{w}
+
+@ 0de261 refs=1
+JP {p}{s1}
+JP （ゲッ、バレてる。
+JP  こうなったら、アレを
+JP  使うしか・・・）{w}
+JP {p}市ヶ谷。
+JP これを見なさい！！{w}
+EN {p}{s1}
+EN (Yikes, she's onto me.
+EN  Guess I have no choice
+EN  but to use THAT...){w}
+EN {p}Ichigaya.
+EN Take a look at this!!{w}
+
+@ 0de2a7 refs=1
+JP {p}{s2}
+JP 私、あいにくと負けイヌの
+JP 言葉は無視する事に・・{w}
+JP {p}カ、カオスさん！！
+JP それをどこで！？{w}
+EN {p}{s2}
+EN I'm afraid I don't listen
+EN to the words of losers.{w}
+EN {p}C-Chaos!!
+EN Where did you get that!?{w}
+
+@ 0de2e8 refs=1
+JP {p}{s1}
+JP ちょいと、あんたのウチで
+JP 借りて来たのさ。{w}
+JP {p}しかし、あの市ヶ谷が
+JP ＸＸＸＸＸでＯＯＯＯを
+JP してるなんてな。{w}
+EN {p}{s1}
+EN I just borrowed it from
+EN your house.{w}
+EN {p}Who'd have thought the
+EN great Ichigaya does OOOO
+EN in XXXXX?{w}
+
+@ 0de333 refs=1
+JP {p}{s2}
+JP カオスさん。
+JP あ、あなたの望みは
+JP 何なのかしら？{w}
+JP {p}わた、わたくしに
+JP 出来る事なら
+JP 力になって差し上げてよ。{w}
+EN {p}{s2}
+EN Chaos.
+EN Wh-what is it that you
+EN want?{w}
+EN {p}I-if it's anything I can
+EN do, I would be glad to
+EN help you.{w}
+
+@ 0de37e refs=1
+JP {p}{s1}
+JP さてと、どうするかな。
+JP コイツをバラまくか？
+JP それとも・・・{w}
+EN {p}{s1}
+EN Now then, what to do...
+EN Should I spread this
+EN around? Or maybe...{w}
+
+@ 0de3ab refs=1
+JP {p}{s2}
+JP ホホッ、ホホッ・・
+JP カ、カオスさん？{w}
+EN {p}{s2}
+EN Oho, oho...
+EN Ch-Chaos?{w}
+
+@ 0de3c9 refs=1
+JP {p}{s1}
+JP よしっ、決めた！！{w}
+JP オレをアテナクライマックス
+JP に出場させろ。{w}
+JP {p}さもないと・・{w}
+EN {p}{s1}
+EN Okay, I've decided!!{w}
+EN Get me into the Athena
+EN Climax.{w}
+EN {p}Or else...{w}
+
+@ 0de405 refs=1
+JP {p}{s2}
+JP わ、わかりましたわ。
+JP その、そのように
+JP いたしますわ。{w}
+JP {p}ですから、それを私に・・{w}
+EN {p}{s2}
+EN V-very well.
+EN I-I shall do just
+EN that.{w}
+EN {p}So please, give that
+EN back to me...{w}
+
+@ 0de441 refs=1
+JP {p}{s1}
+JP おっと、コイツを返すのは
+JP アテナクライマックスに
+JP 出場が決まってからだ。{w}
+JP {p}返したとたんに
+JP 今のは、冗談ですわ
+JP なんて言われたく
+JP ないんでね。{w}
+JP {p}（ヤッタァァ！！
+JP  市ヶ谷さん。
+JP  あいしてるわ！！）{w}
+EN {p}{s1}
+EN Ah-ah. You get this back
+EN once my entry into the
+EN Athena Climax is final.{w}
+EN {p}I wouldn't want you
+EN saying "That was just a
+EN joke" the second I
+EN hand it over.{w}
+EN {p}(Yaaay!!
+EN  Ichigaya,
+EN  I love you!!){w}
+
+@ 0de4c8 refs=1
+JP {p}{s1}
+JP じゃあな、市ヶ谷。
+JP 覚悟しておけよ。
+JP クハハハハハ・・・{w}
+JP {p}（あぁ、ありがとう
+JP  市ヶ谷さん！！）{w}
+EN {p}{s1}
+EN Later, Ichigaya.
+EN Be ready for me.
+EN Kuhahahahaha...{w}
+EN {p}(Oh, thank you,
+EN  Ichigaya!!){w}
+
+@ 0de50e refs=1
+JP {p}２日後・・・
+JP うまくダマサれた
+JP 市ヶ谷のおかげで{w}
+JP {p}{n1}は
+JP 世界最強リーグ
+JP アテナクライマックスへの
+JP 出場が決まった。{w}
+JP {p}が、しかし市ヶ谷が
+JP 何もせずに、{n1}の
+JP 参加を許可するはずは
+JP なかったのだ。{w}
+EN {p}2 days later...
+EN Thanks to Ichigaya, who
+EN was neatly fooled,{w}
+EN {p}{n1} was set to
+EN enter the Athena Climax,
+EN the World's Strongest
+EN League.{w}
+EN {p}But Ichigaya was never
+EN going to let {n1}
+EN take part without doing
+EN something about it.{w}
+
+@ 0de590 refs=1
+JP {p}アテナクライマックス
+JP 最終日・・・
+JP {p}{n1}は、開始の
+JP ゴングが響くのを
+JP 待ちかまえていた・・{w}
+EN {p}The Athena Climax,
+EN final day...
+EN {p}{n1} waited for the
+EN opening bell to ring...{w}
+
+@ 0de5cc refs=1
+JP {p}{s1}
+JP 優勝すれば、１０万ドル。
+JP だが、もし出来なければ
+JP 引退しろなんて・・{w}
+JP {p}こんな事なら、アレを
+JP 返すんじゃなかった。{w}
+EN {p}{s1}
+EN If I win, it's $100,000.
+EN But if I don't, I have to
+EN retire...{w}
+EN {p}If I'd known, I never
+EN would've given THAT back.{w}
+
+@ 0de61c refs=1
+JP {p}{s1}
+JP どうしようどうしよう。
+JP 負けたら１０万ドルは
+JP パアだし。{w}
+JP {p}マリアにもカオスの事は
+JP 任せろ、って言った
+JP 手前もあるから
+JP 負けるワケにもいかないし。{w}
+EN {p}{s1}
+EN What do I do? What now?
+EN If I lose, the $100,000
+EN goes up in smoke.{w}
+EN {p}And I told Maria to leave
+EN Chaos to me, so I can't
+EN afford to lose.{w}
+
+@ 0de680 refs=1
+JP {p}{s1}
+JP 負ければ、カオスは引退。{w}
+JP {p}どうしよう・・・
+JP マリアとの約束が
+JP 守れないかも・・・{w}
+EN {p}{s1}
+EN If I lose, Chaos retires.{w}
+EN {p}What do I do...
+EN I might not be able to
+EN keep my word to Maria...{w}
+
+@ 0de6bc refs=1
+JP {p}{s1}
+JP マリア・・ゴメンね。
+JP 私、正直言って、自信が
+JP なくなってきたよ。{w}
+EN {p}{s1}
+EN Maria... I'm sorry.
+EN Honestly, I'm starting
+EN to lose my confidence.{w}
+
+@ 0de6ee refs=1
+JP {p}{s2}
+JP {n1}。{w}
+EN {p}{s2}
+EN {n1}.{w}
+
+@ 0de6f8 refs=1
+JP {p}{s1}
+JP マリア？{w}
+EN {p}{s1}
+EN Maria?{w}
+
+@ 0de707 refs=1
+JP {p}{s2}
+JP 残念だけど違うわ。{w}
+EN {p}{s2}
+EN Sorry, wrong person.{w}
+
+@ 0de71b refs=1
+JP {p}{s1}
+JP ドレックさん。{w}
+EN {p}{s1}
+EN Dreck.{w}
+
+@ 0de72a refs=1
+JP {p}{s2}
+JP {n1}。
+JP マリアからコレを。{w}
+EN {p}{s2}
+EN {n1}.
+EN This is from Maria.{w}
+
+@ 0de743 refs=0
+JP {p}{s1}
+JP マリアが私に？
+JP 何だろ？{w}
+EN {p}{s1}
+EN From Maria, for me?
+EN What could it be?{w}
+
+@ 0de75c refs=1
+JP {p}{s3}
+JP {n1}。{w}
+JP {p}あなたが、今まで私の為に
+JP 闘ってくれていた事
+JP うれしく思います。{w}
+EN {p}{s3}
+EN {n1}.{w}
+EN {p}I'm so happy that you've
+EN been fighting for my
+EN sake all this time.{w}
+
+@ 0de793 refs=1
+JP {p}{s3}
+JP でも、私にはあなたが
+JP あの日の言葉を
+JP 忘れてるように思えて{w}
+JP {p}仕方がありません。
+JP どうか、思い出して下さい
+JP あの日の言葉を。{w}
+EN {p}{s3}
+EN But I can't help feeling
+EN that you've forgotten
+EN the words of that day.{w}
+EN {p}Please, remember them.
+EN Remember the words of
+EN that day.{w}
+
+@ 0de7e8 refs=1
+JP {p}{s3}
+JP もし、あなたが
+JP あの言葉を覚えているなら{w}
+JP {p}私の為でなく
+JP 自分自身の為に{w}
+JP {p}リングに上がって下さい。{w}
+EN {p}{s3}
+EN If you still remember
+EN those words,{w}
+EN {p}then not for me, but for
+EN yourself,{w}
+EN {p}please step into the ring.{w}
+
+@ 0de847 refs=1
+JP {p}{s1}
+JP そう・・そうだったわね。
+JP マリア・・思い出したよ。{w}
+JP {p}私は私の中にある
+JP カオスにならなくちゃね。
+JP ダークスターカオス
+JP 狂気の獅子王に。{w}
+EN {p}{s1}
+EN Yes... that's right.
+EN Maria... I remember now.{w}
+EN {p}I have to become the Chaos
+EN that's inside me.
+EN Dark Star Chaos,
+EN the Mad Lion King.{w}
+
+@ 0de8b0 refs=1
+JP {p}{s2}
+JP 頑張るのよ。
+JP ダークスターカオス。{w}
+EN {p}{s2}
+EN Go get them,
+EN Dark Star Chaos.{w}
+
+@ 0de8ce refs=1
+JP {p}{s1}
+JP はい！！{w}
+EN {p}{s1}
+EN Right!!{w}
+
+@ 0de8e7 refs=2
+JP {p}{s1}
+JP は～ぁ・・・{w}
+JP {p}やっぱり、留学すれば
+JP よかったなぁ・・{w}
+JP {p}み～んな、今ごろ
+JP 何してるんだろ・・・{w}
+EN {p}{s1}
+EN Haaah...{w}
+EN {p}I really should have gone
+EN to train abroad...{w}
+EN {p}I wonder what everyone's
+EN doing right now...{w}
+
+@ 0de92d refs=2
+JP {p}ガラガラ{w}
+EN {p}*Rattle rattle*{w}
+
+@ 0de937 refs=2
+JP {p}{s1}
+JP あっ、{n2}さん。{w}
+JP {p}どうしたんですか？
+JP こんな時間なのに、ジムに
+JP 来るなんて。{w}
+EN {p}{s1}
+EN Oh, {n2}!{w}
+EN {p}What's up?
+EN Coming to the gym at
+EN this hour?{w}
+
+@ 0de96e refs=2
+JP {p}{s2}
+JP ま、ちょっと用事が
+JP あってね。{w}
+JP {p}それより、あなたこそ
+JP どうしたの？{w}
+EN {p}{s2}
+EN Well, I had a little
+EN business here.{w}
+EN {p}More importantly, what
+EN about you?{w}
+
+@ 0de9a0 refs=2
+JP {p}{s1}
+JP ハハハ・・・
+JP ちょっと、考えごとを
+JP してただけですよ。{w}
+EN {p}{s1}
+EN Ha ha ha...
+EN I was just thinking
+EN about some things.{w}
+
+@ 0de9c8 refs=0
+JP {p}{s2}
+JP 考えごと、って何を？{w}
+EN {p}{s2}
+EN Thinking about what?{w}
+
+@ 0de9dc refs=0
+JP {p}{s1}
+JP た、たいした事じゃ
+JP ないですよ。{w}
+EN {p}{s1}
+EN N-nothing important.{w}
+
+@ 0de9fa refs=0
+JP {p}{s2}
+JP いいから、先輩に
+JP 話してみなさい。{w}
+EN {p}{s2}
+EN Come on, tell your
+EN senpai about it.{w}
+
+@ 0dea18 refs=2
+JP {p}{s1}
+JP いえ、やっぱり
+JP 海外留学に行けば
+JP よかったかな～ぁ{w}
+JP {p}なんて、思ってた
+JP だけですよ{w}
+EN {p}{s1}
+EN Well, I was just thinking
+EN maybe I should have gone
+EN to train abroad after all,{w}
+EN {p}that's all.{w}
+
+@ 0dea54 refs=2
+JP {p}{s2}
+JP なるほどね・・
+JP 海外には、いつでも
+JP 行けるワケじゃないものね。{w}
+EN {p}{s2}
+EN I see...
+EN It's not like you can go
+EN abroad any time you want.{w}
+
+@ 0dea81 refs=2
+JP {p}{s1}
+JP そうなんですよ。{w}
+JP {p}だから、次に海外に行く
+JP チャンスがあったら・・{w}
+EN {p}{s1}
+EN Exactly.{w}
+EN {p}So if I ever get another
+EN chance to go abroad...{w}
+
+@ 0deab3 refs=2
+JP {p}{s2}
+JP そうね。{w}
+JP {p}あなた、まだ若いし
+JP チャンスは、何回でも
+JP あるわよ。{w}
+JP {p}次のチャンスを、つかみ
+JP たいんなら、しっかり力を
+JP つけないとね。{w}
+EN {p}{s2}
+EN Right.{w}
+EN {p}You're still young.
+EN You'll get plenty more
+EN chances.{w}
+EN {p}If you want to grab the
+EN next one, you'd better
+EN get a lot stronger.{w}
+
+@ 0deb12 refs=2
+JP {p}{s1}
+JP はい、わかりました。{w}
+JP チャンスなんて、何回でも
+JP ありますもんね。{w}
+JP {p}アハハハハハハハッ
+JP 私ったら、何あせってんの
+JP かしら。{w}
+EN {p}{s1}
+EN Yes, I understand.{w}
+EN There'll be plenty more
+EN chances, after all.{w}
+EN {p}Ahahahahaha!
+EN What am I getting so
+EN worked up about?{w}
+
+@ 0deb67 refs=2
+JP {p}{s2}
+JP フフッ・・{w}
+JP {p}さてと、帰るとするか。{w}
+EN {p}{s2}
+EN Heh...{w}
+EN {p}Well, I'll head home.{w}
+
+@ 0deb85 refs=2
+JP {p}{s1}
+JP え？
+JP {n2}さん、もう
+JP 帰っちゃうんですか？{w}
+EN {p}{s1}
+EN Huh?
+EN {n2}, you're
+EN leaving already?{w}
+
+@ 0deba8 refs=2
+JP {p}{s2}
+JP えぇ、カワイイ後輩の
+JP なやみも解消できた
+JP みたいだから。{w}
+JP {p}もう、私の用事は
+JP おしまいよ。{w}
+EN {p}{s2}
+EN Yes. It looks like my cute
+EN junior's worries are all
+EN cleared up.{w}
+EN {p}So my business here is
+EN done.{w}
+
+@ 0debe9 refs=2
+JP {p}{s1}
+JP じゃあ、もしかして
+JP 私の為に？{w}
+EN {p}{s1}
+EN Then... did you come here
+EN for me?{w}
+
+@ 0dec02 refs=2
+JP {p}{s2}
+JP ま、そんなとこかしら。{w}
+EN {p}{s2}
+EN Well, something like that.{w}
+
+@ 0dec16 refs=2
+JP {p}{s1}
+JP あ、ありがとうございます。
+JP 私なんかの為に・・{w}
+EN {p}{s1}
+EN Th-thank you so much.
+EN For someone like me...{w}
+
+@ 0dec39 refs=2
+JP {p}{s2}
+JP 気にしないで。{w}
+JP {p}たまには、先輩として
+JP やさしいところも
+JP 見せないとね。{w}
+JP {p}じゃ、おやすみ。{w}
+EN {p}{s2}
+EN Don't mention it.{w}
+EN {p}Every now and then, a
+EN senpai has to show her
+EN kind side.{w}
+EN {p}Well, good night.{w}
+
+@ 0dec7f refs=2
+JP {p}{s1}
+JP あ、おやすみなさい。{w}
+EN {p}{s1}
+EN Oh, good night.{w}
+
+@ 0dec93 refs=2
+JP {p}{s1}
+JP {n2}先輩が、私の事を
+JP 気にかけてくれるなんて。{w}
+JP {p}ハハッ・・{w}
+JP {p}よ～しっ、明日から
+JP また頑張るゾォ！！{w}
+EN {p}{s1}
+EN {n2}-senpai, worrying
+EN about someone like me...{w}
+EN {p}Hehe...{w}
+EN {p}All riiight! Starting
+EN tomorrow, I'll give it
+EN my all again!!{w}
+
+@ 0decde refs=1
+JP {p}ここで試合終了の
+JP ゴングが
+JP 鳴り響くぅぅっ！！！{w}
+JP {p}しかし、どうしたことか
+JP 上原は立ち去ろうとせず
+JP リング上の理沙子を
+JP にらみつけているぞぉ！！{w}
+EN {p}And there's the bell to
+EN end the match!!!{w}
+EN {p}But what's this?
+EN Uehara isn't leaving -
+EN she's glaring at Risako
+EN up in the ring!!{w}
+
+@ 0ded3d refs=1
+JP {p}{s3}
+JP 理沙子。
+JP 何よ、今日の試合は？{w}
+JP {p}そんな事でアジアヘビーを
+JP 守ってけると思ってるの？{w}
+JP {p}あなたみたいなのが
+JP 新女のトップだなんて
+JP 私は認めないわよ！！{w}
+EN {p}{s3}
+EN Risako.
+EN What was that today?{w}
+EN {p}You think you can defend
+EN the Asian Heavy like that?{w}
+EN {p}I refuse to accept
+EN someone like you as the
+EN top of Shinjo!!{w}
+
+@ 0deda6 refs=1
+JP {p}{s2}
+JP どうしたの？
+JP 今の試合に何か文句でも
+JP あるって言うの？{w}
+EN {p}{s2}
+EN What's the matter?
+EN Do you have some complaint
+EN about that match?{w}
+
+@ 0dedce refs=1
+JP {p}{s3}
+JP あるわよ！！{w}
+JP {p}あなたが藤子さんに
+JP 教えてもらった技は
+JP こんなもんじゃないだろ！！{w}
+JP {p}何があったのよ？
+JP 前は、もっと熱い試合を
+JP してたじゃない！！
+JP それなのに・・・{w}
+EN {p}{s3}
+EN You bet I do!!{w}
+EN {p}The moves Fujiko taught
+EN you are better than
+EN that!!{w}
+EN {p}What happened to you?
+EN You used to fight much
+EN hotter matches!!
+EN And now...{w}
+
+@ 0dee41 refs=1
+JP {p}{s2}
+JP 私が手をぬいてる
+JP とでも言うの？{w}
+EN {p}{s2}
+EN Are you saying I'm holding
+EN back?{w}
+
+@ 0dee5f refs=1
+JP {p}{s3}
+JP こわいんでしょ！{w}
+JP {p}自分の力で相手を
+JP ケガさせるんじゃないか？
+JP 大変な事が起きるんじゃ
+JP ないか、って。{w}
+EN {p}{s3}
+EN You're scared, aren't you!{w}
+EN {p}Scared that your power
+EN will hurt your opponent?
+EN That something terrible
+EN will happen?{w}
+
+@ 0deeaa refs=1
+JP {p}{s2}
+JP 私は・・・{w}
+EN {p}{s2}
+EN I...{w}
+
+@ 0deeb9 refs=1
+JP {p}{s3}
+JP 理沙子。{w}
+JP {p}新女のトップである
+JP あなたが、そんな事で
+JP 新女を守っていけるの？{w}
+JP {p}これからは、藤子さんの
+JP かわりに、あなたが新女を
+JP 守らなきゃいけないのよ！！{w}
+EN {p}{s3}
+EN Risako.{w}
+EN {p}You're the top of Shinjo.
+EN Can you really protect
+EN Shinjo like this?{w}
+EN {p}From now on, you have to
+EN protect Shinjo in
+EN Fujiko's place!!{w}
+
+@ 0def27 refs=1
+JP {p}{s2}
+JP わかってるわよ・・
+JP わかってるけど・・・・{w}
+JP {p}藤子さんから、ベルトを
+JP 奪った時みたいに
+JP 取り返しのつかない事に
+JP ならないためには・・{w}
+EN {p}{s2}
+EN I know that...
+EN I know, but...{w}
+EN {p}So nothing that can't be
+EN undone happens again, like
+EN when I took the belt from
+EN Fujiko...{w}
+
+@ 0def81 refs=1
+JP {p}{s3}
+JP もういい！！！{w}
+JP {p}次のタイトルマッチで
+JP あなたの考えが正しいか
+JP 私の考えが正しいか
+JP ハッキリさせてあげる！！{w}
+EN {p}{s3}
+EN Enough!!!{w}
+EN {p}In the next title match,
+EN I'll settle whether your
+EN way is right or mine
+EN is!!{w}
+
+@ 0defcc refs=1
+JP {p}{s2}
+JP 京子・・・{w}
+EN {p}{s2}
+EN Kyoko...{w}

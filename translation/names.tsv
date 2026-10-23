@@ -1,0 +1,255 @@
+# Name records in the names font (tools/names.py): file offset, letters (2 per glyph), JP, EN
+07de0a	16	新咲_祐希子__	Yukiko Shinzaki
+07de13	16	山田_遥____	Haruka Yamada
+07de1c	16	羽田_和子___	Kazuko Hada
+07de25	16	小沢_佳代___	Kayo Ozawa
+07de2e	16	桂木_ユキ___	Yuki Katsuragi
+07de37	16	南_利美____	Toshimi Minami
+07de40	16	吉田_龍子___	Ryuko Yoshida
+07de49	16	市ヶ谷_麗子__	Reiko Ichigaya
+07de52	16	来島_恵理___	Eri Kishima
+07de5b	16	上原_京子___	Kyoko Uehara
+07de64	16	奥村_美里___	Misato Okumura
+07de6d	16	庄司_由美___	Yumi Shoji
+07de76	16	笠原_明日香__	Asuka Kasahara
+07de7f	16	小松_香奈子__	Kanako Komatsu
+07de88	16	堀_咲恵____	Sakie Hori
+07de91	16	伊集院_光___	Hikaru Ijuin
+07de9a	16	宮城_夏実___	Natsumi Miyagi
+07dea3	16	池上_しの___	Shino Ikegami
+07deac	16	鶴見_さやか__	Sayaka Tsurumi
+07deb5	16	香月_香奈___	Kana Kozuki
+07debe	16	小川_ひかる__	Hikaru Ogawa
+07dec7	16	林_洋子____	Yoko Hayashi
+07ded0	16	高木_良美___	Yoshimi Takagi
+07ded9	16	吉原_泉____	Izumi Yoshihara
+07dee2	16	菊池_理宇___	Riyu Kikuchi
+07deeb	16	藤島_瞳____	Hitomi Fujishima
+07def4	16	越後_しのぶ__	Shinobu Echigo
+07defd	16	石川_涼美___	Suzumi Ishikawa
+07df06	16	ハルク_本郷__	Hulk Hongo
+07df0f	16	サタン_蝶子__	Satan Choko
+07df18	16	佐久間_理沙子_	Risako Sakuma
+07df21	16	不_明_____	Unknown
+07df2a	16	サーラクラレンス	Sarah Clarence
+07df33	16	リンダギルバート	Linda Gilbert
+07df3c	16	ミリア_メアーズ	Miria Mears
+07df45	16	グレタ_バーレン	Greta Barren
+07df4e	16	不_明_____	Unknown
+07df57	16	不_明_____	Unknown
+07df60	16	エミリーマーテル	Emily Martel
+07df69	16	ジェシィ_バード	Jessie Bird
+07df72	16	マリア_ロードン	Maria Rodon
+07df7b	16	不_明_____	Unknown
+07df84	16	不_明_____	Unknown
+07df8d	16	不_明_____	Unknown
+07df96	16	ラデルミッシェル	Radel Michelle
+07df9f	16	ムヘール_モレナ	Mujer Morena
+07dfa8	16	デスピナ_リブレ	Despina Libre
+07dfb1	16	シエラゴンザレス	Sierra Gonzalez
+07dfba	16	セレナニメール_	Selena Nimel
+07dfc3	16	ノーラン_ワンツ	Nolan Wantz
+07dfcc	16	ジャンヌラシック	Jeanne Lassic
+07dfd5	16	アリススルミノフ	Alice Smirnov
+07dfde	16	ナターシャ_ハン	Natasha Han
+07dfe7	16	ザベラベルバッチ	Zabela Belbach
+07dff0	16	マーナ_ロコ__	Marna Loco
+07dff9	16	ウィン_ミラー_	Win Mirror
+07e002	16	レミー_ダダーン	Remy Dadarne
+07e00b	16	不_明_____	Unknown
+07e014	16	ジュディキャビア	Judy Caviar
+07e01d	16	武藤_めぐみ__	Megumi Muto
+07e026	16	結城_千種___	Chigusa Yuki
+07e02f	16	金森_麗子___	Reiko Kanamori
+07e038	16	大高_なるみ__	Narumi Otaka
+07e041	16	________	
+07e04a	16	マイティ祐希子_	Mighty Yukiko
+07e053	16	山田_遥____	Haruka Yamada
+07e05c	16	チェルシー羽田_	Chelsea Hada
+07e065	16	小沢_佳代___	Kayo Ozawa
+07e06e	16	ブリザードYuki{BB}	Blizzard Yuki
+07e077	16	南_利美____	Toshimi Minami
+07e080	16	サンダー龍子__	Thunder Ryuko
+07e089	16	ビューティ市ヶ谷	Beauty Ichigaya
+07e092	16	ボンバー来島__	Bomber Kishima
+07e09b	16	ブレード上原__	Blade Uehara
+07e0a4	16	奥村_美里___	Misato Okumura
+07e0ad	16	庄司_由美___	Yumi Shoji
+07e0b6	16	グローリー笠原_	Glory Kasahara
+07e0bf	16	小松_香奈子__	Kanako Komatsu
+07e0c8	16	テディキャット堀	Teddy Cat Hori
+07e0d1	16	伊集院_光___	Hikaru Ijuin
+07e0da	16	ドレッド宮城__	Dread Miyagi
+07e0e3	16	コンドル池上__	Condor Ikegami
+07e0ec	16	鶴見_さやか__	Sayaka Tsurumi
+07e0f5	16	ファルコン香月_	Falcon Kozuki
+07e0fe	16	小川_ひかる__	Hikaru Ogawa
+07e107	16	林_洋子____	Yoko Hayashi
+07e110	16	高木_良美___	Yoshimi Takagi
+07e119	16	ミミ吉原____	Mimi Yoshihara
+07e122	16	菊池_理宇___	Riyu Kikuchi
+07e12b	16	藤島_瞳____	Hitomi Fujishima
+07e134	16	越後_しのぶ__	Shinobu Echigo
+07e13d	16	石川_涼美___	Suzumi Ishikawa
+07e146	16	ハルク_本郷__	Hulk Hongo
+07e14f	16	サタン_蝶子__	Satan Choko
+07e158	16	パンサー_理沙子	Panther Risako
+07e161	16	クノイチマスター	Kunoichi Master
+07e16a	16	バニーボンバー_	Bunny Bomber
+07e173	16	ダイナマイトリン	Dynamite Lin
+07e17c	16	ミリア_メアーズ	Miria Mears
+07e185	16	グレタ_バーレン	Greta Barren
+07e18e	16	デスハンターＡ_	Death Hunter A
+07e197	16	デスハンターＢ_	Death Hunter B
+07e1a0	16	エミリーマーテル	Emily Martel
+07e1a9	16	ジェシィ_バード	Jessie Bird
+07e1b2	16	マリア_ロードン	Maria Rodon
+07e1bb	16	エムサンド___	M Sand
+07e1c4	16	チョチョカラス_	Chocho Caras
+07e1cd	16	エルドレック__	El Dreck
+07e1d6	16	ラデルミッシェル	Radel Michelle
+07e1df	16	リタ_モレナ__	Rita Morena
+07e1e8	16	デスピナ_リブレ	Despina Libre
+07e1f1	16	シエラゴンザレス	Sierra Gonzalez
+07e1fa	16	ビッグ_アーシア	Big Arsia
+07e203	16	ノーラン_ワンツ	Nolan Wantz
+07e20c	16	ジャンヌラシック	Jeanne Lassic
+07e215	16	アリススルミノフ	Alice Smirnov
+07e21e	16	ナターシャ_ハン	Natasha Han
+07e227	16	ザベラベルバッチ	Zabela Belbach
+07e230	16	マーナ_ロコ__	Marna Loco
+07e239	16	ウィン_ミラー_	Win Mirror
+07e242	16	レミー_ダダーン	Remy Dadarne
+07e24b	16	Ｄ、スターカオス	Dark Star Chaos
+07e254	16	ジュディキャビア	Judy Caviar
+07e25d	16	武藤_めぐみ__	Megumi Muto
+07e266	16	結城_千種___	Chigusa Yuki
+07e26f	16	金森_麗子___	Reiko Kanamori
+07e278	16	大高_なるみ__	Narumi Otaka
+07e281	16	マイティ祐希子_	Mighty Yukiko
+07e28a	16	新咲_祐希子__	Yukiko Shinzaki
+07e293	16	ジャッキー新咲_	Jackie Shinzaki
+07e29c	16	キャロル新咲__	Carol Shinzaki
+07e2a5	16	バスター新咲__	Buster Shinzaki
+07e2ae	16	ビーナス祐希子_	Venus Yukiko
+07e2b7	16	アイドル祐希子_	Idol Yukiko
+07e2c0	16	フォクシー新咲_	Foxy Shinzaki
+07e2c9	16	山田_遥____	Haruka Yamada
+07e2d2	16	ドラゴン遥___	Dragon Haruka
+07e2db	16	ダイナマイト遥_	Dynamite Haruka
+07e2e4	16	シルキー遥___	Silky Haruka
+07e2ed	16	ミスティー遥__	Misty Haruka
+07e2f6	16	ドルフィン山田_	Dolphin Yamada
+07e2ff	16	ファントム山田_	Phantom Yamada
+07e308	16	イーグル山田__	Eagle Yamada
+07e311	16	チェルシー羽田_	Chelsea Hada
+07e31a	16	羽田_和子___	Kazuko Hada
+07e323	16	羽田_和美___	Kazumi Hada
+07e32c	16	チェイサー羽田_	Chaser Hada
+07e335	16	ソレイユ羽田__	Soleil Hada
+07e33e	16	ラッキー羽田__	Lucky Hada
+07e347	16	トリトン羽田__	Triton Hada
+07e350	16	エンジェル羽田_	Angel Hada
+07e359	16	小沢_佳代___	Kayo Ozawa
+07e362	16	キャンディー小沢	Candy Ozawa
+07e36b	16	コメット小沢__	Comet Ozawa
+07e374	16	トィンクル佳代_	Twinkle Kayo
+07e37d	16	ペガサス小沢__	Pegasus Ozawa
+07e386	16	アンバー小沢__	Amber Ozawa
+07e38f	16	小沢バンビ___	Bambi Ozawa
+07e398	16	パンジー佳代__	Pansy Kayo
+07e3a6	8	祐希子_	Yukiko
+07e3ab	8	山_田_	Yamada
+07e3b0	8	羽_田_	Hada
+07e3b5	8	小_沢_	Ozawa
+07e3ba	8	Ｙｕｋｉ	Yuki
+07e3bf	8	_南__	Minami
+07e3c4	8	龍_子_	Ryuko
+07e3c9	8	市ヶ谷_	Ichigaya
+07e3ce	8	来_島_	Kishima
+07e3d3	8	上_原_	Uehara
+07e3d8	8	奥_村_	Okumura
+07e3dd	8	庄_司_	Shoji
+07e3e2	8	笠_原_	Kasahara
+07e3e7	8	小_松_	Komatsu
+07e3ec	8	_堀__	Hori
+07e3f1	8	伊集院_	Ijuin
+07e3f6	8	宮_城_	Miyagi
+07e3fb	8	池_上_	Ikegami
+07e400	8	鶴_見_	Tsurumi
+07e405	8	香_月_	Kozuki
+07e40a	8	小_川_	Ogawa
+07e40f	8	_林__	Hayashi
+07e414	8	高_木_	Takagi
+07e419	8	吉_原_	Mimi
+07e41e	8	菊_池_	Kikuchi
+07e423	8	藤_島_	Hitomi
+07e428	8	越_後_	Echigo
+07e42d	8	石_川_	Ishikawa
+07e432	8	本_郷_	Hongo
+07e437	8	蝶_子_	Choko
+07e43c	8	理沙子_	Risako
+07e441	8	クノイチ	Kunoichi
+07e446	8	バニー_	Bunny
+07e44b	8	リ_ン_	Lin
+07e450	8	メアーズ	Mears
+07e455	8	グレタ_	Greta
+07e45a	8	デスＡ_	Death A
+07e45f	8	デスＢ_	Death B
+07e464	8	マーテル	Martel
+07e469	8	バード_	Bird
+07e46e	8	ロードン	Rodon
+07e473	8	Ｍサンド	M Sand
+07e478	8	チョチョ	Chocho
+07e47d	8	ドレック	Dreck
+07e482	8	ラデル_	Radel
+07e487	8	モレナ_	Morena
+07e48c	8	デスピナ	Despina
+07e491	8	シエラ_	Sierra
+07e496	8	アーシア	Arsia
+07e49b	8	ワンツ_	Wantz
+07e4a0	8	ラシック	Lassic
+07e4a5	8	アリス_	Alice
+07e4aa	8	ハ_ン_	Han
+07e4af	8	ザベラ_	Zabela
+07e4b4	8	ロ_コ_	Loco
+07e4b9	8	ミラー_	Mirror
+07e4be	8	ダダーン	Dadarne
+07e4c3	8	カオス_	Chaos
+07e4c8	8	ジュディ	Judy
+07e4cd	8	武_藤_	Muto
+07e4d2	8	結_城_	Yuki
+07e4d7	8	金_森_	Kanamori
+07e4dc	8	大_高_	Otaka
+07e4e1	8	祐希子_	Yukiko
+07e4e6	8	ゆきこ_	Yukiko
+07e4eb	8	新_咲_	Shinzaki
+07e4f0	8	しんざき	Shinzaki
+07e4f5	8	マイティ	Mighty
+07e4fa	8	キャロル	Carol
+07e4ff	8	ビーナス	Venus
+07e504	8	バスター	Buster
+07e509	8	山_田_	Yamada
+07e50e	8	やまだ_	Yamada
+07e513	8	_遥__	Haruka
+07e518	8	はるか_	Haruka
+07e51d	8	イーグル	Eagle
+07e522	8	ミスティ	Misty
+07e527	8	シルキー	Silky
+07e52c	8	ドラゴン	Dragon
+07e531	8	羽_田_	Hada
+07e536	8	は_だ_	Hada
+07e53b	8	和_子_	Kazuko
+07e540	8	かずこ_	Kazuko
+07e545	8	和_美_	Kazumi
+07e54a	8	ソレイユ	Soleil
+07e54f	8	ラッキー	Lucky
+07e554	8	トリトン	Triton
+07e559	8	小_沢_	Ozawa
+07e55e	8	佳_代_	Kayo
+07e563	8	か_よ_	Kayo
+07e568	8	パンジー	Pansy
+07e56d	8	コメット	Comet
+07e572	8	ペガサス	Pegasus
+07e577	8	アンバー	Amber
+07e57c	8	バンビ_	Bambi

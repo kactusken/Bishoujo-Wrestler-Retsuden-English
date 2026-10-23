@@ -1,0 +1,181 @@
+# schedule_help: help texts (tools/helptext.py). Line 1 up to 22 letters, line 2 up to 21; an empty line stays empty.
+
+@ 00 at=0x1edd1
+JP 筋力トレーニング
+JP 筋力をアップさせます。
+EN Weight Training
+EN Raises strength.
+
+@ 01 at=0x1edea
+JP スパーリング
+JP 器用度が上がります。
+EN Sparring
+EN Raises dexterity.
+
+@ 02 at=0x1ee03
+JP ランニング
+JP 体力を上昇させます。
+EN Running
+EN Raises stamina.
+
+@ 03 at=0x1ee1c
+JP 受け身
+JP 回復力が上がります。
+EN Breakfalls
+EN Raises recovery.
+
+@ 04 at=0x1ee35
+JP ダッシュ
+JP 速さを上昇させます。
+EN Dash Drills
+EN Raises speed.
+
+@ 05 at=0x1ee4e
+JP 練習試合
+JP 根性を鍛えます。
+EN Practice Match
+EN Builds guts.
+
+@ 06 at=0x1ee67
+JP 攻撃練習
+JP 攻撃力を上げます。
+EN Offense Drills
+EN Raises attack.
+
+@ 07 at=0x1ee80
+JP 防御練習
+JP 防御力を上げます。
+EN Defense Drills
+EN Raises defense.
+
+@ 08 at=0x1ee99
+JP 技取得
+JP 技を覚える練習です。
+EN Learn Moves
+EN Practice a new move.
+
+@ 09 at=0x1eeb2
+JP 技難度
+JP 技の難度を調整します。
+EN Move Difficulty
+EN Adjust difficulty.
+
+@ 10 at=0x1eecb
+JP 必殺技
+JP 必殺技を変更します。
+EN Finisher
+EN Change your finisher.
+
+@ 11 at=0x1eee4
+JP 寝る
+JP ＨＰが回復します。
+EN Sleep
+EN Restores HP.
+
+@ 12 at=0x1eefd
+JP 遊ぶ
+JP ストレスを発散します。
+EN Play
+EN Relieves stress.
+
+@ 13 at=0x1ef16
+JP 実行（空白は遊びます）
+JP この予定を実行します。
+EN Go (blank: play)
+EN Carry out this plan.
+
+@ 14 at=0x1ef56
+JP 
+JP 投げの攻撃力を強化。
+EN 
+EN Throw attack up.
+
+@ 15 at=0x1ef64
+JP 
+JP 関節の攻撃力を強化。
+EN 
+EN Holds attack up.
+
+@ 16 at=0x1ef72
+JP 
+JP パワーの攻撃力を強化。
+EN 
+EN Power attack up.
+
+@ 17 at=0x1ef80
+JP 
+JP 打撃の攻撃力を強化。
+EN 
+EN Hits attack up.
+
+@ 18 at=0x1ef8e
+JP 
+JP 飛びの攻撃力を強化。
+EN 
+EN Air attack up.
+
+@ 19 at=0x1ef9c
+JP 
+JP 投げの防御力を強化。
+EN 
+EN Throw defense up.
+
+@ 20 at=0x1efaa
+JP 
+JP 関節の防御力を強化。
+EN 
+EN Holds defense up.
+
+@ 21 at=0x1efb8
+JP 
+JP パワーの防御力を強化。
+EN 
+EN Power defense up.
+
+@ 22 at=0x1efc6
+JP 
+JP 打撃の防御力を強化。
+EN 
+EN Hits defense up.
+
+@ 23 at=0x1efd4
+JP 
+JP 飛びの防御力を強化。
+EN 
+EN Air defense up.
+
+@ 24 at=0x1efe2
+JP 
+JP あと１つ選んで下さい。
+EN 
+EN Choose 1 more.
+
+@ 25 at=0x1eff0
+JP 
+JP あと２つ選んで下さい。
+EN 
+EN Choose 2 more.
+
+@ 26 at=0x1effe
+JP 
+JP あと３つ選んで下さい。
+EN 
+EN Choose 3 more.
+
+@ 27 at=0x1f00c
+JP 
+JP あと４つ選んで下さい。
+EN 
+EN Choose 4 more.
+
+@ dEF2F at=0x1ef2f
+JP 実行
+JP これでいいですか？。
+EN Go
+EN Is this OK?
+
+@ dEF48 at=0x1ef48
+JP 
+JP いつ実行しますか？
+EN 
+EN When will you do it?

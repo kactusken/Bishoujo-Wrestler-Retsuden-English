@@ -1,0 +1,95 @@
+# hires_statsup: one letter per cell (tools/hires.py). "col=N" moves a label (32 cells a row).
+# Headers: Value over the level, BP over the cost; each is drawn over both columns.
+
+@ 8AFF4B sites=8AF568 row=8 col=2
+JP 投げ　攻撃
+EN ThrAtk
+
+@ 8AFF51 sites=8AF586 row=10 col=2
+JP 投げ　防御
+EN ThrDef
+
+@ 8AFF57 sites=8AF5A4 row=12 col=2
+JP 関節　攻撃
+EN HldAtk
+
+@ 8AFF5D sites=8AF5C2 row=14 col=2
+JP 関節　防御
+EN HldDef
+
+@ 8AFF63 sites=8AF5E0 row=16 col=2
+JP パワー攻撃
+EN PowAtk
+
+@ 8AFF69 sites=8AF5FE row=18 col=2
+JP パワー防御
+EN PowDef
+
+@ 8AFF6F sites=8AF61C row=20 col=2
+JP 打撃　攻撃
+EN HitAtk
+
+@ 8AFF75 sites=8AF63A row=22 col=2
+JP 打撃　防御
+EN HitDef
+
+@ 8AFF7B sites=8AF658 row=24 col=2
+JP 飛び　攻撃
+EN AirAtk
+
+@ 8AFF81 sites=8AF676 row=26 col=2
+JP 飛び　防御
+EN AirDef
+
+@ 8AFF87 sites=8AF6A0 row=8 col=17
+JP 筋　力
+EN Str
+
+@ 8AFF8B sites=8AF6BE row=10 col=17
+JP 器用度
+EN Dex
+
+@ 8AFF8F sites=8AF6DC row=12 col=17
+JP 体　力
+EN Sta
+
+@ 8AFF93 sites=8AF6FA row=14 col=17
+JP 回　復
+EN Rec
+
+@ 8AFF97 sites=8AF718 row=16 col=17
+JP 速　さ
+EN Spd
+
+@ 8AFF9B sites=8AF736 row=18 col=17
+JP 根　性
+EN Guts
+
+@ 8AFF9F sites=8AF4B4 row=4 col=4
+JP 評価値
+EN Rating
+
+@ 8AFFA3 sites=8AF4D2 row=4 col=18
+JP Ｈ・Ｐ
+EN HP
+
+@ 8AFFA7 sites=8AF4F0,8AF52C row=6 col=7
+JP 能力値
+EN Value
+
+@ 8AFFAB sites=8AF50E,8AF54A row=6 col=14
+JP 要ＢＰ
+EN BP
+
+@ 8AFFAF sites=
+JP ０１２３４５６７８９
+
+@ 8AFFBA sites=8AF9A8,8AFA89
+JP ーー
+EN --
+
+@ 8AFFBD sites=
+JP 　
+
+@ 8AFFBF sites=
+JP 

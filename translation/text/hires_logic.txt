@@ -1,0 +1,107 @@
+# hires_logic: one letter per cell (tools/hires.py). "col=N" moves a label (32 cells a row).
+
+@ 8B8983 sites=8B85BA col=17
+JP 評価値
+EN Rating
+
+@ 8B8987 sites=8B85D8 col=6
+JP ロジック
+EN Logic
+
+@ 8B898C sites=8B85F6 col=18
+JP アシスト
+EN Tag
+
+@ 8B8991 sites=
+JP ０１２３４５６７８９
+
+@ 8B899C table=8B8704
+JP 安定型　　
+EN Safe
+
+@ 8B89A2 table=8B8704
+JP 平均型　　
+EN Even
+
+@ 8B89A8 table=8B8704
+JP 攻撃型　　
+EN Fight
+
+@ 8B89AE table=8B8704
+JP 突撃型　　
+EN Rush
+
+@ 8B89B4 table=8B870C
+JP アシスト
+EN Assist
+
+@ 8B89B9 table=8B870C
+JP 標準
+EN Normal
+
+@ 8B89BC table=8B870C
+JP ワンマン
+EN Solo
+
+@ 8BCD1D sites=8BBFB2 row=4 col=16
+JP アシストパターン
+EN Tag Style
+
+@ 8BCD26 table=8BC3C2 row=5 col=24
+JP アシスト型
+EN Assist
+
+@ 8BCD2C table=8BC3C2 row=6 col=24
+JP 標　準　型
+EN Normal
+
+@ 8BCD32 table=8BC3C2 row=7 col=24
+JP ワンマン型
+EN Solo
+
+@ 8BCD38 sites=8BC02A row=10 col=16
+JP リターン値
+EN Return
+
+@ 8BCD3E sites=8BC048 row=12 col=16
+JP １・２・３・４・５・６・７
+
+@ 8BCD4C sites=8BC066 row=16 col=16
+JP オプション
+EN Options
+
+@ 8BCD52 table=8BC4A5 row=18 col=15
+JP 大　　技
+EN Big
+
+@ 8BCD57 table=8BC4A5 col=23
+JP 返　　し
+EN Counter
+
+@ 8BCD5C table=8BC4A5 row=20 col=15
+JP 間　　合
+EN Range
+
+@ 8BCD61 table=8BC4A5 col=23
+JP 一　　撃
+EN KO Blow
+
+@ 8BCD66 table=8BC4A5 row=22 col=15
+JP 忍　　耐
+EN Endure
+
+@ 8BCD6B table=8BC4A5 col=23
+JP 場　　外
+EN Outside
+
+@ 8BCD70 table=8BC4A5 row=24 col=15
+JP 必　　殺
+EN Finish
+
+@ 8BCD75 table=8BC4A5 col=23
+JP フォール
+EN Pinfall
+
+@ 8BCD7A sites=
+JP 気　　合
+EN Spirit

@@ -1,0 +1,783 @@
+# Match commentary (tools/ticker.py): one line of English per string, at most 110 letters.
+# {E0} = the wrestler making the move, {E3} = her opponent, {E1} = her tag partner
+# (each prints a short name, up to 8 letters). "idx" = the table entries using the string.
+
+@ 89D9DE idx=0,40,79,80,97,98,99,100,114,115,116,117,119,130,131,132,135,136,137,138,139,140,177,178,179,180,212,216
+JP   {E0}のアームホイップ! 
+EN {E0}'s arm whip!
+
+@ 89D9E0 idx=1
+JP {E0}のアームホイップ! 
+EN {E0}'s arm whip!
+
+@ 89D9EC idx=2
+JP 素早いサイドスープレックスで{E3}を後方に投げつける! 
+EN A quick side suplex throws {E3} over backwards!
+
+@ 89DA07 idx=3
+JP ダブルアームスープレックス!後方に投げた! 
+EN Double arm suplex! Thrown over backwards!
+
+@ 89DA1E idx=4
+JP 高く抱え上げてブレーンバスター! 
+EN Lifted up high for a brainbuster!
+
+@ 89DA30 idx=5
+JP ブレーンバスター!もうれつな勢いで叩きつけた! 
+EN Brainbuster! Slammed down with tremendous force!
+
+@ 89DA49 idx=6
+JP フロントスープレックスっ!これはきれいに決まった! 
+EN Front suplex! That one landed beautifully!
+
+@ 89DA64 idx=7
+JP フィッシャーマンズ!ー気にフォールの体勢!! 
+EN Fisherman suplex! Straight into the pin!!
+
+@ 89DA7C idx=8
+JP 強烈なバックドロップ!あぶない落ち方だぁ! 
+EN A brutal backdrop! What a dangerous landing!
+
+@ 89DA93 idx=9
+JP オーロラスペシャル!強烈なスープレックスだ!! 
+EN Aurora Special! What a vicious suplex!!
+
+@ 89DAAC idx=10
+JP バックドロップ!{E3}の体がおおきくはね上がったぁ!! 
+EN Backdrop! {E3}'s body bounces way up!!
+
+@ 89DAC7 idx=11
+JP 豪快に決まったああ!ジャンボスープレックス!! 
+EN What a mighty throw! Jumbo suplex!!
+
+@ 89DAE0 idx=12
+JP うつくしいブリッジをえがいてノーザンライトスープレックス!! 
+EN A beautiful bridge for the Northern Lights Suplex!!
+
+@ 89DB00 idx=13
+JP キャプチュード炸裂!えものの頭をかみくだくかのようなー撃だ!! 
+EN Capture suplex! A blow that crushes her prey's skull!!
+
+@ 89DB21 idx=14
+JP 炸裂!ぶっこ抜きジャーマン! 
+EN Boom! A deadlift German suplex!
+
+@ 89DB31 idx=15
+JP タイガースープレックスが決まったぁ!! 
+EN The Tiger Suplex lands!!
+
+@ 89DB46 idx=16
+JP ドラゴンがキバをむいたぁ!!脳天からまっ逆さまにリングに突きささったぞ!! 
+EN The dragon bares its fangs!! Spiked headfirst straight into the ring!!
+
+@ 89DB6D idx=17
+JP 決まったリバースゴリースペシャルだぁ!! 
+EN There it is, the Reverse Gory Special!!
+
+@ 89DB83 idx=18
+JP ジャパニーズオーシャンサイクロンーっ! 
+EN Japanese Ocean Cyclone!
+
+@ 89DB98 idx=19
+JP おおっー!雷電炸裂っー!!!そのままフォールの体勢だぁー!!! 
+EN Ohh! Raiden hits!!! And she goes right into the pin!!!
+
+@ 89DBB9 idx=20
+JP 震電!!!恐怖のー撃ィィィ!!これは強烈だぁ!! 
+EN Shinden!!! A terrifying blow!! That was brutal!!
+
+@ 89DBD3 idx=21
+JP スリーパーが首もとにがっちり決まった! 
+EN The sleeper is locked in tight around her neck!
+
+@ 89DBE8 idx=22
+JP 首を固めて動きをとめます! 
+EN She locks up the neck and stops her cold!
+
+@ 89DBF7 idx=23
+JP 体を落として逆エビの体勢に入った! 
+EN She sits down into a Boston crab!
+
+@ 89DC0A idx=24
+JP {E3}の足を殺しにかかった! 
+EN She's going to kill {E3}'s legs!
+
+@ 89DC18 idx=25
+JP ー気にワキ固めの体勢に入ったぞ! 
+EN She goes straight into an armbar hold!
+
+@ 89DC2A idx=26
+JP 入ったぁ!アキレス腱固めだぁ! 
+EN It's on! An Achilles hold!
+
+@ 89DC3B idx=27
+JP ラクダ固めでスタミナをうばう! 
+EN A camel clutch to sap her stamina!
+
+@ 89DC4C idx=28
+JP 足を決めながら{E3}の体を高くもち上げた! 
+EN She locks the legs and lifts {E3} up high!
+
+@ 89DC61 idx=29
+JP 腕殺アームロックが決まったぁ! 
+EN An arm-breaking armlock! It's locked in!
+
+@ 89DC72 idx=30
+JP みずからブリッジしてカマ固めに決めた! 
+EN She bridges back and cinches in the sickle hold!
+
+@ 89DC87 idx=31
+JP あばら折りがガッチリ決まったぁ! 
+EN The rib-breaker is locked on tight!
+
+@ 89DC99 idx=32
+JP ー気に取りにいって腕ひしぎだぁ! 
+EN She goes right for it, cross armbar!
+
+@ 89DCAB idx=33
+JP フェイスロック!これは決まっている!! 
+EN Facelock! And it's locked in!!
+
+@ 89DCC0 idx=34
+JP ガッチリ決まったぁドラゴンスリーパー! 
+EN Locked in tight, the dragon sleeper!
+
+@ 89DCD5 idx=35
+JP 決まったぁストレッチプラムーッ! 
+EN There it is, the stretch plum!
+
+@ 89DCE7 idx=36
+JP ステップオーバー!サソリ固めだぁ! 
+EN Step over! Scorpion Deathlock!
+
+@ 89DCFA idx=37
+JP 卍だぁ!からみついてはなさないっ! 
+EN Octopus hold! She's wrapped up and won't let go!
+
+@ 89DD0D idx=38
+JP 足をクロスさせての足殺しだあぁ! 
+EN Crossing the legs to destroy them!
+
+@ 89DD1F idx=39
+JP ガッチリ入ったぁ!決まったSTF!! 
+EN Locked in tight! It's the STF!!
+
+@ 89DD44 idx=41
+JP {E3}に重みのあるハンマーブローを撃ちこんだぁ! 
+EN A heavy hammer blow driven into {E3}!
+
+@ 89DD5C idx=42
+JP 抱え上げてのボディスラム!カ強くマットに叩きつける! 
+EN Picks her up for a body slam! Slams her hard to the mat!
+
+@ 89DD78 idx=43
+JP {E3}の頭をつかまえての強烈な頭突きだぁ! 
+EN She grabs {E3}'s head for a vicious headbutt!
+
+@ 89DD8D idx=44
+JP 返ってきたところにラリアート炸裂!!恐怖の首折りがジャストミィィィト!! 
+EN Lariat on the rebound!! The dreaded neck-breaker hits dead on!!
+
+@ 89DDB3 idx=45
+JP いきなりの強烈なラリアットだぁ!!{E3}の体がフッ飛んだぁ!! 
+EN A sudden, brutal lariat!! {E3} goes flying!!
+
+@ 89DDD2 idx=46
+JP これはきいている!抱え上げての強烈なー撃だ!! 
+EN That one hurt! Lifted up for a crushing blow!!
+
+@ 89DDEB idx=47
+JP DDT!!デンジャラスな首折りだあ!! 
+EN DDT!! A dangerous neck-breaker!!
+
+@ 89DE00 idx=48
+JP ジャイアントスイングだぁ!勢いよく相手をブンまわすー!!! 
+EN Giant swing! She's spinning her opponent around like crazy!!!
+
+@ 89DE1F idx=49
+JP パイルドライバー!!脳天がマットにめり込むっ!! 
+EN Piledriver!! Her head is driven into the mat!!
+
+@ 89DE39 idx=50
+JP {E3}を抱え上げてそのままパイルドライバーで脳天を突きさしたぁ!! 
+EN She lifts {E3} up and spikes her head with a piledriver!!
+
+@ 89DE5A idx=51
+JP ノドから抱え上げてマットに叩きつける豪快なチョークスラムだ! 
+EN Up by the throat and slammed to the mat, what a chokeslam!
+
+@ 89DE7A idx=52
+JP ノーザンライトボム爆裂!!脳天がめり込む!!まさにデインジャラス!! 
+EN Northern Lights Bomb!! Head driven into the mat!! Truly dangerous!!
+
+@ 89DE9E idx=53
+JP 豪快なパワースラム!!ハイスピードでマットに叩きつけるパワー攻撃だ!! 
+EN A mighty powerslam!! Driven into the mat at high speed!!
+
+@ 89DEC3 idx=54
+JP パワーボムファイアァァァ!!これは強烈なー撃ィ! 
+EN Powerbomb, fire!! What a brutal blow!
+
+@ 89DEDD idx=55
+JP ジャンプしてのパワァーボムッ!はたしてこれを返せるか!? 
+EN A jackknife powerbomb! Can she kick out of this!?
+
+@ 89DEFB idx=56
+JP パワーボム投げすてたぁ!{E3}の体がおおきくリバウンドする!! 
+EN Powerbomb, and she throws her away! {E3} bounces high off the mat!!
+
+@ 89DF1A idx=57
+JP スプラッシュマウンテンが豪快に炸裂!!! 
+EN A mighty Splash Mountain!!!
+
+@ 89DF30 idx=58
+JP ドクターボムーッ!!! 
+EN Doctor Bomb!!!
+
+@ 89DF3D idx=59
+JP 決まったぁタイガァードライバー!!!! 
+EN There it is, the Tiger Driver!!!
+
+@ 89DF52 idx=60
+JP {E3}を抱え上げてー気に後方に投げつけたぁ!! 
+EN She lifts {E3} up and hurls her over backwards!!
+
+@ 89DF69 idx=61
+JP {E3}の顔面をバチーンとはった! 
+EN A loud slap across {E3}'s face!
+
+@ 89DF79 idx=62
+JP パンチが顔面にヒット!
+EN A punch to the face!
+
+@ 89DF85 idx=63
+JP キックでたまらずダウン! 
+EN A kick, and she goes down!
+
+@ 89DF93 idx=64
+JP エルボー!{E3}ダウーン!! 
+EN Elbow! {E3} is down!!
+
+@ 89DFA1 idx=65
+JP ノドに入った強烈なー撃!{E3}もおもわずフッ飛んだぁ! 
+EN A brutal shot to the throat! {E3} goes flying!
+
+@ 89DFBC idx=66
+JP 返ったところにカウンターキック! 
+EN Counter kick on the rebound!
+
+@ 89DFCE idx=67
+JP たおれたところに体重をいかしたフットスタンプ!これはきいているー! 
+EN A full-weight foot stomp on her fallen opponent! That has to hurt!
+
+@ 89DFF1 idx=68
+JP 突き上げるようなアッパーぎみの掌底!!これはきいている!! 
+EN An uppercut palm strike from below!! That one hurt!!
+
+@ 89E010 idx=69
+JP フェイントのー撃!いいタイミングで入りましたぁ!! 
+EN A feint, then the strike! Perfect timing!!
+
+@ 89E02B idx=70
+JP これはひどいっ!ひれつな攻撃だぁ!!!
+EN That's terrible! What a dirty attack!!!
+
+@ 89E03F idx=71
+JP {E0}、{E3}をおもいっきり叩きつけた!! 
+EN {E0} slams {E3} down as hard as she can!!
+
+@ 89E052 idx=72
+JP 顔面げり!顔面げり!ステップキックが顔面に叩きこまれる! 
+EN Kick to the face! Kick to the face! Step kicks smashing into her face!
+
+@ 89E070 idx=73
+JP 首を抱え込んでの突きさすようなヒザげり! 
+EN She grabs the head and drives in a knee!
+
+@ 89E086 idx=74
+JP エンズイぎり!!きれいに決まったぁ!! 
+EN Enzuigiri!! Landed beautifully!!
+
+@ 89E09B idx=75
+JP かかと落とし炸裂!あのスピードで撃ってこられてはふせぎようがない! 
+EN Heel drop! At that speed there's no way to block it!
+
+@ 89E0BE idx=76
+JP 恐怖のー撃フライングニールキック!!これは強烈だぁぁ!! 
+EN The dreaded flying Neil kick!! That was brutal!!
+
+@ 89E0DC idx=77
+JP コンビネーションキック!!ロー、ミドル、そしてハイとクリーンヒーット!! 
+EN Combination kicks!! Low, middle, and high, all clean hits!!
+
+@ 89E102 idx=78
+JP かいてんヒジ爆弾炸裂ーっ!!{E3}もたまらずフッ飛んでいく!!! 
+EN Rolling elbow bomb!! {E3} goes flying!!!
+
+@ 89E122 idx=81
+JP 返ってきたところに、勢いのあるドロップキーック! 
+EN A big dropkick on the rebound!
+
+@ 89E13C idx=82
+JP するどいローリングソバット!きれいにヒィィット! 
+EN A sharp rolling sobat! A clean hit!
+
+@ 89E156 idx=83
+JP {E0}、すかさずセントーンをうっていきます! 
+EN {E0} goes right for the senton!
+
+@ 89E16C idx=84
+JP バク転からー気にフォールを取りにいったぁ!! 
+EN A backflip straight into the pin!!
+
+@ 89E184 idx=85
+JP {E3}に勢いのついたギロチンドロップ! 
+EN A big guillotine drop on {E3}!
+
+@ 89E197 idx=86
+JP 豪快なジャンピングニーパット!顔面に炸裂!! 
+EN A mighty jumping knee pad! Right in the face!!
+
+@ 89E1AF idx=87
+JP ローリングクラッチだぁ!! 
+EN Rolling clutch!!
+
+@ 89E1BE idx=88
+JP 返ったところに体をかぶせていくっ! 
+EN She covers her on the rebound!
+
+@ 89E1D1 idx=89
+JP でたぁFショルダー!{E3}を豪快に撃ち抜く!! 
+EN Here's the flying shoulder! It blasts {E3} away!!
+
+@ 89E1E8 idx=90
+JP 返った相手に、勢いのいいヒップアターックッ!{E3}もおもわずフッ飛ぶー!! 
+EN A big hip attack on the rebound! {E3} goes flying!!
+
+@ 89E20D idx=91
+JP 相手の顔面をマットに叩きつけるフェースクラッシャー炸裂!! 
+EN Face crusher! She drives her opponent's face into the mat!!
+
+@ 89E22C idx=92
+JP 返ったところでタイミングのいいジャンピングネックブリーカー! 
+EN A perfectly timed jumping neckbreaker on the rebound!
+
+@ 89E24C idx=93
+JP ウラカンラナだぁぁ!ー気にぶっこ抜いたぁー!
+EN Huracanrana! She rips her right over!
+
+@ 89E263 idx=94
+JP フランケンシュタイナー炸裂!! 
+EN Frankensteiner!!
+
+@ 89E274 idx=95
+JP ここでロープにふって、
+EN She whips her into the ropes, ...
+
+@ 89E280 idx=96
+JP おっとここで{E3}をロープにふって、
+EN Oh! Now she whips {E3} into the ropes, ...
+
+@ 89E291 idx=101
+JP おもいきりのいいプランチャーが炸裂だ!! 
+EN A fearless plancha!!
+
+@ 89E2A7 idx=102
+JP 場外の相手にすてみのトペ・コンヒーロだぁ!きれいにヒーット!!
+EN A reckless tope con hilo to the floor! A clean hit!!
+
+@ 89E2C7 idx=103
+JP ラ・ケブラータ炸裂!!これをくらってはひとたまりもないか!? 
+EN La Quebrada!! Can anyone survive that!?
+
+@ 89E2E7 idx=104
+JP ヒザ爆弾が相手に見事にヒット! 
+EN A flying knee drop, right on target!
+
+@ 89E2F8 idx=105
+JP ミサイルキック!{E3}に強烈にヒィィット!! 
+EN Missile kick! A brutal hit on {E3}!!
+
+@ 89E30E idx=106
+JP 体重のきいたエルボーだぁぁ!! 
+EN An elbow with all her weight behind it!!
+
+@ 89E31F idx=107
+JP 勢いのいいー撃!この高さからの頭突きは強烈だぁ! 
+EN What a blow! A headbutt from that height is brutal!
+
+@ 89E339 idx=108
+JP Fボディプレス!ー気にフォールをねらう!! 
+EN Flying body press! Going for the pin!!
+
+@ 89E350 idx=109
+JP 強烈なー撃!体重ののったフットスタンプ!! 
+EN A brutal blow! A foot stomp with all her weight!!
+
+@ 89E367 idx=110
+JP セントーン!!! 
+EN Senton!!!
+
+@ 89E371 idx=111
+JP 恐怖のギロチンだぁ!!{E3}の首をはねるのかぁ!? 
+EN The dreaded guillotine!! Is she going to take {E3}'s head off!?
+
+@ 89E38A idx=112
+JP ムーンサルトプレスっ!!!見事に決まったぁぁぁ!!! 
+EN Moonsault press!!! A perfect hit!!!
+
+@ 89E3A6 idx=113
+JP シューティングスターが見事に決まったぁぁぁ!!! 
+EN Shooting Star Press! A perfect hit!!!
+
+@ 89E3C0 idx=118
+JP ・・・おおっと勢いあまって場外転落!! 
+EN ...whoa, she overshoots and falls out of the ring!!
+
+@ 89E3D5 idx=120
+JP ここで{E0}もリングにもどります! 
+EN {E0} heads back into the ring too!
+
+@ 89E3E6 idx=121
+JP ダブルのドロップキック!くらった{E3}もたまらずふっ飛んだ!! 
+EN Double dropkick! {E3} goes flying!!
+
+@ 89E405 idx=122
+JP うまい合体プレイだっ!! 
+EN Great teamwork!!
+
+@ 89E413 idx=123
+JP ダブルのエルボー弾! 
+EN Double elbow attack!
+
+@ 89E41F idx=124
+JP 勢いにまかせてのダブルタックル攻撃!くらった{E3}もたまらずふっ飛んだ!! 
+EN A charging double tackle! {E3} goes flying!!
+
+@ 89E444 idx=125
+JP ダブルのブレェェンバスター!!これは強烈!! 
+EN Double brainbuster!! That's brutal!!
+
+@ 89E45C idx=126
+JP {E1}がおさえ込んでいる間にコーナーポストから{E0}のミサイルキックが炸裂っ!! 
+EN {E1} holds her down while {E0} hits a missile kick from the top!!
+
+@ 89E482 idx=127
+JP {E1}がおさえ込んでいる間にコーナーポストから{E0}のFボディプレス!うまい攻撃だぁ!! 
+EN {E1} holds her down while {E0} hits a flying body press from the top! Smart move!!
+
+@ 89E4AC idx=128
+JP 合体パイルドライバー炸裂!見事なコンビプレイだ!! 
+EN Tandem piledriver! What teamwork!!
+
+@ 89E4C7 idx=129
+JP 合体パワーボム!見事なコンビネーションを見せます!! 
+EN Tandem powerbomb! What a combination!!
+
+@ 89E4E3 idx=133
+JP {E3}を場外に落としました! 
+EN She knocks {E3} out of the ring!
+
+@ 89E4F1 idx=134
+JP 素早い動きで{E3}をたおす! 
+EN A quick move takes {E3} down!
+
+@ 89E4FF idx=141
+JP  おっと!逆にブレーンバスターで切り返した!! 
+EN Oh! She reverses it with a brainbuster!!
+
+@ 89E518 idx=142,143,144,145,146,147,148
+JP  おっと!うまくエルボーで切り返した! 
+EN Oh! A nice counter with an elbow!
+
+@ 89E52D idx=149
+JP  うまく体を切り返した!ボディプレスだ! 
+EN She turns it around nicely! Body press!
+
+@ 89E543 idx=150
+JP  リバースゴリーの体勢を切り返してのバックドロップだぁ! 
+EN She escapes the Reverse Gory and counters with a backdrop!
+
+@ 89E561 idx=151
+JP  おっと!うまくバックドロップで切り返した!! 
+EN Oh! A nice counter with a backdrop!!
+
+@ 89E57A idx=152
+JP  おおっと!!見事な切り返し、ローリングクラッチだ! 
+EN Whoa!! A perfect counter, rolling clutch!
+
+@ 89E596 idx=153
+JP  そしてすかさず逆ラリアートだぁ!! 
+EN And right away, a lariat back at her!!
+
+@ 89E5AA idx=154
+JP  そして勢いのついたドロップキーック!! 
+EN And a big dropkick!!
+
+@ 89E5C0 idx=155
+JP  おおっと!うまくサイドスープレックスで返す!! 
+EN Whoa! She turns it around with a side suplex!!
+
+@ 89E5DA idx=156
+JP ・・! パイルドライバーでうまく逆転!! 
+EN ..! She turns the tables with a piledriver!!
+
+@ 89E5F0 idx=157
+JP  重心を落としてリバースのスープレックスでうまく返した! 
+EN She drops her weight and counters with a reverse suplex!
+
+@ 89E60E idx=158
+JP  重心を落としてうまく切り返したぁ!! 
+EN She drops her weight and counters nicely!!
+
+@ 89E623 idx=159
+JP  ああっと!ワキ固めでうまく切り返した!! 
+EN Ahh! She counters with an armbar hold!!
+
+@ 89E63A idx=160
+JP  おおっと!うまく体をいれかえてパイルドライバー!きれいに決まりました!! 
+EN Whoa! She switches around for a piledriver! Picture perfect!!
+
+@ 89E661 idx=161
+JP  おおっと!{E3}、これをうまくかわしたっ!! 
+EN Whoa! {E3} slips out of it!!
+
+@ 89E678 idx=162,163
+JP  おおっと!{E3}、これをうまくよけたっ!! 
+EN Whoa! {E3} dodges it!!
+
+@ 89E68E idx=164
+JP  おおっと!{E0}、これをうまくかわしたぁ!! 
+EN Whoa! {E0} slips out of it!!
+
+@ 89E6A5 idx=165
+JP  おっと!うまくハリ手で切り返した! 
+EN Oh! She counters with a slap!
+
+@ 89E6B9 idx=166
+JP  おおっと!DDTをうまく返してキック攻撃だぁ!! 
+EN Whoa! She escapes the DDT and answers with kicks!!
+
+@ 89E6D4 idx=167
+JP  おおっと!かかと落としをかわしてのローキック!! 
+EN Whoa! She dodges the heel drop and hits a low kick!!
+
+@ 89E6EF idx=168
+JP  ああっと!けり足をキャッチしてテイクダウンさせたあ!すかさず、アキレス腱固めに入る! 
+EN Ahh! She catches the kick and takes her down! And right away, an Achilles hold!
+
+@ 89E71C idx=169
+JP  おおっと!素早くSパッケージに固めた!! 
+EN Whoa! A quick S-package pin!!
+
+@ 89E733 idx=170
+JP  ウラカン・・・ああっと!パワーボムで切り返したぁ!! 
+EN Huracan... ahh! She counters with a powerbomb!!
+
+@ 89E750 idx=171
+JP  フランケン・・・おっと!パワーボムで切り返したぁ!! 
+EN Franken... oh! She counters with a powerbomb!!
+
+@ 89E76D idx=172
+JP  ああっと!ヒザをたててムーンサルトをブロックだぁ!!これはたまらないっ!! 
+EN Ahh! Knees up to block the moonsault!! That's got to hurt!!
+
+@ 89E795 idx=173
+JP  ああっと!ヒザをたててSスターをブロックだぁ!! 
+EN Ahh! Knees up to block the Shooting Star!!
+
+@ 89E7B0 idx=174
+JP  おおっと!ー気にDDTでひっこ抜いた!! 
+EN Whoa! She yanks her down with a DDT!!
+
+@ 89E7C7 idx=175
+JP  うまくアームホイップで切り返した! 
+EN A nice counter with an arm whip!
+
+@ 89E7DB idx=176
+JP  きれいに決まったぁ!ドロップキック!! 
+EN A beautiful dropkick!!
+
+@ 89E7F1 idx=181
+JP ワキ固めの体勢!しかしうまくはずした!! 
+EN An armbar hold! But she slips out!!
+
+@ 89E807 idx=182
+JP アキレス腱固めをしかけるが{E3}これを決めさせない!! 
+EN She goes for an Achilles hold, but {E3} won't let her lock it in!!
+
+@ 89E822 idx=183
+JP ラクダ固めをこころみるがうまくガード!! 
+EN She tries a camel clutch, but it's blocked!!
+
+@ 89E838 idx=184
+JP 足を取ったもののうまく決まりません! 
+EN She grabs a leg, but can't lock it in!
+
+@ 89E84C idx=185
+JP チキンウイングの体勢だがうまく逃げた! 
+EN A chicken wing, but she gets away!
+
+@ 89E861 idx=186
+JP カマ固めの体勢からうまく逃げた!! 
+EN She escapes the sickle hold!!
+
+@ 89E874 idx=187
+JP 腕をー気に取りにいくがうまくガード! 
+EN She goes for the arm, but it's blocked!
+
+@ 89E888 idx=188
+JP フェイスロック!しかし{E3}うまくこれをすり抜けたぁ! 
+EN Facelock! But {E3} slips right out of it!
+
+@ 89E8A3 idx=189
+JP ドラゴンスリーパー!しかしうまくいきません!! 
+EN Dragon sleeper! But it doesn't work!!
+
+@ 89E8BC idx=190
+JP サソリ固めを足のカではね返す!! 
+EN She powers out of the Scorpion with her legs!!
+
+@ 89E8CE idx=191
+JP 足をきめにかかるがうまくかわした! 
+EN She goes for the legs, but it's dodged!
+
+@ 89E8E1 idx=192
+JP STF!だがこれを決めさせない!! 
+EN STF! But she won't let her lock it in!!
+
+@ 89E8F4 idx=193
+JP さあ、たがいに間合いを取り、ようすをうかがっている 
+EN Now they keep their distance, sizing each other up...
+
+@ 89E90F idx=194
+JP ・・・!
+EN ...!
+
+@ 89E914 idx=195
+JP ・・・ここで、
+EN ...now,
+
+@ 89E91C idx=196
+JP ・・・おっと、
+EN ...oh,
+
+@ 89E924 idx=197
+JP ・・・さあここで、
+EN ...and now,
+
+@ 89E92E idx=198
+JP ・・・すかさず、
+EN ...and right away,
+
+@ 89E937 idx=199
+JP ・・・ここですかさず、
+EN ...and right away,
+
+@ 89E943 idx=200
+JP ・・・おおっと、
+EN ...whoa,
+
+@ 89E94C idx=201
+JP ・・・でたぁぁ!
+EN ...there it is!
+
+@ 89E955 idx=202
+JP ・・・きたあぁ!
+EN ...here it comes!
+
+@ 89E95E idx=203
+JP ・・・そして、
+EN ...and then,
+
+@ 89E966 idx=204
+JP カウント!! 
+EN The count!!
+
+@ 89E96E idx=205
+JP ・・・しかし入らない! 
+EN ...but it won't go in!
+
+@ 89E97B idx=206
+JP おっとカウント1! 
+EN Oh, one!
+
+@ 89E986 idx=207
+JP カウント2! 
+EN Two!
+
+@ 89E98E idx=208
+JP 2、5で返したぁ! 
+EN Kicked out at two and a half!
+
+@ 89E999 idx=209
+JP 2、8で返したぁぁ! 
+EN Kicked out at two point eight!!
+
+@ 89E9A5 idx=210
+JP 2、9で返したぁぁぁ! 
+EN Kicked out at two point nine!!!
+
+@ 89E9B2 idx=211
+JP  入ったぁ!カウント3!!! 
+EN It's in! Three!!!
+
+@ 89E9C2 idx=213
+JP {E3}これをうまく外した! 
+EN {E3} breaks out of it!
+
+@ 89E9CF idx=214
+JP {E0}みずから外しました! 
+EN {E0} lets go herself!
+
+@ 89E9DC idx=215
+JP ・・・{E1}がカットに入った! 
+EN ...{E1} comes in to break it up!
+
+@ 89E9EB idx=217
+JP {E1}とタッチ!! 
+EN Tag to {E1}!!
+
+@ 89E9F4 idx=218
+JP ・・・{E3}ギブアップ!!! 
+EN ...{E3} gives up!!!
+
+@ 89EA02 idx=219
+JP さらにまだしめ上げるぞ!!
+EN She's squeezing even harder!!
+
+@ 89EA10 idx=220
+JP {E3}まだたえているぞ!
+EN {E3} is still hanging on!
+
+@ 89EA1B idx=221
+JP これはかなりくるしいぞ!!
+EN That has to be agony!!
+
+@ 89EA29 idx=222
+JP これでおわってしまうのか?
+EN Is this the end?
+
+@ 89EA37 idx=223
+JP {E3}たえられるのかぁ?
+EN Can {E3} hold out?
+
+@ 89EA42 idx=224
+JP コーナーポストに上がって、
+EN She climbs the corner post, ...
+
+@ 89EA50 idx=225
+JP おっとここで{E3}をロープに・・・おおーっと、{E3}場外に転落ーっ!!!
+EN Oh! Now she sends {E3} to the ropes... whoa, {E3} tumbles out of the ring!!!
+
+@ 89EA71 idx=226
+JP おっとここで{E3}を場外に落として・・・
+EN Oh! Now she knocks {E3} out of the ring and...
+
+@ 89EA84 idx=227
+JP おーっと、{E3}うまくかわしたぁー!
+EN Whoa, {E3} dodges it nicely!
+
+@ 89EA95 idx=228
+JP ・・・!おーっと、{E3}の顔面が血にそまるー!!!
+EN ...! Whoa, {E3}'s face is covered in blood!!!

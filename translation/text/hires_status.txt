@@ -1,0 +1,152 @@
+# hires_status: one letter per cell (tools/hires.py). "col=N" moves a label (32 cells a row).
+
+@ 8AC4B8 sites=8AB567 col=5
+JP 名 前
+EN Name
+
+@ 8AC4BC sites=8AB585 col=6
+JP 略 称
+EN AKA
+
+@ 8AC4C0 sites=8AB5A3 col=5
+JP 本 名
+EN Real
+
+@ 8AC4C4 sites=8AB5C1 col=18
+JP 必殺技
+EN Finisher
+
+@ 8AC4C8 sites=8AB5DF row=10 col=2
+JP ロジック
+EN Logic
+
+@ 8AC4CD sites=8AB5FD row=11 col=2
+JP アシスト
+EN Tag
+
+@ 8AC4D2 sites=8AB61B row=12 col=2
+JP リターン
+EN Return
+
+@ 8AC4D7 sites=8AB639 row=14 col=2
+JP 評価値
+EN Rating
+
+@ 8AC4DB sites=8AB657 row=15 col=2
+JP H P
+EN HP
+
+@ 8AC4DF sites=8AB675 row=18 col=2
+JP 出 身
+EN From
+
+@ 8AC4E3 sites=8AB69D row=20 col=2
+JP 保持ベルト
+EN Belts
+
+@ 8AC4E9 sites=8AB6BB row=9 col=21
+JP 攻 撃
+EN Atk
+
+@ 8AC4ED sites=8AB6D9 row=9 col=25
+JP 防 御
+EN Def
+
+@ 8AC4F1 sites=8AB6F7 row=10 col=17
+JP 投 げ
+EN Throw
+
+@ 8AC4F5 sites=8AB715 row=11 col=17
+JP 関 節
+EN Holds
+
+@ 8AC4F9 sites=8AB73F row=12 col=17
+JP パワー
+EN Power
+
+@ 8AC4FD sites=8AB75D row=13 col=17
+JP 打 撃
+EN Hits
+
+@ 8AC501 sites=8AB77B row=14 col=17
+JP 飛 び
+EN Air
+
+@ 8AC505 sites=8AB799 row=16 col=17
+JP 筋 力
+EN Str
+
+@ 8AC509 sites=8AB7B7 row=16 col=25
+JP 回 復
+EN Rec
+
+@ 8AC50D sites=8AB7D5 row=17 col=17
+JP 器用度
+EN Dex
+
+@ 8AC511 sites=8AB7F3 row=17 col=25
+JP 速 さ
+EN Spd
+
+@ 8AC515 sites=8AB811 row=18 col=17
+JP 体 力
+EN Sta
+
+@ 8AC519 sites=8AB82F row=18 col=25
+JP 根 性
+EN Guts
+
+@ 8AC51D sites=
+JP 0123456789
+
+@ 8AC528 table=8AC0FA
+JP 安定型  
+EN Safe
+
+@ 8AC52E table=8AC0FA
+JP 平均型  
+EN Even
+
+@ 8AC534 table=8AC0FA
+JP 攻撃型  
+EN Fight
+
+@ 8AC53A table=8AC0FA
+JP 突撃型  
+EN Rush
+
+@ 8AC540 table=8AC102
+JP アシスト
+EN Assist
+
+@ 8AC545 table=8AC102
+JP 標準
+EN Normal
+
+@ 8AC548 table=8AC102
+JP ワンマン
+EN Solo
+
+@ 8AC54D sites=8AB46C col=12
+JP 投げ技
+EN Throw
+
+@ 8AC551 sites=8AB48A col=12
+JP 関節技
+EN Holds
+
+@ 8AC555 sites=8AB4A8 col=12
+JP パワー
+EN Power
+
+@ 8AC559 sites=8AB4C6 col=12
+JP 打撃技
+EN Hits
+
+@ 8AC55D sites=8AB4E4 col=12
+JP 飛び技
+EN Air
+
+@ 8AC561 sites=8AB502 col=12
+JP 空中技
+EN Dive
