@@ -56,10 +56,10 @@ Then:
   as they are on purpose.
 - **Guides.** [docs/CHAMPION_ROAD.md](docs/CHAMPION_ROAD.md) explains how Champion Road works:
   the rating gates, training, how matches are decided and how to reach each ending. A field guide
-  with a route map is in [docs/champion-road/](docs/champion-road/index.html).
+  with a route map is in [the Champion Road field guide](https://kactusken.github.io/Bishoujo-Wrestler-Retsuden-English/champion-road/).
 - **Hidden content.** Button codes, a developers' move tester, four hidden wrestlers, and 519
   lines of cut story: see [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md), and
-  [docs/cut-content/](docs/cut-content/index.html) to read the cut scenes.
+  [the cut-content page](https://kactusken.github.io/Bishoujo-Wrestler-Retsuden-English/cut-content/) to read the cut scenes.
 
 ## Reporting problems
 
